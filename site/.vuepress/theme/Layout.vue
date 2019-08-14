@@ -22,8 +22,7 @@ export default {
     ParentLayout,
     PageBottom,
     Disqus,
-    SWUpdatePopup,
-    Message
+    SWUpdatePopup
   },
   data() {
     return {

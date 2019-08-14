@@ -70,26 +70,6 @@
       <heroFeatures />
     </div>
 
-    <div class="landing-page-background downloads-container">
-      <floaters side="right" />
-      <h1>All Downloads</h1>
-      <Download disable_post_content="true" channel="stable" />
-      <h3>
-        <router-link to="/download/insiders">Or get the insiders release</router-link>
-      </h3>
-
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338.05" preserveAspectRatio="none">
-        <path>
-          <animate
-            attributeName="d"
-            values="M 0 100 Q 250 50 400 200 Q 550 350 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 200 150 400 200 Q 600 250 800 300 L 800 0 L 0 0 L 0 100 Z;M 0 100 Q 150 350 400 200 Q 650 50 800 300 L 800 0 L 0 0 L 0 100 Z"
-            repeatCount="indefinite"
-            dur="30s"
-          />
-        </path>
-      </svg>
-    </div>
-
     <SWUpdatePopup :updateEvent="swUpdateEvent" />
   </div>
 </template>

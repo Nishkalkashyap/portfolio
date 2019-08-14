@@ -63,13 +63,7 @@
         height: auto;
         min-height: 110vh;
         top: -55vh;
-        background: linear-gradient(to right, $primaryColor 0%, $secondaryColor 100%);
-    }
-
-    .landing-page-background:nth-child(6) {
-        clip-path: polygon(0px 0%, 100% 0%, 100% 100%, 0px 100%);
-        top: -62vh;
-        margin-bottom: -62vh;
+        margin-bottom: -55vh;
         background: linear-gradient(to right, $primaryColor 0%, $secondaryColor 100%);
     }
 

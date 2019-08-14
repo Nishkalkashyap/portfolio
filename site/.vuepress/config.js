@@ -34,8 +34,7 @@ module.exports = {
         serviceWorker: {
             updatePopup: true
         },
-        nav: [
-            {
+        nav: [{
                 text: 'Mechanical',
                 link: '/mechanical/'
             },
