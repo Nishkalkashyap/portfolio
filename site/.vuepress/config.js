@@ -71,7 +71,9 @@ module.exports = {
             "/mechanical/": [
                 "dr17.md"
             ],
-            "/electronics/": [],
+            "/electronics/": [
+                "steering-wheel.md"
+            ],
             "/software/": []
         }
     },
