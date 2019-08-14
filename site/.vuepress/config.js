@@ -6,7 +6,7 @@ var ImageminPlugin = require('imagemin-webpack-plugin').default
 
 module.exports = {
     title: 'Portfolio',
-    description: 'My portfolio website',
+    description: 'My portfolio',
     serviceWorker: true,
     markdown: {
         config: md => {
@@ -57,10 +57,6 @@ module.exports = {
             },
         ],
         sidebar: {
-            "/guide/": [
-                "intro.md",
-                "getting-started.md"
-            ],
             "/tags/": [
                 "api.md",
                 "arduino.md",

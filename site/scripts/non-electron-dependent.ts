@@ -3,20 +3,17 @@ import * as Path from 'path';
 import * as recc from 'recursive-readdir';
 import { AllTags } from './types';
 import { themeConfig } from '../.vuepress/config';
-import { IFrontmatterData, getFrontmatterFromPath, capitalize, Frontmatter, randomIntFromInterval, reccursiveIgnoreFunction } from './util';
+import { IFrontmatterData, getFrontmatterFromPath, capitalize, randomIntFromInterval, reccursiveIgnoreFunction } from './util';
 import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
 
-const sidebars = ['guide', 'tags', 'mechanical', 'electronics', 'software'];
-const readmefiles = ['guide', 'mechanical', 'electronics', 'software'];
+const sidebars = ['tags', 'mechanical', 'electronics', 'software'];
+const readmefiles = ['mechanical', 'electronics', 'software'];
 
-const SNIPPETS_BASE_PATH = './snippets';
 const TAGS_BASE_PATH = './tags';
 
 (async () => {
-    console.log(new Date());
-    console.log(Date.now());
     await createTagsDirectory();
     createSidebars(sidebars);
     createReadmeFiles(readmefiles);
@@ -71,7 +68,6 @@ async function createTagsDirectory() {
                 `description : ${AllTags[tag].description}`, '\n',
                 `title : ${tag}`, '\n',
                 '---', '\n\n');
-            // str = str.concat(`# ${capitalize(tag)}`, '\n\n');
             str = str.concat(`<Tag name="${capitalize(tag)}" />`, '\n\n');
             str = str.concat(`<Header />`, '\n\n');
             str = str.concat('<div class="tags-container">', '\n\n');
@@ -135,14 +131,9 @@ function createReadmeFiles(paths: string[]) {
 async function updatePrimaryColor() {
     //has to be hex code
     const iconColor = '#020814';
-    // const iconColor = '#ffffff';
 
     //can be rgb
-    // const accentColor = process.env.TRAVIS_EVENT_TYPE == 'cron' ? getRandomColor() : '#3880ff';
-    console.log(process.env.TRAVIS_EVENT_TYPE);
-    // const accentColor = '#3880ff';//ionic blue
     const accentColor = '#055af9';//ionic blue
-    // const accentColor = '#020814';//black
 
     const overrideFilePath = Path.resolve('./.vuepress/override.styl');
     const svgFilePath = Path.resolve(`./.vuepress/public/images/icon-svg.svg`);
