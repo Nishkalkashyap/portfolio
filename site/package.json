@@ -66,6 +66,8 @@
     "@types/node-fetch": "^2.1.7",
     "@types/yamljs": "^0.2.30",
     "animejs": "^3.0.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.28",
     "compare-versions": "^3.4.0",
     "dotenv": "^7.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
