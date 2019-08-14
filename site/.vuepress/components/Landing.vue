@@ -9,7 +9,7 @@
       lower="We provide you with all the tools and a canvas to help you make your art."
       learnMoreLink="/guide/intro.html"
     >
-      <video
+      <!-- <video
         muted
         autoplay
         loop
@@ -21,7 +21,7 @@
         style="filter: brightness(0.7) contrast(1) sepia(2) hue-rotate(180deg) saturate(5.5)"
       >
         <source src="~@buildAssets/guide/showcase/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
-      </video>
+      </video> -->
     </heroSection>
 
     <heroSection
@@ -31,7 +31,7 @@
       lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
       learnMoreLink="/guide/quark-ide.html"
     >
-      <video
+      <!-- <video
         muted
         autoplay
         loop
@@ -42,7 +42,7 @@
         slot="image"
       >
         <source src="~@buildAssets/getting-started/project-start-demo.mp4" type="video/mp4" />Your browser does not support the video tag.
-      </video>
+      </video> -->
     </heroSection>
 
     <heroSection
@@ -51,7 +51,7 @@
       upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
       lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
     >
-      <video
+      <!-- <video
         muted
         autoplay
         loop
@@ -62,7 +62,7 @@
         slot="image"
       >
         <source src="~@buildAssets/guide/showcase/web-browser.mp4" type="video/mp4" />Your browser does not support the video tag.
-      </video>
+      </video> -->
     </heroSection>
 
     <div class="landing-page-background">

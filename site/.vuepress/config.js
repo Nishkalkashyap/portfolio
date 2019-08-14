@@ -223,11 +223,7 @@ module.exports = {
         sidebar: {
             "/guide/": [
                 "intro.md",
-                "setup.md",
-                "getting-started.md",
-                "quark-ide.md",
-                "hello-world-app.md",
-                "showcase.md"
+                "getting-started.md"
             ],
             "/references/": [
                 "app.md",
