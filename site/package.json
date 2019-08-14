@@ -1,5 +1,5 @@
 {
-  "name": "@quark/docs",
+  "name": "portfolio",
   "version": "0.5.0",
   "description": "Documentation for quark",
   "main": "index.js",

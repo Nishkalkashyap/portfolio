@@ -11,6 +11,8 @@ matrix:
   include:
   - os: linux
     node_js: lts/*
+before_install:
+- cd site
 install:
 - npm install
 script:
