@@ -2,9 +2,6 @@
   <ParentLayout>
     <!-- <PageBottom slot="page-bottom"/> -->
     <!-- <Disqus slot="page-bottom" /> -->
-    <div slot="page-top">
-      <Message />
-    </div>
 
     <!-- <PageBottom slot="sidebar-top"/> -->
     <!-- <BuySellAds slot="page-bottom"/> -->
@@ -20,7 +17,6 @@ import ParentLayout from "./Layouttt.vue";
 import PageBottom from "./PageBottom.vue";
 import Disqus from "./Disqus.vue";
 import SWUpdatePopup from "@default-theme/SWUpdatePopup.vue";
-import Message from "@vuepress/components/Message.vue";
 export default {
   components: {
     ParentLayout,
