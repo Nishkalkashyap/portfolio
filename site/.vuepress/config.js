@@ -34,9 +34,18 @@ module.exports = {
         serviceWorker: {
             updatePopup: true
         },
-        nav: [{
-                text: 'Guide',
-                link: '/guide/intro.md'
+        nav: [
+            {
+                text: 'Mechanical',
+                link: '/mechanical/'
+            },
+            {
+                text: 'Electronics',
+                link: '/electronics/'
+            },
+            {
+                text: 'Software',
+                link: '/software/'
             },
             {
                 text: 'Tags',
@@ -63,7 +72,12 @@ module.exports = {
                 "references.md",
                 "structures.md",
                 "typescript.md"
-            ]
+            ],
+            "/mechanical/": [
+                "dr17.md"
+            ],
+            "/electronics/": [],
+            "/software/": []
         }
     },
     configureWebpack: (config) => {
