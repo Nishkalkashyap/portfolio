@@ -27,7 +27,7 @@ module.exports = {
     },
     themeConfig: {
         logo: '/images/icon-svg.svg',
-        editLinks: true,
+        editLinks: false,
         repoLabel: 'GitHub',
         repo: 'https://github.com/Nishkalkashyap/portfolio',
         lastUpdated: 'Last Updated',
