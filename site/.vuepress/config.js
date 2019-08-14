@@ -35,20 +35,36 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-            text: 'Guide',
-            link: '/guide/intro.md'
-        },
-        {
-            text: 'Tags',
-            items: Object.keys(AllTags).map((tag) => {
-                return {
-                    text: tag,
-                    link: `/tags/${tag}.html`
-                }
-            })
-        },
+                text: 'Guide',
+                link: '/guide/intro.md'
+            },
+            {
+                text: 'Tags',
+                items: Object.keys(AllTags).map((tag) => {
+                    return {
+                        text: tag,
+                        link: `/tags/${tag}.html`
+                    }
+                })
+            },
         ],
-        sidebar: {}
+        sidebar: {
+            "/guide/": [
+                "intro.md",
+                "getting-started.md"
+            ],
+            "/tags/": [
+                "api.md",
+                "arduino.md",
+                "faq.md",
+                "guide.md",
+                "javascript.md",
+                "nodejs.md",
+                "references.md",
+                "structures.md",
+                "typescript.md"
+            ]
+        }
     },
     configureWebpack: (config) => {
         const inlineLimit = 100000000; //10 kb
