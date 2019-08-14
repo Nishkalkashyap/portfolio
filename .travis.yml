@@ -17,10 +17,8 @@ install:
 - npm install
 script:
 - npm run build
-before_deploy:
-- cd site
 deploy:
-  local_dir: "./.vuepress/dist"
+  local_dir: "./site/.vuepress/dist"
   provider: pages
   skip_cleanup: true
   github_token: "$GITHUB_TOKEN"
