@@ -69,6 +69,7 @@ module.exports = {
                 "typescript.md"
             ],
             "/mechanical/": [
+                "vgim.md",
                 "dr17.md"
             ],
             "/electronics/": [
