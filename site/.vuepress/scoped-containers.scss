@@ -1,0 +1,29 @@
+.home4-component {
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero-section-component {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-features-component {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.message-component {
+    position: relative;
+}
+#app > div > div.page > div:nth-child(1){
+    position: relative;
+}
