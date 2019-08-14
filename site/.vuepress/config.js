@@ -5,8 +5,8 @@ var CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 var ImageminPlugin = require('imagemin-webpack-plugin').default
 
 module.exports = {
-    title: 'Quark',
-    description: 'Quark is a general purpose software tool specifically designed to help you create projects written in HTML, CSS and JavaScript with native desktop app like capabilities.',
+    title: 'Portfolio',
+    description: 'My portfolio website',
     serviceWorker: true,
     markdown: {
         config: md => {
