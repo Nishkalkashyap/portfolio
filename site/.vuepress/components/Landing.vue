@@ -96,10 +96,8 @@
 
 <script>
 import companyLogos from "./landing-components/companyLogos";
-import heroDownload from "./landing-components/hero-download";
 import heroSection from "./landing-components/hero-section";
 import heroTop from "./landing-components/hero-top";
-import Download from "./Download";
 import SWUpdatePopup from "@default-theme/SWUpdatePopup.vue";
 import floaters from "./landing-components/floaters";
 import heroFeatures from "./landing-components/hero-features";
@@ -107,7 +105,6 @@ export default {
   components: {
     SWUpdatePopup,
     companyLogos,
-    heroDownload,
     heroSection,
     heroTop,
     floaters,
