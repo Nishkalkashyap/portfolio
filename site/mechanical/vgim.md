@@ -63,18 +63,18 @@ Below images describe the movement of the movable Ram and the corresponding chan
 
 1. As the Ram moves towards the upper plenum cap, the plenum volume is decreased and the runner length is increased. Both of these changes enhance the bottom-end(Low RPM) performance of the engine.
 
-<img src="/pictures/vgim-5.jpg"/>
+![](/pictures/vgim-5.jpg)
 
 2. As the Ram moves towards the lower plenum cap, the plenum volume is increased and the runner length is decreased. Both of these changes enhance the top-end(High RPM) performance of the engine.
 
-<img src="/pictures/vgim-6.jpg"/>
+![](/pictures/vgim-6.jpg)
 
 ## Manufacturing
 * The manifold was manufactured primarily on a CNC Lathe machine and a CNC Vertical milling machine.
 * The material selected was aluminium due to light weight, corrosion resistance and good weldability.
 * Below is a picture of the machined components.
 
-<img src="/pictures/vgim-7.png"/>
+![](/pictures/vgim-7.jpg)
 
 #### Why not 3D printing?
 Some may argue in favor of 3D printing the manifold instead of CNC machining. And to some extent their argument may be valid and legit. But the reason that I chose the latter is because of my previous experiences with 3D printed intake manifolds. The problem with 3D printed manifolds, is that the designs are too rigid. By that I mean, that making changes to an already manufactured manifold is kinda impossible. For example, if you later want to add an extra pressure sensor or temperature sensor to the manifold, you'll need to make some sort of mount on the 3D printed part. And to make a mount, you'll need to machine it, which is very limited on most 3D printed materials. 
@@ -84,17 +84,17 @@ On the other hand, using aluminium allows for much more flexibility in the desig
 ## Assembly
 The final assembled manifold looks like this:-
 
-<img src="/pictures/vgim-8.jpg"/>
+![](/pictures/vgim-8.jpg)
 
 ## Validation
 * Using the [data acquisition system](https://projectmechatronics.blogspot.in/2017/09/data-acquisition-system.html) that we made earlier, pressure values were recorded in the intake manifold at different throttle percentages.
 * This data was then plotted on [MATLAB](https://www.mathworks.com/products/matlab.html) and analysed. An example of sample data and result is shown below:
 
-<img src="/pictures/vgim-9.png"/>
+![](/pictures/vgim-9.jpg)
 
 * Percent Increase in volumetric efficiency at constructive interference point:
 
-<img src="/pictures/vgim-10.jpg"/>
+![](/pictures/vgim-10.jpg)
 
 Where,
 
@@ -102,10 +102,11 @@ Pc= Instantaneous pressure at that point
 
 Pm= Mean pressure of that cycle
 
-<img src="/pictures/vgim-11.jpg"/>
+![](/pictures/vgim-11.jpg)
 
 * Similarly, Percent Decrease in volumetric efficiency at destructive interference point:
-<img src="/pictures/vgim-12.jpg"/>
+
+![](/pictures/vgim-12.jpg)
 
 * To put that in prospective, an engine with a fixed intake manifold, producing a mean of 40Nm of torque at say 8500RPM, can produce 45Nm simply by swapping a fixed intake manifold with a variable one.
 
