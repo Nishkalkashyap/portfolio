@@ -1,3 +1,9 @@
+.timeline-container:nth-child(2) {
+    padding: 50px 0px;
+    clip-path: polygon(0px 0%, 100% 20vh, 100% 100%, 0px 100%);
+    background-image: linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%);
+}
+
 .landing-page {
 
     .landing-page-background {
@@ -10,6 +16,7 @@
 
         $headingColor=#000;
         $paraColor=#000;
+
         h3,
         h3::before {
             color: $headingColor;
@@ -95,7 +102,7 @@
     }
 
     $backgroundImage="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJUlEQVQoU2NkYGAwZmBgOMtAADASkIcbQkgh3JwRpxAcRET7GgAV+gMLEiMsLQAAAABJRU5ErkJggg==";
-    
+
     .landing-page-background::before {
         // content: url('~@public/images/background.svg');
         // background: url($backgroundImage) repeat;

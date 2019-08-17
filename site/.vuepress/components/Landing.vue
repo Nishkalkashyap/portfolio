@@ -2,7 +2,7 @@
 <div class="home4-component">
     <heroTop />
 
-    <div class="timeline-contain">
+    <div class="timeline-container">
         <heroSection side="left" heading='Quark - A framework to build cross-platform desktop applications' upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
             <video muted autoplay loop name="media" poster="~@buildAssets/media/system-monitor.png" crossorigin="anonymous" class="image-transition" slot="image">
                 <source src="~@buildAssets/media/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
