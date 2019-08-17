@@ -4,8 +4,8 @@
 
     <heroSection
       side="left"
-      heading="Software sketchbook for your projects"
-      upper="Quark helps you create <strong>software sketches</strong> written in HTML, CSS and JavaScript with native desktop app like capabilities."
+      heading="Quark - Build cross-platform desktop apps"
+      upper="Been building Quark since ..."
       lower="We provide you with all the tools and a canvas to help you make your art."
       learnMoreLink="/guide/intro.html"
     >
@@ -18,7 +18,6 @@
         crossorigin="anonymous"
         class="image-transition"
         slot="image"
-        style="filter: brightness(0.7) contrast(1) sepia(2) hue-rotate(180deg) saturate(5.5)"
       >
         <source src="~@buildAssets/media/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
       </video>
@@ -26,7 +25,7 @@
 
     <heroSection
       side="right"
-      heading="Blazing fast app creation ⚡"
+      heading="IDE and Runtime"
       upper="There is no greater buzzkill than having to configure build tools and development environment before you can start hammering out a cool project or test a new idea."
       lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
       learnMoreLink="/guide/quark-ide.html"
@@ -47,22 +46,22 @@
 
     <heroSection
       side="left"
-      heading="Power of Electron 💪"
+      heading="Quark App store"
       upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
       lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
     >
-      <!-- <video
+      <video
         muted
         autoplay
         loop
         name="media"
-        poster="~@buildAssets/guide/hello-world-intro.png"
+        poster="~@buildAssets/media/hello-world-intro.png"
         crossorigin="anonymous"
         class="image-transition"
         slot="image"
       >
-        <source src="~@buildAssets/guide/showcase/web-browser.mp4" type="video/mp4" />Your browser does not support the video tag.
-      </video> -->
+        <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+      </video>
     </heroSection>
 
     <div class="landing-page-background">
@@ -130,14 +129,14 @@ export default {
 
 .image-transition {
   transition: filter 2s, opacity 0.3s;
-  filter: brightness(0.7) contrast(1) sepia(1) hue-rotate(140deg) saturate(1.5);
+  // filter: brightness(0.7) contrast(1) sepia(1) hue-rotate(140deg) saturate(1.5);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
 
-.image-transition:hover {
-  filter: brightness(1) contrast(1) sepia(0) hue-rotate(0deg) saturate(1) !important;
-}
+// .image-transition:hover {
+//   filter: brightness(1) contrast(1) sepia(0) hue-rotate(0deg) saturate(1) !important;
+// }
 
 .first-container {
   overflow: hidden;
