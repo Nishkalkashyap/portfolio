@@ -2,11 +2,16 @@
 <section class="hero-section-component landing-page-background" :class="side + '-side'">
     <div class="hero-section-wrapper" ref="containerElement" :class="{'can-show' : canShow}">
         <div class="hero-section-container">
-            <h3>{{heading}}</h3>
-            <p v-html="upper"></p>
-            <slot name="image"></slot>
-            <p v-html="lower"></p>
-            <router-link :to="(learnMoreLink || '/download/')">Learn more</router-link>
+            <div style="padding:10px 20px;display:inline-block;flex-grow:1;flex-basis:0">
+                <h3>{{heading}}</h3>
+                <p v-html="upper"></p>
+                <p v-html="lower"></p>
+                <router-link :to="(learnMoreLink || '/download/')">Learn more</router-link>
+            </div>
+            <div class="video-container">
+                <slot name="image"></slot>
+                <div class="shadow"> </div>
+            </div>
         </div>
     </div>
     <floaters :side="side" />
@@ -17,7 +22,7 @@
 import floaters from "./floaters";
 import {
     isInViewport
-} from './util';
+} from "./util";
 export default {
     props: ["side", "heading", "upper", "lower", "image", "learnMoreLink"],
     components: {
@@ -26,10 +31,10 @@ export default {
     data() {
         return {
             canShow: true
-        }
+        };
     },
     mounted() {
-        window.addEventListener('scroll', () => {
+        window.addEventListener("scroll", () => {
             this.canShow = isInViewport(this.$refs.containerElement);
         });
     }
@@ -41,61 +46,61 @@ export default {
     opacity: 1;
 }
 
+.right-side {
+    .hero-section-container {
+        flex-direction: row-reverse;
+    }
+
+    .video-container {
+        margin-right: 40px;
+    }
+}
+
+.left-side {
+    .video-container {
+        margin-left: 40px;
+    }
+}
+
+.video-container {
+    position: relative;
+    max-width: 50%;
+    min-width: 400px;
+    z-index: 1;
+    display: inline-flex;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
 video {
     opacity: 0;
-    width: calc(100% - 40px);
-    max-width: 800px;
+    max-width: 100%;
     border-radius: 5px;
-    z-index: 1;
+    margin-top: 0px;
+}
 
+.shadow {
     position: absolute;
-    top: 25%;
-
-    // display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .hero-section-wrapper {
-    max-width: 860px;
+    width: 100%;
 }
 
 .hero-section-container {
     padding: 20px;
-    // position: relative;
-}
-
-.left-side {
-    video {
-        left: 50%;
-        margin-left: 60px;
-    }
-
-    .hero-section-container {
-        padding-right: 450px;
-    }
-}
-
-.right-side {
-    video {
-        right: 50%;
-        margin-right: 60px;
-    }
-
-    .hero-section-container {
-        padding-left: 450px;
-    }
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media only screen and (max-width: 760px) {
-    video {
-        position: relative;
-        left: 0% !important;
-        margin-left: 0px !important;
-        right: 0% !important;
-        margin-right: 0px !important;
-        top: 5%;
-        margin: 0 auto !important;
-    }
-
     .hero-section-container {
         padding-right: 20px !important;
         padding-left: 20px !important;
@@ -107,24 +112,14 @@ h3 {
 }
 
 h3::before {
-    // border-top: solid 10px var(--accent-color);
     border-top: solid 10px var(--text-color--dark);
     content: "";
     display: block;
     position: absolute;
     width: 80px;
     top: 20px;
+    left: 0px;
 }
-
-// h3::after {
-//     content: "";
-//     min-width: 30px;
-//     height: 25px;
-//     position: absolute;
-//     top: 43px;
-//     background-repeat: no-repeat !important;
-//     background: url(~@buildAssets/landing-page-svgs/triangle.svg) 0% 0% / 25px;
-// }
 
 a {
     display: inline-block;

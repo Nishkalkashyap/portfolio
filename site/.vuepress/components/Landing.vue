@@ -127,17 +127,6 @@ export default {
   justify-content: center;
 }
 
-.image-transition {
-  transition: filter 2s, opacity 0.3s;
-  // filter: brightness(0.7) contrast(1) sepia(1) hue-rotate(140deg) saturate(1.5);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-}
-
-// .image-transition:hover {
-//   filter: brightness(1) contrast(1) sepia(0) hue-rotate(0deg) saturate(1) !important;
-// }
-
 .first-container {
   overflow: hidden;
 
@@ -145,10 +134,6 @@ export default {
     width: 100%;
     display: flex;
     align-items: center;
-
-    video {
-      max-width: 100%;
-    }
   }
 
   div.image-container:hover {
