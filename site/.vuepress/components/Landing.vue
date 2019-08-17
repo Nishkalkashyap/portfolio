@@ -4,7 +4,7 @@
 
     <heroSection
       side="left"
-      heading="Quark - Build cross-platform desktop apps"
+      heading='Quark - A framework to build cross-platform desktop applications'
       upper="Been building Quark since ..."
       lower="We provide you with all the tools and a canvas to help you make your art."
       learnMoreLink="/guide/intro.html"
@@ -64,10 +64,10 @@
       </video>
     </heroSection>
 
-    <div class="landing-page-background">
+    <!-- <div class="landing-page-background">
       <floaters side="left" />
       <heroFeatures />
-    </div>
+    </div> -->
 
     <SWUpdatePopup :updateEvent="swUpdateEvent" />
   </div>
