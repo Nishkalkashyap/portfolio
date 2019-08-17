@@ -1,8 +1,8 @@
 <template>
 <div class="floaters-component">
-    <div class="random-svgs-container" ref="containerElement">
+    <!-- <div class="random-svgs-container" ref="containerElement">
         <svg v-if="canShow" class="random-svg" :class="[svg.svg.className, side]" v-for="svg in svgs" v-html="svg.svg.shape" :viewBox="svg.svg.viewBox" :style="svg.style" />
-    </div>
+    </div> -->
 </div>
 </template>
 
