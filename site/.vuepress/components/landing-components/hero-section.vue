@@ -330,5 +330,13 @@ a:hover {
     .cut-circle-3 {
         @include cutCircle(30px, #38b2ac, -100px, 200px);
     }
+
+    .full-circle-4 {
+        @include fullCircle(120px, linear-gradient(225deg, #e53e3e, #feb2b2), 120px, -50px);
+    }
+
+    .cut-circle-4 {
+        @include cutCircle(40px, #ecc94b, -50px, -50px);
+    }
 }
 </style>
