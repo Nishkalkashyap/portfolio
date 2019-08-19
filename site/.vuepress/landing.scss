@@ -35,7 +35,7 @@
 
         a.nav-link:hover,
         span.title:hover {
-            color: red;
+            color: var(--background);
             border-bottom-color: #00000000;
         }
 
@@ -76,7 +76,7 @@
         }
     }
 
-    $sectionHeight=70vh;
+    $sectionHeight=80vh;
 
     .landing-page-background {
         min-height: $sectionHeight;

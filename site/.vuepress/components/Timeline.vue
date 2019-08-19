@@ -74,6 +74,7 @@ export default {
 <style lang="scss" scoped>
 .timeline-container {
     position: relative;
+    margin-bottom: 100px;
     // --svg-color: #ecc94b;
     // --svg-color: #e53e3e;
     // --svg-color: #ed8936;
