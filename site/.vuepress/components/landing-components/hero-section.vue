@@ -11,8 +11,8 @@
             <div class="video-container">
                 <slot name="image"></slot>
                 <div class="shadow"> </div>
-                <!-- <div class="full-circle"></div> -->
-                <!-- <div class="cut-circle"></div> -->
+                <!-- <div class="full-circle full-circle-1"></div> -->
+                <!-- <div class="cut-circle cut-circle-1"></div> -->
                 <svg class="css-svg" viewBox="0 0 173 127" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.16418 10.3673C8.01627 10.3673 10.3284 8.04653 10.3284 5.18367C10.3284 2.32081 8.01627 0 5.16418 0C2.31208 0 0 2.32081 0 5.18367C0 8.04653 2.31208 10.3673 5.16418 10.3673Z" fill="#bee3f8"></path>
                     <path d="M28.403 10.3673C31.2551 10.3673 33.5672 8.04653 33.5672 5.18367C33.5672 2.32081 31.2551 0 28.403 0C25.5509 0 23.2388 2.32081 23.2388 5.18367C23.2388 8.04653 25.5509 10.3673 28.403 10.3673Z" fill="#bee3f8"></path>
@@ -128,25 +128,32 @@ $cssSvgWidth : 250;
     flex-grow: 1;
     flex-basis: 0;
     min-width: 300px;
-    max-width: 40%;
+    // max-width: 40%;
+
+    font-size: 14px;
+
     h3 {
         color: var(--text-color);
         margin-top: 0px;
+
+        position: relative;
+        padding-top: 0px;
+        font-size: 2em !important;
     }
 
     p {
         margin-top: 0px;
+        font-size: 1.25em !important;
         color: var(--text-color--light);
     }
 }
 
 .video-container {
     position: relative;
-    max-width: 40%;
-    min-width: 450px;
+    // max-width: 40%;
+    min-width: 550px;
     z-index: 1;
     display: inline-flex;
-    // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
 
     .css-svg {
@@ -156,7 +163,6 @@ $cssSvgWidth : 250;
         left: -50px;
         top: -50px;
         z-index: -1;
-        // display: inline-block;
         display: none;
         overflow: auto;
     }
@@ -170,34 +176,39 @@ video {
     z-index: 2;
 }
 
-.cut-circle {
+.full-circle {
     position: absolute;
-    height: 160px;
-    width: 160px;
-    background-color: var(--theme-ui-colors-transparent, transparent);
-    border: var(--theme-ui-colors-blue-5, #4299e1);
-    border-width: 20px;
-    border-style: solid;
     border-radius: 9999px;
-    bottom: -100px;
-    left: -70px;
-    right: unset;
-    z-index: -1;
-    z-index: 0;
+    z-index: -2;
     opacity: 1;
 }
 
-.full-circle {
+.cut-circle {
     position: absolute;
-    height: 100px;
-    width: 100px;
-    background-image: linear-gradient(135deg, var(--theme-ui-colors-purple-6, #805ad5), var(--theme-ui-colors-purple-3, #d6bcfa));
+    border-width: 20px;
+    border-style: solid;
     border-radius: 9999px;
+    z-index: -2;
+    opacity: 1;
+    right: unset;
+    background-color: transparent;
+}
+
+.full-circle-1 {
+    height: 8em;
+    width: 8em;
+    background-image: linear-gradient(135deg, var(--theme-ui-colors-purple-6, #805ad5), var(--theme-ui-colors-purple-3, #d6bcfa));
     bottom: -80px;
     right: 140px;
-    z-index: -2;
-    z-index: 0;
-    opacity: 1;
+}
+
+.cut-circle-1 {
+    height: 10em;
+    width: 10em;
+    background-color: transparent;
+    border-color: var(--theme-ui-colors-blue-5, #4299e1);
+    bottom: -100px;
+    left: -70px;
 }
 
 .shadow {
@@ -223,17 +234,19 @@ video {
     box-sizing: border-box;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .hero-section-container {
+        flex-wrap: wrap;
+    }
+}
+
 @media only screen and (max-width: 886px) {
     .video-container {
         margin-left: 0px !important;
         margin-right: 0px !important;
         min-width: 300px;
     }
-}
-
-h3 {
-    position: relative;
-    padding-top: 0px;
 }
 
 a {
@@ -253,7 +266,7 @@ a {
 }
 
 a:hover {
-        transform: translateY(-2px);
+    transform: translateY(-2px);
     box-shadow: rgba(52, 152, 219, 0.3) 0px 20px 25px;
 }
 </style>
