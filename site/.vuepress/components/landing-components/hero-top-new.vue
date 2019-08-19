@@ -1,5 +1,7 @@
 <template>
 <div class="hero-top-component">
+    <SvgAnimation style="position:absolute;bottom:0px;width:100%;" />
+    <!-- <floaters side="right" /> -->
     <div class="hero landing-page-background">
         <h1> Hi, I'm Nishkal kashyap </h1>
         <!-- <h1> Nishkal kashyap is building things! </h1> -->
@@ -7,23 +9,23 @@
             I'm creating noice web experiences for the next generation of consumer-facing companies
         </h2>
     </div>
-    <SvgAnimation style="position:absolute;bottom:0px;width:100%;" />
 </div>
 </template>
 
 <script>
 import SvgAnimation from "./../SvgAnimation";
+import floaters from "./floaters";
 export default {
     components: {
-        SvgAnimation
+        SvgAnimation,
+        floaters
     }
 };
 </script>
 
 <style lang="scss" scoped>
 .hero {
-    // color: #ffffff;
-    color : var(--text-color);
+    color: var(--background);
     text-align: center;
 
     h1,

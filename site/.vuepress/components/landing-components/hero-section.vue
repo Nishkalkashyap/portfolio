@@ -66,20 +66,15 @@
             </div>
         </div>
     </div>
-    <floaters :side="side" />
 </section>
 </template>
 
 <script>
-import floaters from "./floaters";
 import {
     isInViewport
 } from "./util";
 export default {
     props: ["side", "heading", "upper", "lower", "image", "learnMoreLink", "index"],
-    components: {
-        floaters
-    },
     data() {
         return {
             canShow: true
