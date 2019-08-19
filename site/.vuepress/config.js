@@ -6,6 +6,7 @@ var ImageminPlugin = require('imagemin-webpack-plugin').default
 
 module.exports = {
     title: 'Portfolio',
+    ga: 'UA-112064718-10',
     description: 'My portfolio',
     serviceWorker: true,
     markdown: {
