@@ -23,6 +23,9 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-    position: relative;
+    color: #ffffff;
+    h1, h2 {
+        color: inherit;
+    }
 }
 </style>
