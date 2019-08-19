@@ -8,13 +8,14 @@
 
 .hero-section-component {
     position: relative;
-    height: 100vh;
     display: flex;
     align-items: center;
+    background-color: transparent !important;
 }
 
 .hero-top-component {
-    background: linear-gradient(45deg, rgb(38, 44, 65) 0%, rgb(70, 80, 122) 100%);
+    // background: linear-gradient(45deg, rgb(38, 44, 65) 0%, rgb(70, 80, 122) 100%);
+    background-image: linear-gradient(30deg, rgb(90, 189, 255) 0%, rgb(71, 104, 180) 100%);
     position: relative;
     width: 100%;
 }
