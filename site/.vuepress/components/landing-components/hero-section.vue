@@ -11,8 +11,8 @@
             <div class="video-container">
                 <slot name="image"></slot>
                 <div class="shadow"> </div>
-                <div class="full-circle full-circle-1"></div>
-                <div class="cut-circle cut-circle-1"></div>
+                <div class="full-circle" :class="'full-circle-' + (index || 1)"></div>
+                <div class="cut-circle" :class="'cut-circle-' + (index || 1)"></div>
                 <svg class="css-svg" viewBox="0 0 173 127" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.16418 10.3673C8.01627 10.3673 10.3284 8.04653 10.3284 5.18367C10.3284 2.32081 8.01627 0 5.16418 0C2.31208 0 0 2.32081 0 5.18367C0 8.04653 2.31208 10.3673 5.16418 10.3673Z" fill="#bee3f8"></path>
                     <path d="M28.403 10.3673C31.2551 10.3673 33.5672 8.04653 33.5672 5.18367C33.5672 2.32081 31.2551 0 28.403 0C25.5509 0 23.2388 2.32081 23.2388 5.18367C23.2388 8.04653 25.5509 10.3673 28.403 10.3673Z" fill="#bee3f8"></path>
@@ -76,7 +76,7 @@ import {
     isInViewport
 } from "./util";
 export default {
-    props: ["side", "heading", "upper", "lower", "image", "learnMoreLink"],
+    props: ["side", "heading", "upper", "lower", "image", "learnMoreLink", "index"],
     components: {
         floaters
     },
@@ -240,6 +240,56 @@ a:hover {
     box-shadow: rgba(52, 152, 219, 0.3) 0px 20px 25px;
 }
 
+@mixin fullCircle($dimensions, $bg, $vertical, $horizontal) {
+    background-image: $bg;
+    top: $vertical;
+    left: $horizontal;
+
+    width: $dimensions;
+    height: $dimensions;
+}
+
+@mixin cutCircle($dimensions, $bg, $vertical, $horizontal) {
+    border-color: $bg;
+    top: $vertical;
+    left: $horizontal;
+
+    width: $dimensions;
+    height: $dimensions;
+}
+
+.full-circle-1 {
+    @include fullCircle(100px, linear-gradient(135deg, #805ad5, #d6bcfa), -70px, 140px);
+}
+
+.cut-circle-1 {
+    @include cutCircle(160px, #4299e1, 200px, -70px);
+}
+
+.full-circle-2 {
+    @include fullCircle(180px, linear-gradient(225deg, #fbd38d, #ed8936), 220px, -50px);
+}
+
+.cut-circle-2 {
+    @include cutCircle(80px, #4a5568, -50px, -50px);
+}
+
+.full-circle-3 {
+    @include fullCircle(200px, linear-gradient(225deg, #9ae6b4, #48bb78), -100px, 340px);
+}
+
+.cut-circle-3 {
+    @include cutCircle(60px, #38b2ac, -100px, 300px);
+}
+
+.full-circle-4 {
+    @include fullCircle(180px, linear-gradient(225deg, #e53e3e, #feb2b2), 220px, -50px);
+}
+
+.cut-circle-4 {
+    @include cutCircle(80px, #ecc94b, -50px, -50px);
+}
+
 @media only screen and (max-width: 600px) {
     .hero-section-container {
         flex-wrap: wrap;
@@ -256,39 +306,29 @@ a:hover {
             margin-right: 0px !important;
         }
     }
-}
 
-@mixin fullCircle($dimensions, $bg, $vertical, $horizontal) {
-    background-image: $bg;
-    top: $vertical;
-    right: $horizontal;
+    .full-circle-1 {
+        @include fullCircle(60px, linear-gradient(135deg, #805ad5, #d6bcfa), -40px, 140px);
+    }
 
-    width: $dimensions;
-    height: $dimensions;
-}
+    .cut-circle-1 {
+        @include cutCircle(100px, #4299e1, 120px, -40px);
+    }
 
-@mixin cutCircle($dimensions, $bg, $vertical, $horizontal) {
-    border-color: $bg;
-    bottom: $vertical;
-    left: $horizontal;
+    .full-circle-2 {
+        @include fullCircle(120px, linear-gradient(225deg, #fbd38d, #ed8936), 120px, -50px);
+    }
 
-    width: $dimensions;
-    height: $dimensions;
-}
+    .cut-circle-2 {
+        @include cutCircle(40px, #4a5568, -50px, -50px);
+    }
 
-.full-circle-1 {
-    @include fullCircle(100px, linear-gradient(135deg, #805ad5, #d6bcfa), -70px, 140px);
-}
+    .full-circle-3 {
+        @include fullCircle(100px, linear-gradient(225deg, #9ae6b4, #48bb78), -60px, 240px);
+    }
 
-.cut-circle-1 {
-    @include cutCircle(120px, #4299e1, -100px, -70px);
-}
-
-.full-circle-2 {
-    @include fullCircle(100px, linear-gradient(225deg, #fbd38d, #ed8936), -70px, 140px);
-}
-
-.cut-circle-2 {
-    @include cutCircle(120px, #4299e1, -100px, -70px);
+    .cut-circle-3 {
+        @include cutCircle(30px, #38b2ac, -100px, 200px);
+    }
 }
 </style>
