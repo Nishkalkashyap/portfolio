@@ -52,6 +52,8 @@
                 <path d="M144.597 127C147.449 127 149.761 124.679 149.761 121.816C149.761 118.953 147.449 116.633 144.597 116.633C141.745 116.633 139.433 118.953 139.433 121.816C139.433 124.679 141.745 127 144.597 127Z" fill="#bee3f8"></path>
                 <path d="M167.836 127C170.688 127 173 124.679 173 121.816C173 118.953 170.688 116.633 167.836 116.633C164.984 116.633 162.672 118.953 162.672 121.816C162.672 124.679 164.984 127 167.836 127Z" fill="#bee3f8"></path>
             </svg>
+            <div class="full-circle"></div>
+            <div class="small-full-circle"></div>
             <div class="meta-card">
                 <span>{{timeline}}</span>
                 <h2>{{heading}}</h2>
@@ -84,6 +86,34 @@ export default {
     overflow: auto;
 }
 
+.full-circle {
+    position: absolute;
+    border-radius: 9999px;
+    z-index: 2;
+    opacity: 1;
+
+    background-image: linear-gradient(225deg, #fbd38d, #ed8936);
+
+    top: -70px;
+    right: 180px;
+    width: 120px;
+    height: 120px;
+}
+
+.small-full-circle {
+    position: absolute;
+    border-radius: 9999px;
+    z-index: 2;
+    opacity: 1;
+
+    background-image: linear-gradient(225deg, #9ae6b4, #48bb78);
+
+    top: -90px;
+    right: 300px;
+    width: 35px;
+    height: 35px;
+}
+
 .meta-data {
     text-align: center;
     display: flex;
@@ -100,7 +130,7 @@ export default {
         padding: 60px 60px;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
         background-image: linear-gradient(72deg, #4c51bf, #667eea);
-        box-shadow: 0px 20px 25px #c3dafe;
+        // box-shadow: 0px 20px 25px #c3dafe;
         z-index: 1;
         position: relative;
 
@@ -130,6 +160,13 @@ export default {
 @media only screen and (max-width: 600px) {
     .css-svg {
         left: 0px;
+    }
+
+    .full-circle {
+        top: -30px;
+        right: 10px;
+        width: 80px;
+        height: 80px;
     }
 }
 </style>
