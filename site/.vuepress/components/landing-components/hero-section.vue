@@ -2,7 +2,7 @@
 <section class="hero-section-component landing-page-background" :class="side + '-side'">
     <div class="hero-section-wrapper" ref="containerElement" :class="{'can-show' : canShow}">
         <div class="hero-section-container">
-            <div style="padding:10px 20px;display:inline-block;flex-grow:1;flex-basis:0;min-width:300px">
+            <div style="" class="meta-data">
                 <h3>{{heading}}</h3>
                 <p v-html="upper"></p>
                 <p v-html="lower"></p>
@@ -122,8 +122,20 @@ $cssSvgWidth : 250;
     }
 }
 
-p, h3 {
-    color: var(--text-color) !important;
+.meta-data {
+    padding: 20px 30px;
+    display: inline-block;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 300px;
+    border: solid 1px var(--line-rule-color);
+    border-radius: var(--border-radius);
+
+    p,
+    h3 {
+        color: var(--text-color) !important;
+        margin-top: 0px;
+    }
 }
 
 .video-container {
@@ -132,7 +144,8 @@ p, h3 {
     min-width: 450px;
     z-index: 1;
     display: inline-flex;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    // box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
 
     .css-svg {
         width: $cssSvgWidth + px;
@@ -150,7 +163,7 @@ p, h3 {
 video {
     opacity: 0;
     max-width: 100%;
-    border-radius: 2px;
+    border-radius: var(--border-radius);
     margin-top: 0px;
     z-index: 2;
 }
@@ -218,17 +231,18 @@ video {
 
 h3 {
     position: relative;
+    padding-top: 0px;
 }
 
-h3::before {
-    border-top: solid 10px var(--text-color);
-    content: "";
-    display: block;
-    position: absolute;
-    width: 80px;
-    top: 20px;
-    left: 0px;
-}
+// h3::before {
+//     border-top: solid 10px var(--text-color);
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     width: 80px;
+//     top: 20px;
+//     left: 0px;
+// }
 
 a {
     display: inline-block;
@@ -240,5 +254,13 @@ a {
     border-radius: 5px;
     color: #ffffff;
     background-color: var(--accent-color);
+
+    // box-shadow: rgba(52, 152, 219, 0.3) 0px 23px 28px;
+    // background-image: linear-gradient(30deg, rgb(90, 189, 255) 0%, rgb(71, 104, 180) 100%);
+    // transition: transform 0.2s;
+    // transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+a:hover {
+    transform: translateY(-8px);
 }
 </style>

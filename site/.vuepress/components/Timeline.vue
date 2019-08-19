@@ -30,7 +30,7 @@ export default {
     .meta-card {
         max-width: 860px;
         border: solid 1px var(--line-rule-color);
-        border-radius: 2px;
+        border-radius: var(--border-radius);
         padding: 20px 40px;
         color: var(--text-color);
 

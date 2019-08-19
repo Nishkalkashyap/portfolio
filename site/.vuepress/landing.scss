@@ -1,7 +1,12 @@
 .landing-page {
-    --background : #eeeeee;
-    --text-color : #000000;
+    // --background : #ffffff;
+    --background : #141821;
+
+    --text-color : #ffffff;
+    --line-rule-color : var(--text-color);
     background-color: var(--background);
+
+    --border-radius: 5px;
 
     span.site-name {
         color: var(--text-color) !important;
