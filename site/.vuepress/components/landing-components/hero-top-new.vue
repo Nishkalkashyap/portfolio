@@ -46,15 +46,6 @@ export default {
     background: url("/images/dots-small.svg");
     position: absolute;
     left: 0px;
-    z-index: 1;
-}
-
-.hero::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0px;
-    z-index: 1;
+    z-index: 0;
 }
 </style>

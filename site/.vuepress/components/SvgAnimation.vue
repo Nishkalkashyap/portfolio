@@ -21,6 +21,7 @@ export default {
     position: relative;
     height: 100%;
     transform: matrix(1, 0, 0, -1, 0, 0);
+    z-index: 1;
 }
 
 .svg-container {
