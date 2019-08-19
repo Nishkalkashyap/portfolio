@@ -78,7 +78,7 @@ export default {
     width: 250px;
     min-width: 250px;
     position: absolute;
-    left: -50px;
+    left: 100px;
     top: -50px;
     z-index: 0;
     overflow: auto;
@@ -94,7 +94,7 @@ export default {
     .meta-card {
         margin: 10px 20px;
         width: calc(100% - 80px);
-        max-width: 860px;
+        max-width: 960px;
         box-sizing: border-box;
         border-radius: var(--border-radius);
         padding: 60px 60px;
@@ -124,6 +124,12 @@ export default {
             margin-top: 5px;
             color: $color;
         }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .css-svg {
+        left: 0px;
     }
 }
 </style>
