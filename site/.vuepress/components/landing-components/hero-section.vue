@@ -137,7 +137,8 @@ $cssSvgWidth : 250;
         left: -50px;
         top: -50px;
         z-index: -1;
-        display: inline-block;
+        // display: inline-block;
+        display: none;
         overflow: auto;
     }
 }

@@ -23,6 +23,7 @@ export default {
 <style lang="scss" scoped>
 .hero {
     color: #ffffff;
+    text-align: center;
 
     h1,
     h2 {

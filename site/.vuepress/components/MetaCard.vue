@@ -102,6 +102,12 @@ div.padding {
   }
 }
 
+@media (max-width: 959px) {
+  div.padding {
+    padding: 10px 10px;
+  }
+}
+
 .card-container {
   background-color: var(--code-background);
   display: block;

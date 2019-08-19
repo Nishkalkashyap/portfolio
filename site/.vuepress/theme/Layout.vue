@@ -6,7 +6,7 @@
     <!-- <PageBottom slot="sidebar-top"/> -->
     <!-- <BuySellAds slot="page-bottom"/> -->
     <div slot="page-bottom">
-      <div style="text-align:center;margin-top:50px;font-size:14px">
+      <div style="text-align:center;margin:0px 10px;margin-top:50px;font-size:14px">
         MIT Licensed | Copyright © 2019-present Nishkal Kashyap
       </div>
       <SWUpdatePopup :updateEvent="swUpdateEvent"/>

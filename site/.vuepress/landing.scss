@@ -44,7 +44,7 @@
 
     .landing-page-background:nth-child(2) {
         // clip-path: polygon(0px 0%, 100% 20vh, 100% 100%, 0px 100%);
-        height: $sectionHeight;
+        min-height: $sectionHeight;
         // background-image: linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%);
     }
 
@@ -53,13 +53,13 @@
 
     .landing-page-background:nth-child(3) {
         // clip-path: polygon(0px 15vh, 100% 0%, 100% 100%, 0px 100%);
-        height: $sectionHeight;
+        min-height: $sectionHeight;
         // background: linear-gradient(to right, $thisColor 0%, $thisColor 100%);
     }
 
     .landing-page-background:nth-child(4) {
         // clip-path: polygon(0px 0%, 100% 20vh, 100% 100%, 0px 100%);
-        height: $sectionHeight;
+        min-height: $sectionHeight;
         // background: linear-gradient(to right, $thisColor 0%, $thisColor 100%);
     }
 
