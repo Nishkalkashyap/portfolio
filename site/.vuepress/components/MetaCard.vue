@@ -98,12 +98,6 @@ div.padding {
   div.padding {
     flex-basis: 100%;
     max-width: 100%;
-    padding: 10px 50px;
-  }
-}
-
-@media (max-width: 959px) {
-  div.padding {
     padding: 10px 10px;
   }
 }

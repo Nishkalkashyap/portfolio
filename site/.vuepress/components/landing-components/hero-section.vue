@@ -146,7 +146,7 @@ $cssSvgWidth : 250;
 video {
     opacity: 0;
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 2px;
     margin-top: 0px;
     z-index: 2;
 }
