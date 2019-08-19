@@ -2,7 +2,7 @@
 <div class="home4-component">
     <heroTop />
 
-    <div class="timeline-container">
+    <Timeline>
         <heroSection side="left" heading='Quark - A framework to build cross-platform desktop applications' upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
             <video muted autoplay loop name="media" poster="~@buildAssets/media/system-monitor.png" crossorigin="anonymous" class="image-transition" slot="image">
                 <source src="~@buildAssets/media/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -20,27 +20,7 @@
                 <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
-    </div>
-
-    <div class="timeline-container">
-        <heroSection side="left" heading='Quark - A framework to build cross-platform desktop applications' upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
-            <video muted autoplay loop name="media" poster="~@buildAssets/media/system-monitor.png" crossorigin="anonymous" class="image-transition" slot="image">
-                <source src="~@buildAssets/media/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
-            </video>
-        </heroSection>
-
-        <heroSection side="right" heading="IDE and Runtime" upper="There is no greater buzzkill than having to configure build tools and development environment before you can start hammering out a cool project or test a new idea." lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share." learnMoreLink="/guide/quark-ide.html">
-            <video muted autoplay loop name="media" poster="~@buildAssets/media/hello-world-intro.png" crossorigin="anonymous" class="image-transition" slot="image">
-                <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
-            </video>
-        </heroSection>
-
-        <heroSection side="left" heading="Quark App store" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch.">
-            <video muted autoplay loop name="media" poster="~@buildAssets/media/hello-world-intro.png" crossorigin="anonymous" class="image-transition" slot="image">
-                <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
-            </video>
-        </heroSection>
-    </div>
+    </Timeline>
 
     <!-- <div class="landing-page-background">
       <floaters side="left" />
