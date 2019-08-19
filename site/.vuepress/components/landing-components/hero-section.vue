@@ -290,6 +290,14 @@ a:hover {
     @include cutCircle(80px, #ecc94b, -50px, -50px);
 }
 
+.full-circle-5 {
+    @include fullCircle(100px, linear-gradient(135deg, #5a67d8, #7f9cf5), -70px, 140px);
+}
+
+.cut-circle-5 {
+    @include cutCircle(160px, #805ad5, 200px, -70px);
+}
+
 @media only screen and (max-width: 600px) {
     .hero-section-container {
         flex-wrap: wrap;
@@ -337,6 +345,14 @@ a:hover {
 
     .cut-circle-4 {
         @include cutCircle(40px, #ecc94b, -50px, -50px);
+    }
+
+    .full-circle-5 {
+        @include fullCircle(60px, linear-gradient(45deg, #5a67d8, #7f9cf5), -40px, 140px);
+    }
+
+    .cut-circle-5 {
+        @include cutCircle(100px, #805ad5, 120px, -40px);
     }
 }
 </style>
