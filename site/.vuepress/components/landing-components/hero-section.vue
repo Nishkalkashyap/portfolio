@@ -254,27 +254,28 @@ a:hover {
 }
 
 .full-circle-1 {
-    @include fullCircle(100px, linear-gradient(135deg, #805ad5, #d6bcfa), -70px, 140px);
+    @include fullCircle(100px, linear-gradient(135deg, #805ad5, #d6bcfa), -70px, 350px);
 }
 
 .cut-circle-1 {
-    @include cutCircle(160px, #4299e1, 200px, -70px);
+    @include cutCircle(160px, #4299e1, 200px, 350px);
 }
 
+.full-circle-5 {
+    @include fullCircle(100px, linear-gradient(135deg, #5a67d8, #7f9cf5), -70px, 350px);
+}
+
+.cut-circle-5 {
+    @include cutCircle(160px, #805ad5, 200px, 350px);
+}
+
+// this
 .full-circle-2 {
     @include fullCircle(180px, linear-gradient(225deg, #fbd38d, #ed8936), 220px, -50px);
 }
 
 .cut-circle-2 {
     @include cutCircle(80px, #4a5568, -50px, -50px);
-}
-
-.full-circle-3 {
-    @include fullCircle(200px, linear-gradient(225deg, #9ae6b4, #48bb78), -100px, 340px);
-}
-
-.cut-circle-3 {
-    @include cutCircle(60px, #38b2ac, -100px, 300px);
 }
 
 .full-circle-4 {
@@ -285,12 +286,13 @@ a:hover {
     @include cutCircle(80px, #ecc94b, -50px, -50px);
 }
 
-.full-circle-5 {
-    @include fullCircle(100px, linear-gradient(135deg, #5a67d8, #7f9cf5), -70px, 140px);
+// this
+.full-circle-3 {
+    @include fullCircle(200px, linear-gradient(225deg, #9ae6b4, #48bb78), -100px, 340px);
 }
 
-.cut-circle-5 {
-    @include cutCircle(160px, #805ad5, 200px, -70px);
+.cut-circle-3 {
+    @include cutCircle(60px, #38b2ac, -100px, 300px);
 }
 
 @media only screen and (max-width: 600px) {
@@ -311,27 +313,28 @@ a:hover {
     }
 
     .full-circle-1 {
-        @include fullCircle(60px, linear-gradient(135deg, #805ad5, #d6bcfa), -40px, 140px);
+        @include fullCircle(60px, linear-gradient(135deg, #805ad5, #d6bcfa), -40px, 220px);
     }
 
     .cut-circle-1 {
-        @include cutCircle(100px, #4299e1, 120px, -40px);
+        @include cutCircle(100px, #4299e1, 120px, 220px);
     }
 
+    .full-circle-5 {
+        @include fullCircle(60px, linear-gradient(45deg, #5a67d8, #7f9cf5), -40px, 220px);
+    }
+
+    .cut-circle-5 {
+        @include cutCircle(100px, #805ad5, 120px, 220px);
+    }
+
+    // this
     .full-circle-2 {
         @include fullCircle(120px, linear-gradient(225deg, #fbd38d, #ed8936), 120px, -50px);
     }
 
     .cut-circle-2 {
         @include cutCircle(40px, #4a5568, -50px, -50px);
-    }
-
-    .full-circle-3 {
-        @include fullCircle(100px, linear-gradient(225deg, #9ae6b4, #48bb78), -60px, 240px);
-    }
-
-    .cut-circle-3 {
-        @include cutCircle(30px, #38b2ac, -100px, 200px);
     }
 
     .full-circle-4 {
@@ -342,12 +345,13 @@ a:hover {
         @include cutCircle(40px, #ecc94b, -50px, -50px);
     }
 
-    .full-circle-5 {
-        @include fullCircle(60px, linear-gradient(45deg, #5a67d8, #7f9cf5), -40px, 140px);
+    // this
+    .full-circle-3 {
+        @include fullCircle(100px, linear-gradient(225deg, #9ae6b4, #48bb78), -60px, 240px);
     }
 
-    .cut-circle-5 {
-        @include cutCircle(100px, #805ad5, 120px, -40px);
+    .cut-circle-3 {
+        @include cutCircle(30px, #38b2ac, -100px, 200px);
     }
 }
 </style>

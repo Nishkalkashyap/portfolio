@@ -5,11 +5,11 @@
     <Timeline timeline="2018 - Present" heading="Quark" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
       <heroSection
         side="left"
+        index="1"
         heading="Quark - A framework to build cross-platform desktop applications"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
         learnMoreLink="/guide/intro.html"
-        index="1"
       >
         <video
           muted
@@ -27,11 +27,11 @@
 
       <heroSection
         side="right"
+        index="2"
         heading="IDE and Runtime"
         upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
         lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
         learnMoreLink="/guide/quark-ide.html"
-        index="2"
       >
         <video
           muted
@@ -49,10 +49,10 @@
 
       <heroSection
         side="left"
+        index="3"
         heading="Quark App store"
         upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
         lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
-        index="3"
       >
         <video
           muted
