@@ -1,14 +1,19 @@
+// ::selection {
+//     color: #f8f9f9;
+//     background: var(--accent-color);
+// }
+
 .landing-page {
-    --background : #141821;
-    --text-color : #ffffff;
-    --text-color--light : #dddddd;
-    
-    // --background : #141821;
-    // --text-color : #1a202c;
-    // --text-color--light : #2d3748;
+    --background: #141821;
+    --text-color: #ffffff;
+    --text-color--light: #dddddd;
+
+    --background: #ffffff;
+    --text-color: #141821;
+    --text-color--light: #1a202c;
 
 
-    --line-rule-color : var(--text-color);
+    --line-rule-color: var(--text-color);
     background-color: var(--background);
 
     --border-radius: 5px;
@@ -17,7 +22,8 @@
         color: var(--text-color) !important;
     }
 
-    div.search-box, img.logo {
+    div.search-box,
+    img.logo {
         display: none;
     }
 
@@ -32,7 +38,8 @@
             margin-right: 30px;
         }
 
-        a.nav-link:hover, span.title:hover {
+        a.nav-link:hover,
+        span.title:hover {
             color: red;
             border-bottom-color: #00000000;
         }
@@ -71,15 +78,14 @@
 
     $sectionHeight=90vh;
 
-    .landing-page-background:nth-child(1) {
-        height: calc(100vh - 56px);
-    }
-
     .landing-page-background {
         min-height: $sectionHeight;
     }
 
-    // $thisColor = #373f6b;
+    .landing-page-background:nth-child(2) {
+        height: 100vh !important;
+    }
+
     $thisColor=#161719;
 
     $primaryColor=#a0d8f1;

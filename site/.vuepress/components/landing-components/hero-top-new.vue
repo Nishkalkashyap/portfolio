@@ -27,10 +27,12 @@ export default {
 .hero {
     color: var(--background);
     text-align: center;
+    background: url("/images/dots-small.svg");
 
     h1,
     h2 {
         color: inherit;
+        border-bottom: none;
     }
 }
 </style>
