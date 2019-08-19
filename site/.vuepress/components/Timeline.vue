@@ -32,6 +32,7 @@ export default {
         border: solid 1px var(--line-rule-color);
         border-radius: 2px;
         padding: 20px 40px;
+        color: var(--text-color);
 
         span {
             font-size: 14px;
@@ -43,6 +44,7 @@ export default {
             padding-top: 0px;
             position: relative;
             margin-top: 5px;
+            color: var(--text-color);
         }
     }
 }

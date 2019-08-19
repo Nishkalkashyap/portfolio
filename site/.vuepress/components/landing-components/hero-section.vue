@@ -122,6 +122,10 @@ $cssSvgWidth : 250;
     }
 }
 
+p, h3 {
+    color: var(--text-color) !important;
+}
+
 .video-container {
     position: relative;
     max-width: 50%;
@@ -217,7 +221,7 @@ h3 {
 }
 
 h3::before {
-    border-top: solid 10px var(--text-color--dark);
+    border-top: solid 10px var(--text-color);
     content: "";
     display: block;
     position: absolute;

@@ -1,13 +1,44 @@
 .landing-page {
+    --background : #eeeeee;
+    --text-color : #000000;
+    background-color: var(--background);
 
-    // header.navbar {
-    //     border-bottom: none;
-    //     background: linear-gradient(45deg, rgb(38, 44, 65) 0%, rgb(70, 80, 122) 100%);
-    // }
+    span.site-name {
+        color: var(--text-color) !important;
+    }
 
-    // .links {
-    //     background-color: transparent;
-    // }
+    div.search-box, img.logo {
+        display: none;
+    }
+
+    header.navbar {
+        position: relative;
+        border-bottom: none;
+        background-color: transparent;
+        margin-bottom: -60px;
+        color: var(--text-color);
+
+        nav.nav-links {
+            margin-right: 30px;
+        }
+
+        a.nav-link:hover, span.title:hover {
+            color: red;
+            border-bottom-color: #00000000;
+        }
+
+        ul.nav-dropdown {
+            background-color: transparent;
+        }
+    }
+
+    .custom-layout {
+        padding-top: 0px;
+    }
+
+    .links {
+        background-color: transparent;
+    }
 
     .landing-page-background {
         width: 100%;
@@ -17,17 +48,14 @@
         align-items: center;
         flex-direction: column;
 
-        $headingColor=#000;
-        $paraColor=#000;
-
         h3,
         h3::before {
-            color: $headingColor;
-            border-top-color: $headingColor;
+            color: var(--text-color);
+            border-top-color: var(--text-color);
         }
 
         p {
-            color: $paraColor;
+            color: var(--text-color);
         }
     }
 
