@@ -195,26 +195,6 @@ video {
     background-color: transparent;
 }
 
-.full-circle-1 {
-    --dimensions: 100px;
-    background-image: linear-gradient(135deg, #805ad5, #d6bcfa);
-    top: -70px;
-    right: 140px;
-
-    width: var(--dimensions);
-    height: var(--dimensions);
-}
-
-.cut-circle-1 {
-    --dimensions: 120px;
-    border-color: #4299e1;
-    bottom: -100px;
-    left: -70px;
-
-    width: var(--dimensions);
-    height: var(--dimensions);
-}
-
 .shadow {
     position: absolute;
     width: 100%;
@@ -239,24 +219,6 @@ video {
     margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 600px) {
-    .hero-section-container {
-        flex-wrap: wrap;
-        font-size: 12px;
-
-        .meta-data {
-            font-size: 12px;
-        }
-
-        .video-container {
-            min-width: 80%;
-            max-width: 90%;
-            margin-left: 0px !important;
-            margin-right: 0px !important;
-        }
-    }
-}
-
 a {
     display: inline-block;
     padding: 0.5em 1em;
@@ -276,5 +238,57 @@ a {
 a:hover {
     transform: translateY(-2px);
     box-shadow: rgba(52, 152, 219, 0.3) 0px 20px 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-section-container {
+        flex-wrap: wrap;
+        font-size: 12px;
+
+        .meta-data {
+            font-size: 12px;
+        }
+
+        .video-container {
+            min-width: 80%;
+            max-width: 90%;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+        }
+    }
+}
+
+@mixin fullCircle($dimensions, $bg, $vertical, $horizontal) {
+    background-image: $bg;
+    top: $vertical;
+    right: $horizontal;
+
+    width: $dimensions;
+    height: $dimensions;
+}
+
+@mixin cutCircle($dimensions, $bg, $vertical, $horizontal) {
+    border-color: $bg;
+    bottom: $vertical;
+    left: $horizontal;
+
+    width: $dimensions;
+    height: $dimensions;
+}
+
+.full-circle-1 {
+    @include fullCircle(100px, linear-gradient(135deg, #805ad5, #d6bcfa), -70px, 140px);
+}
+
+.cut-circle-1 {
+    @include cutCircle(120px, #4299e1, -100px, -70px);
+}
+
+.full-circle-2 {
+    @include fullCircle(100px, linear-gradient(225deg, #fbd38d, #ed8936), -70px, 140px);
+}
+
+.cut-circle-2 {
+    @include cutCircle(120px, #4299e1, -100px, -70px);
 }
 </style>
