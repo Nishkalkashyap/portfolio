@@ -11,8 +11,8 @@
             <div class="video-container">
                 <slot name="image"></slot>
                 <div class="shadow"> </div>
-                <!-- <div class="full-circle full-circle-1"></div> -->
-                <!-- <div class="cut-circle cut-circle-1"></div> -->
+                <div class="full-circle full-circle-1"></div>
+                <div class="cut-circle cut-circle-1"></div>
                 <svg class="css-svg" viewBox="0 0 173 127" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.16418 10.3673C8.01627 10.3673 10.3284 8.04653 10.3284 5.18367C10.3284 2.32081 8.01627 0 5.16418 0C2.31208 0 0 2.32081 0 5.18367C0 8.04653 2.31208 10.3673 5.16418 10.3673Z" fill="#bee3f8"></path>
                     <path d="M28.403 10.3673C31.2551 10.3673 33.5672 8.04653 33.5672 5.18367C33.5672 2.32081 31.2551 0 28.403 0C25.5509 0 23.2388 2.32081 23.2388 5.18367C23.2388 8.04653 25.5509 10.3673 28.403 10.3673Z" fill="#bee3f8"></path>
@@ -151,6 +151,8 @@ $cssSvgWidth : 250;
 .video-container {
     position: relative;
     max-width: 40%;
+    min-width: 500px;
+    margin-top: 50px;
     z-index: 1;
     display: inline-flex;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
@@ -194,20 +196,23 @@ video {
 }
 
 .full-circle-1 {
-    height: 8em;
-    width: 8em;
-    background-image: linear-gradient(135deg, var(--theme-ui-colors-purple-6, #805ad5), var(--theme-ui-colors-purple-3, #d6bcfa));
-    bottom: -80px;
+    --dimensions: 100px;
+    background-image: linear-gradient(135deg, #805ad5, #d6bcfa);
+    top: -70px;
     right: 140px;
+
+    width: var(--dimensions);
+    height: var(--dimensions);
 }
 
 .cut-circle-1 {
-    height: 10em;
-    width: 10em;
-    background-color: transparent;
-    border-color: var(--theme-ui-colors-blue-5, #4299e1);
+    --dimensions: 120px;
+    border-color: #4299e1;
     bottom: -100px;
     left: -70px;
+
+    width: var(--dimensions);
+    height: var(--dimensions);
 }
 
 .shadow {
@@ -231,6 +236,7 @@ video {
     flex-wrap: wrap;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 600px) {
