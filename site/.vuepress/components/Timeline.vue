@@ -28,7 +28,10 @@ export default {
     align-items: center;
 
     .meta-card {
+        margin: 10px 20px;
+        width: calc(100% - 80px);
         max-width: 860px;
+        box-sizing: border-box;
         border: solid 1px var(--line-rule-color);
         border-radius: var(--border-radius);
         padding: 20px 40px;

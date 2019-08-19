@@ -128,7 +128,7 @@ $cssSvgWidth : 250;
     flex-grow: 1;
     flex-basis: 0;
     min-width: 300px;
-    // max-width: 40%;
+    max-width: 600px;
 
     font-size: 14px;
 
@@ -143,15 +143,14 @@ $cssSvgWidth : 250;
 
     p {
         margin-top: 0px;
-        font-size: 1.25em !important;
+        font-size: 1.25em;
         color: var(--text-color--light);
     }
 }
 
 .video-container {
     position: relative;
-    // max-width: 40%;
-    min-width: 550px;
+    max-width: 40%;
     z-index: 1;
     display: inline-flex;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
@@ -234,18 +233,21 @@ video {
     box-sizing: border-box;
 }
 
-
 @media only screen and (max-width: 600px) {
     .hero-section-container {
         flex-wrap: wrap;
-    }
-}
+        font-size: 12px;
 
-@media only screen and (max-width: 886px) {
-    .video-container {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-        min-width: 300px;
+        .meta-data {
+            font-size: 12px;
+        }
+
+        .video-container {
+            min-width: 80%;
+            max-width: 90%;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+        }
     }
 }
 
@@ -253,7 +255,7 @@ a {
     display: inline-block;
     padding: 0.5em 1em;
     line-height: inherit;
-    font-size: inherit;
+    font-size: 1.3em;
     font-weight: 500;
     text-decoration: none;
     border-radius: 5px;
