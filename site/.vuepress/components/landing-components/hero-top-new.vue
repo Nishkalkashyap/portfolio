@@ -7,9 +7,9 @@
             <div class="rotator-container">
                 <h2 class="pre-text">And I am</h2>
                 <h2 class="rotator" style="animation-delay:0s">a blogger</h2>
-                <h2 class="rotator" style="animation-delay:1.8s">a Mechanical Engineer</h2>
-                <h2 class="rotator" style="animation-delay:3.6s">a Software Developer</h2>
-                <h2 class="rotator" style="animation-delay:5.4s">doing Multidesciplinary Engineering</h2>
+                <h2 class="rotator" style="animation-delay:1.8s">a mechanical engineer</h2>
+                <h2 class="rotator" style="animation-delay:3.6s">a software developer</h2>
+                <h2 class="rotator" style="animation-delay:5.4s">doing multidesciplinary engineering</h2>
                 <h2 class="rotator" style="animation-delay:7.2s">all round smarty pants</h2>
                 <h2 class="rotator" style="animation-delay:9s">building things</h2>
             </div>

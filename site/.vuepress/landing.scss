@@ -38,15 +38,11 @@
             transition: all 0.2s;
         }
 
-        a.nav-link:hover {
+        a.nav-link:hover,
+        span.title:hover,
+        a.dropdown-title:hover {
             color: #ffffff;
-            border-bottom: solid 2px var(--background);
-        }
-
-        // a.nav-link:hover,
-        span.title:hover {
-            color: var(--background);
-            border-bottom-color: #00000000;
+            border-bottom: solid 2px #ffffff;
         }
 
         ul.nav-dropdown {
