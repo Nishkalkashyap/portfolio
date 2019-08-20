@@ -27,7 +27,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        // logo: '/images/icon-svg.svg',
+        logo: '/images/icon-svg.svg',
         editLinks: false,
         repoLabel: 'GitHub',
         repo: 'https://github.com/Nishkalkashyap/portfolio',
