@@ -39,14 +39,15 @@
         }
 
         a.nav-link:hover,
-        span.title:hover,
         a.dropdown-title:hover {
             color: #ffffff;
             border-bottom: solid 2px #ffffff;
         }
 
         ul.nav-dropdown {
-            background-color: transparent;
+            // background-color: transparent;
+            background-color: var(--background);
+            border-color: transparent !important;
         }
     }
 

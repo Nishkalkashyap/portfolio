@@ -67,9 +67,9 @@ export default {
         border-bottom: none;
     }
 
-    h1 {
-        margin-top: -100px;
-    }
+    // h1 {
+    //     margin-top: -100px;
+    // }
 
     .text-content {
         margin-top: 6em;
