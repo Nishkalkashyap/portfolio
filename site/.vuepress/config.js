@@ -9,6 +9,27 @@ module.exports = {
     ga: 'UA-112064718-10',
     description: 'My portfolio',
     serviceWorker: true,
+    head: [
+        [
+            'meta', {
+                name: 'theme-color',
+                content: manifest.theme_color
+            }
+        ],
+        [
+            'link', {
+                href: '/pwa/manifest.json',
+                rel: 'manifest'
+            }
+        ],
+        [
+            'link', {
+                rel: 'shortcut icon',
+                type: 'image/svg',
+                href: '/images/icon.png'
+            },
+        ]
+    ],
     markdown: {
         config: md => {
             md.use(require('markdown-it-html5-embed'), {
@@ -36,26 +57,26 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-                text: 'Mechanical',
-                link: '/mechanical/'
-            },
-            {
-                text: 'Electronics',
-                link: '/electronics/'
-            },
-            {
-                text: 'Software',
-                link: '/software/'
-            },
-            {
-                text: 'Tags',
-                items: Object.keys(AllTags).map((tag) => {
-                    return {
-                        text: tag,
-                        link: `/tags/${tag}.html`
-                    }
-                })
-            },
+            text: 'Mechanical',
+            link: '/mechanical/'
+        },
+        {
+            text: 'Electronics',
+            link: '/electronics/'
+        },
+        {
+            text: 'Software',
+            link: '/software/'
+        },
+        {
+            text: 'Tags',
+            items: Object.keys(AllTags).map((tag) => {
+                return {
+                    text: tag,
+                    link: `/tags/${tag}.html`
+                }
+            })
+        },
         ],
         sidebar: {
             "/tags/": [
