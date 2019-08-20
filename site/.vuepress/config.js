@@ -57,26 +57,26 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-            text: 'Mechanical',
-            link: '/mechanical/'
-        },
-        {
-            text: 'Electronics',
-            link: '/electronics/'
-        },
-        {
-            text: 'Software',
-            link: '/software/'
-        },
-        {
-            text: 'Tags',
-            items: Object.keys(AllTags).map((tag) => {
-                return {
-                    text: tag,
-                    link: `/tags/${tag}.html`
-                }
-            })
-        },
+                text: 'Mechanical',
+                link: '/mechanical/'
+            },
+            {
+                text: 'Electronics',
+                link: '/electronics/'
+            },
+            {
+                text: 'Software',
+                link: '/software/'
+            },
+            {
+                text: 'Tags',
+                items: Object.keys(AllTags).map((tag) => {
+                    return {
+                        text: tag,
+                        link: `/tags/${tag}.html`
+                    }
+                })
+            },
         ],
         sidebar: {
             "/tags/": [
