@@ -67,6 +67,27 @@
           <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
+
+      <heroSection
+        side="right"
+        index="4"
+        heading="DevOps"
+        upper="Continous integration and deployement, app distribution channel, end-to-end testing."
+        lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
+      >
+        <video
+          muted
+          autoplay
+          loop
+          name="media"
+          poster="~@buildAssets/media/hello-world-intro.png"
+          crossorigin="anonymous"
+          class="image-transition"
+          slot="image"
+        >
+          <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+        </video>
+      </heroSection>
     </Timeline>
     
     <Timeline timeline="2018 - Present" heading="Quark" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
