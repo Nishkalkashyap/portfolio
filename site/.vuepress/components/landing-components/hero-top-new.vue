@@ -27,10 +27,12 @@
 <script>
 import SvgAnimation from "./../SvgAnimation";
 import floaters from "./floaters";
+import SWUpdatePopup from "@default-theme/SWUpdatePopup.vue";
 export default {
     components: {
         SvgAnimation,
-        floaters
+        floaters,
+        SWUpdatePopup
     },
     data() {
         return {
