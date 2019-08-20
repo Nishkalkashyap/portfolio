@@ -101,24 +101,6 @@
 
     $backgroundImage="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJUlEQVQoU2NkYGAwZmBgOMtAADASkIcbQkgh3JwRpxAcRET7GgAV+gMLEiMsLQAAAABJRU5ErkJggg==";
 
-    .landing-page-background::before {
-        // content: url('~@public/images/background.svg');
-        // background: url($backgroundImage) repeat;
-        position: absolute;
-        left: 50%;
-        z-index: -1;
-    }
-
-    .landing-page-background::after {
-        // content: url('~@public/images/background.svg');
-        // background: url($backgroundImage) repeat;
-        position: absolute;
-        right: 50%;
-        z-index: -1;
-    }
-
-
-
     // landing-page-download-section
     .downloads-container {
 
