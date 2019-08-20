@@ -8,8 +8,8 @@ import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
 
-const sidebars = ['tags', 'mechanical', 'electronics', 'software'];
-const readmefiles = ['mechanical', 'electronics', 'software'];
+const sidebars = ['tags', 'mechanical', 'electronics', 'software'].filter((val) => fs.existsSync(val));
+const readmefiles = ['mechanical', 'electronics', 'software'].filter((val) => fs.existsSync(val));
 
 const TAGS_BASE_PATH = './tags';
 
