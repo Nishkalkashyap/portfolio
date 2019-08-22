@@ -38,6 +38,77 @@
 .message-component {
     position: relative;
 }
-#app > div > div.page > div:nth-child(1){
+
+#app>div>div.page>div:nth-child(1) {
     position: relative;
+}
+
+.custom-agile-container-component {
+    width: 100%;
+    .agile {
+        .agile__nav-button {
+            background: transparent;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-size: 24px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            transition-duration: 0.3s;
+            width: 40px;
+
+            &:hover {
+                background-color: rgba(#000, .5);
+                opacity: 1;
+            }
+
+            &--prev {
+                left: 0px;
+            }
+
+            &--next {
+                right: 0px;
+            }
+        }
+
+        &__slide,
+        &__slides {
+            width: 100% !important;
+        }
+
+
+        &__dots {
+            bottom: 10px;
+            left: 50%;
+            position: absolute;
+            transform: translateX(-50%);
+        }
+
+        &__dot {
+            margin: 0 10px;
+
+            button {
+                background-color: transparent;
+                border: 1px solid #fff;
+                border-radius: 50%;
+                cursor: pointer;
+                display: block;
+                height: 10px;
+                font-size: 0;
+                line-height: 0;
+                margin: 0;
+                padding: 0;
+                transition-duration: .3s;
+                width: 10px;
+            }
+
+            &--current,
+            &:hover {
+                button {
+                    background-color: #fff
+                }
+            }
+        }
+    }
 }

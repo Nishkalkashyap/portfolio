@@ -56,14 +56,14 @@
         </heroSection>
 
         <heroSection side="right" index="2" heading="Formula Student UK, July 2016" upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
-            <agile slot="image" class="section-slot">
+            <CustomAgile slot="image" class="section-slot">
                 <div class="slide">
                     <h3>slide 1</h3>
                 </div>
                 <div class="slide">
-                    <h3>slide n</h3>
+                    <h3>slide 2</h3>
                 </div>
-            </agile>
+            </CustomAgile>
         </heroSection>
     </Timeline>
 </div>
