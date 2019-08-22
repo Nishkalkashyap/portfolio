@@ -38,6 +38,7 @@ The design consists of the following components, arranged in the direction downs
    9. __Fuel Delivery system__: Made up of fuel injector and fuel delivery lines from the fuel tank.
 
     <p style="text-align:center">
+        <img src="~@buildAssets/pictures/vgim-13.jpg"/>
         <img src="~@buildAssets/pictures/vgim-2.jpg"/>
         <img src="~@buildAssets/pictures/vgim-3.jpg"/>
     </p>
