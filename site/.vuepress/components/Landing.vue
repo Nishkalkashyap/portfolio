@@ -90,11 +90,11 @@
       </heroSection>
     </Timeline>
     
-    <Timeline timeline="2018 - Present" heading="Quark" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
+    <Timeline timeline="2017 - 2018" heading="DR17" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
       <heroSection
         side="left"
         index="1"
-        heading="Quark - A framework to build cross-platform desktop applications"
+        heading="DR17 contender"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
         learnMoreLink="/guide/intro.html"
@@ -104,12 +104,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/pictures/system-monitor.png"
+          poster="~@buildAssets/pictures/dr17-9.jpg"
           crossorigin="anonymous"
           class="image-transition"
           slot="image"
         >
-          <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/dr17.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 
