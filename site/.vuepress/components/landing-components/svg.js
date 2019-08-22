@@ -1,4 +1,4 @@
-var svgs = {
+export var svgs = {
   triangle: {
     shape: (
       `<polygon
