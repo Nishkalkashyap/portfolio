@@ -30,7 +30,7 @@ export default {
 div.butt {
   font-weight: 900;
   padding: 1px 6px;
-  border-radius: var(--border-radius);
+  border-radius: 5px;
 
   box-shadow: rgba(52, 152, 219, 0.3) 0px 10px 15px;
   background-image: linear-gradient(
@@ -42,10 +42,10 @@ div.butt {
 }
 
 @media only screen and (max-width: 600px) {
-div.butt {
-  font-size: 18px;
-  padding: 1px 2px !important;
-  width: 18px;
-}
+  div.butt {
+    font-size: 18px;
+    padding: 1px 2px !important;
+    width: 18px;
+  }
 }
 </style>
