@@ -14,7 +14,7 @@ pageClass: small-heading-page
 ## Introduction
 An intake manifold is simply a mechanical component attached to the engines cylinder head that allows the air/fuel mixture to enter the combustion chamber of the engine. The intake manifold consists of following parts:
 
-![](~@buildAssets/pictures/vgim-1.jpg)
+<!-- ![](~@buildAssets/pictures/vgim-1.jpg) -->
 
 #### What is Variable geometry intake manifold?
 Short answer, to achieve greater Volumetric efficiency. As a consequence of greater volumetric efficiency, we can achieve greater torque, power and thermal efficiency from the same size of the engine at the same RPM.
