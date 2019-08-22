@@ -114,6 +114,8 @@ export default {
 
     .meta-data .meta-card {
         padding: 40px 20px;
+        margin: 10px 0px;
+        width: calc(100% - 40px);
 
         span {
             font-size: 12px;
