@@ -45,8 +45,9 @@
 
 .custom-agile-container-component {
     width: 100%;
+
     .agile {
-        .agile__nav-button {
+        &__nav-button {
             background: transparent;
             border: none;
             color: #fff;
@@ -71,12 +72,6 @@
                 right: 0px;
             }
         }
-
-        &__slide,
-        &__slides {
-            width: 100% !important;
-        }
-
 
         &__dots {
             bottom: 10px;
@@ -109,6 +104,13 @@
                     background-color: #fff
                 }
             }
+        }
+
+        .slide {
+            display: block;
+            height: 500px;
+            object-fit: cover;
+            width: 100%;
         }
     }
 }

@@ -17,10 +17,10 @@ export default {
 
 <style lang="scss">
 // Slides styles
-.slide {
-  display: block;
-  height: 500px;
-  object-fit: cover;
-  width: 100%;
-}
+// .slide {
+//   display: block;
+//   height: 500px;
+//   object-fit: cover;
+//   width: 100%;
+// }
 </style>
