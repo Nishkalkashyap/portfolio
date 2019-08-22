@@ -45,6 +45,8 @@
 
 .custom-agile-container-component {
     width: 100%;
+    border-radius: var(--border-radius);
+    overflow: hidden;
 
     .agile {
         &__nav-button {
@@ -111,7 +113,6 @@
 
         .slide {
             display: block;
-            height: 500px;
             // object-fit: cover;
             object-fit: contain;
             width: 100%;

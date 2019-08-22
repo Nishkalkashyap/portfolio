@@ -168,11 +168,4 @@ export default {
         padding: 10px 20px;
     }
 }
-
-.slide {
-    display: block;
-    height: 500px;
-    object-fit: cover;
-    width: 100%;
-}
 </style>

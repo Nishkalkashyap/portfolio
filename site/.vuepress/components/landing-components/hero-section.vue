@@ -238,8 +238,8 @@ a:hover {
         }
 
         .video-container {
-            min-width: 80%;
-            max-width: 90%;
+            min-width: 100%;
+            max-width: 100%;
             margin-left: 0px !important;
             margin-right: 0px !important;
         }
