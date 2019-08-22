@@ -2,6 +2,7 @@
 description : 'Design and development of an electronic steering wheel for a Formula student car'
 author : nishkal
 tags : ['guide']
+cover : '~@buildAssets/pictures/steering-wheel-1.jpg'
 pageClass: small-heading-page
 ---
 
