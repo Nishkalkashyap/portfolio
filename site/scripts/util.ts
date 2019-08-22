@@ -51,6 +51,7 @@ export type Frontmatter = {
     tags: string[];
     description: string;
     cover: string;
+    video?: string;
 };
 
 export function reccursiveIgnoreFunction(path: string, stat: fs.Stats) {

@@ -3,7 +3,7 @@ import * as Path from 'path';
 import * as recc from 'recursive-readdir';
 import { AllTags } from './types';
 import { themeConfig } from '../.vuepress/config';
-import { IFrontmatterData, getFrontmatterFromPath, capitalize, randomIntFromInterval, reccursiveIgnoreFunction } from './util';
+import { IFrontmatterData, getFrontmatterFromPath, capitalize, randomIntFromInterval, reccursiveIgnoreFunction, Frontmatter } from './util';
 import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
@@ -34,18 +34,15 @@ async function createTagsDirectory() {
         });
     });
     createFilesInTagsFolder(frontmatterData);
-    createReadmePage();
 
-    function createReadmePage() {
-        let readmeData = '';
-        readmeData = readmeData.concat('# Tags', '\n\n');
-        readmeData = readmeData.concat('<div class="tags-container">', '\n\n');
-        Object.keys(AllTags).map((tag) => {
-            readmeData = readmeData.concat(`<Tag name="${tag}" />`, '\n');
-        });
-        readmeData = readmeData.concat(`</div>`);
-        fs.writeFileSync(Path.join(TAGS_BASE_PATH, 'README.md'), readmeData);
-    }
+    let readmeData = '';
+    readmeData = readmeData.concat('# Tags', '\n\n');
+    readmeData = readmeData.concat('<div class="tags-container">', '\n\n');
+    Object.keys(AllTags).map((tag) => {
+        readmeData = readmeData.concat(`<Tag name="${tag}" />`, '\n');
+    });
+    readmeData = readmeData.concat(`</div>`);
+    fs.writeFileSync(Path.join(TAGS_BASE_PATH, 'README.md'), readmeData);
 
     function createFilesInTagsFolder(data: IFrontmatterData[]) {
         Object.keys(AllTags).map((tag) => {
@@ -72,11 +69,7 @@ async function createTagsDirectory() {
             str = str.concat(`<Header />`, '\n\n');
             str = str.concat('<div class="tags-container">', '\n\n');
             files.map((file) => {
-                str = str.concat(
-                    `<MetaCard link="/${file.path.replace('.md', '.html').replace(/[\\/]/g, '/')}" >`,
-                    file.frontmatter.cover ? `<img src="${file.frontmatter.cover}"> ` : '',
-                    '</MetaCard>', '\n\n'
-                );
+                str = str.concat(getCardFromFrontmatter(Object.assign(file.frontmatter, { path: file.path })));
             });
             str = str.concat('</div>', '\n');
             fs.writeFileSync(Path.join(TAGS_BASE_PATH, tag + '.md'), str);
@@ -85,12 +78,7 @@ async function createTagsDirectory() {
 }
 
 function createReadmeFiles(paths: string[]) {
-
-    paths.map((v) => {
-        createReadmeFile(v);
-    });
-
-    function createReadmeFile(path: string) {
+    paths.map((path) => {
         fs.readdir(`./${path}`).then((dir) => {
             const files = dir.filter((file) => { return file != 'README.md' });
             const frontmatters = files
@@ -111,11 +99,7 @@ function createReadmeFiles(paths: string[]) {
 
             frontmatters.map((frontmatter) => {
                 if (frontmatter) {
-                    str = str.concat(
-                        `<MetaCard link="/${frontmatter.path.replace('.md', '.html').replace(/[\\/]/g, '/')}" >`,
-                        frontmatter.cover ? `<img src="${frontmatter.cover}"> ` : '',
-                        '</MetaCard>', '\n\n'
-                    );
+                    str = str.concat(getCardFromFrontmatter(frontmatter))
                 }
             });
             str = str.concat('</div>', '\n');
@@ -124,7 +108,24 @@ function createReadmeFiles(paths: string[]) {
         }).catch((err) => {
             console.log(err);
         });
+    });
+}
+
+function getCardFromFrontmatter(frontmatter: Frontmatter & { path: string }) {
+    let slot = frontmatter.cover ? `<img src="${frontmatter.cover}"> ` : '';
+    if (frontmatter.video) {
+        slot = `
+<video muted autoplay loop name="media" poster="${frontmatter.cover}" crossorigin="anonymous" class="image-transition" style="max-width:100%;margin-top:0px;" >
+    <source src="${frontmatter.video}" type="video/mp4" />Your browser does not support the video tag.
+</video>
+`
     }
+
+    return String().concat(
+        `<MetaCard link="/${frontmatter.path.replace('.md', '.html').replace(/[\\/]/g, '/')}" >`,
+        slot,
+        '</MetaCard>', '\n\n'
+    );
 }
 
 

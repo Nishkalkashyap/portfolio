@@ -97,6 +97,7 @@ module.exports = {
                 "dr17.md"
             ],
             "/electronics/": [
+                "daq.md",
                 "steering-wheel.md"
             ],
             "/software/": []
