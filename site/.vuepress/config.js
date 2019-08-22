@@ -91,6 +91,7 @@ module.exports = {
                 "typescript.md"
             ],
             "/mechanical/": [
+                "radiator-design.md",
                 "dyno.md",
                 "vgim.md",
                 "dr17.md"

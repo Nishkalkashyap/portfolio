@@ -51,7 +51,7 @@ Hence αS1 is also known.
 
 ## DESIGN PROCESS
 
-![](~@buildAssets/pictures/dyno-1.jpg =x450)
+![](~@buildAssets/pictures/dyno-1.jpg =450x)
 
 1. Manufacturing
 * A CAD model of the structure was made using the SolidWorks
@@ -73,7 +73,7 @@ rotations per minute of the camshaft was purchased.
 that the rotations of the camshaft could be accurately
 identified. 
 
-![](~@buildAssets/pictures/dyno-2.jpg =x450)
+![](~@buildAssets/pictures/dyno-2.jpg =450x)
 
 4. Reading Sensor Data
 * An Arduino Sketch for reading the analog voltage signals of the
@@ -104,7 +104,7 @@ instantaneous RPM and power of the KTM 500 EXC engine
 
 ## Dynamometer Iteration 2:
 
-![](~@buildAssets/pictures/dyno-3.jpg =x450)
+![](~@buildAssets/pictures/dyno-3.jpg =450x)
 
 * Once all the basic setup was complete on the dynamometer,
 second phase of development was started which included an
@@ -131,12 +131,12 @@ Hence, we were able to increase the number of data points and plot
 clear-cut precise RPM vs. angular acceleration graphs – enabling us to
 critically analyse the characteristics of the engine.
 
-![](~@buildAssets/pictures/dyno-4.jpg =x450)
+![](~@buildAssets/pictures/dyno-4.jpg =450x)
 
 ## Testing Engine Dynamometer 
 
-![](~@buildAssets/pictures/dyno-5.png =x450)
+![](~@buildAssets/pictures/dyno-5.png =450x)
 
-![](~@buildAssets/pictures/dyno-6.png =x450)
+![](~@buildAssets/pictures/dyno-6.png =450x)
 
 
