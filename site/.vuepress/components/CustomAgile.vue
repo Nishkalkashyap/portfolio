@@ -1,5 +1,5 @@
 <template>
-  <div class="custom-agile-container-component agile">
+  <div class="custom-agile-container-component">
     <agile>
       <slot></slot>
     </agile>
@@ -16,11 +16,4 @@ export default {
 </script>
 
 <style lang="scss">
-// Slides styles
-// .slide {
-//   display: block;
-//   height: 500px;
-//   object-fit: cover;
-//   width: 100%;
-// }
 </style>
