@@ -17,7 +17,7 @@ Other than the obvious, the function of this electronic steering wheel is to con
 ## The Setup
 The setup can be divided into 4 levels of hierarchy. Consider the diagram below:
 
-![](/pictures/steering-wheel-0.png)
+![](~@buildAssets/pictures/steering-wheel-0.png)
 
 1. __Arduino__: The role of arduino in my setup is to receive input from the touch screen and gear shift buttons and accordingly deliver an output signal to control all the relays and servo.
 
@@ -25,8 +25,8 @@ The setup can be divided into 4 levels of hierarchy. Consider the diagram below:
    1. Quick release electrical coupling: As far as the production of the steering wheel is concerned, this was undoubtedly the most difficult part of the entire setup. The male side of a round electrical connector was inserted in the splined shaft of the steering wheel with all the wiring going through the shaft and exiting near the rack. The female side of the electrical connector was positioned inside the quick release coupling of the steering wheel. A total of 8 wires are carried by the connector. Check the images below to get a better idea of the connections.
 
     <p style="text-align:center">
-        <img src="/pictures/steering-wheel-2.jpg"/>
-        <img src="/pictures/steering-wheel-3.jpg"/>
+        <img src="~@buildAssets/pictures/steering-wheel-2.jpg"/>
+        <img src="~@buildAssets/pictures/steering-wheel-3.jpg"/>
     </p>
 
    2. __Pneumatic gear shifter relay__: The relay is controlled by the arduino which receives the signal from gear shift buttons on the steering wheel. When the button is pressed, the relay is activated by the arduino and the pneumatic system moves accordingly to change the gear.
@@ -37,8 +37,8 @@ The setup can be divided into 4 levels of hierarchy. Consider the diagram below:
 3. __Steering wheel electrical circuit__: As the name suggests, it is the electrical circuit of the steering wheel. A total of 8 wires from the electrical circuit go to the quick release electrical coupling.    
 
     <p style="text-align:center">
-        <img src="/pictures/steering-wheel-4.png"/>
-        <img src="/pictures/steering-wheel-5.png"/>
+        <img src="~@buildAssets/pictures/steering-wheel-4.png"/>
+        <img src="~@buildAssets/pictures/steering-wheel-5.png"/>
     </p>
 
 4. __Steering wheel auxiliaries__

@@ -16,12 +16,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/media/system-monitor.png"
+          poster="~@buildAssets/pictures/system-monitor.png"
           crossorigin="anonymous"
           class="image-transition"
           slot="image"
         >
-          <source src="~@buildAssets/media/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 
@@ -38,12 +38,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/media/hello-world-intro.png"
+          poster="~@buildAssets/pictures/hello-world-intro.png"
           crossorigin="anonymous"
           class="image-transition"
           slot="image"
         >
-          <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 
@@ -59,12 +59,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/media/hello-world-intro.png"
+          poster="~@buildAssets/pictures/hello-world-intro.png"
           crossorigin="anonymous"
           class="image-transition"
           slot="image"
         >
-          <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 
@@ -80,12 +80,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/media/hello-world-intro.png"
+          poster="~@buildAssets/pictures/hello-world-intro.png"
           crossorigin="anonymous"
           class="image-transition"
           slot="image"
         >
-          <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
     </Timeline>
@@ -104,12 +104,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/media/system-monitor.png"
+          poster="~@buildAssets/pictures/system-monitor.png"
           crossorigin="anonymous"
           class="image-transition"
           slot="image"
         >
-          <source src="~@buildAssets/media/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 
@@ -126,12 +126,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/media/hello-world-intro.png"
+          poster="~@buildAssets/pictures/hello-world-intro.png"
           crossorigin="anonymous"
           class="image-transition"
           slot="image"
         >
-          <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 
@@ -147,12 +147,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/media/hello-world-intro.png"
+          poster="~@buildAssets/pictures/hello-world-intro.png"
           crossorigin="anonymous"
           class="image-transition"
           slot="image"
         >
-          <source src="~@buildAssets/media/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
     </Timeline>

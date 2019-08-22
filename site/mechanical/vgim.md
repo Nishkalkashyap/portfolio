@@ -14,7 +14,7 @@ pageClass: small-heading-page
 ## Introduction
 An intake manifold is simply a mechanical component attached to the engines cylinder head that allows the air/fuel mixture to enter the combustion chamber of the engine. The intake manifold consists of following parts:
 
-![](/pictures/vgim-1.jpg)
+![](~@buildAssets/pictures/vgim-1.jpg)
 
 #### What is Variable geometry intake manifold?
 Short answer, to achieve greater Volumetric efficiency. As a consequence of greater volumetric efficiency, we can achieve greater torque, power and thermal efficiency from the same size of the engine at the same RPM.
@@ -38,8 +38,8 @@ The design consists of the following components, arranged in the direction downs
    9. __Fuel Delivery system__: Made up of fuel injector and fuel delivery lines from the fuel tank.
 
     <p style="text-align:center">
-        <img src="/pictures/vgim-2.jpg"/>
-        <img src="/pictures/vgim-3.jpg"/>
+        <img src="~@buildAssets/pictures/vgim-2.jpg"/>
+        <img src="~@buildAssets/pictures/vgim-3.jpg"/>
     </p>
 
 ## Specifications
@@ -52,7 +52,7 @@ The design consists of the following components, arranged in the direction downs
 
 ## Working overview
 
-![](/pictures/vgim-4.jpg)
+![](~@buildAssets/pictures/vgim-4.jpg)
 
 Unfortunately, I lost all the videos and images of the setup in a corrupt memory card. All that is left is an amateur video of the setup below:
 
@@ -63,18 +63,18 @@ Below images describe the movement of the movable Ram and the corresponding chan
 
 1. As the Ram moves towards the upper plenum cap, the plenum volume is decreased and the runner length is increased. Both of these changes enhance the bottom-end(Low RPM) performance of the engine.
 
-![](/pictures/vgim-5.jpg)
+![](~@buildAssets/pictures/vgim-5.jpg)
 
 2. As the Ram moves towards the lower plenum cap, the plenum volume is increased and the runner length is decreased. Both of these changes enhance the top-end(High RPM) performance of the engine.
 
-![](/pictures/vgim-6.jpg)
+![](~@buildAssets/pictures/vgim-6.jpg)
 
 ## Manufacturing
 * The manifold was manufactured primarily on a CNC Lathe machine and a CNC Vertical milling machine.
 * The material selected was aluminium due to light weight, corrosion resistance and good weldability.
 * Below is a picture of the machined components.
 
-![](/pictures/vgim-7.jpg)
+![](~@buildAssets/pictures/vgim-7.png)
 
 #### Why not 3D printing?
 Some may argue in favor of 3D printing the manifold instead of CNC machining. And to some extent their argument may be valid and legit. But the reason that I chose the latter is because of my previous experiences with 3D printed intake manifolds. The problem with 3D printed manifolds, is that the designs are too rigid. By that I mean, that making changes to an already manufactured manifold is kinda impossible. For example, if you later want to add an extra pressure sensor or temperature sensor to the manifold, you'll need to make some sort of mount on the 3D printed part. And to make a mount, you'll need to machine it, which is very limited on most 3D printed materials. 
@@ -84,17 +84,17 @@ On the other hand, using aluminium allows for much more flexibility in the desig
 ## Assembly
 The final assembled manifold looks like this:-
 
-![](/pictures/vgim-8.jpg)
+![](~@buildAssets/pictures/vgim-8.jpg)
 
 ## Validation
 * Using the [data acquisition system](https://projectmechatronics.blogspot.in/2017/09/data-acquisition-system.html) that we made earlier, pressure values were recorded in the intake manifold at different throttle percentages.
 * This data was then plotted on [MATLAB](https://www.mathworks.com/products/matlab.html) and analysed. An example of sample data and result is shown below:
 
-![](/pictures/vgim-9.jpg)
+![](~@buildAssets/pictures/vgim-9.png)
 
 * Percent Increase in volumetric efficiency at constructive interference point:
 
-![](/pictures/vgim-10.jpg)
+![](~@buildAssets/pictures/vgim-10.jpg)
 
 Where,
 
@@ -102,11 +102,11 @@ Pc= Instantaneous pressure at that point
 
 Pm= Mean pressure of that cycle
 
-![](/pictures/vgim-11.jpg)
+![](~@buildAssets/pictures/vgim-11.jpg)
 
 * Similarly, Percent Decrease in volumetric efficiency at destructive interference point:
 
-![](/pictures/vgim-12.jpg)
+![](~@buildAssets/pictures/vgim-12.jpg)
 
 * To put that in prospective, an engine with a fixed intake manifold, producing a mean of 40Nm of torque at say 8500RPM, can produce 45Nm simply by swapping a fixed intake manifold with a variable one.
 
@@ -117,9 +117,9 @@ However, it is noteworthy to mention that the change in volumetric efficiency is
 ## Result
 The result of such careful design of the intake manifold led to the making of a very competitive FSAE car.
 
-![](/pictures/dr17-6.jpg)
-![](/pictures/dr17-8.jpg)
-![](/pictures/dr17-9.jpg)
+![](~@buildAssets/pictures/dr17-6.jpg)
+![](~@buildAssets/pictures/dr17-8.jpg)
+![](~@buildAssets/pictures/dr17-9.jpg)
 
 
 
