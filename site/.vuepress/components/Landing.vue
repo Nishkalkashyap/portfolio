@@ -4,25 +4,25 @@
 
     <Timeline timeline="2018 - Present" heading="Quark" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
         <heroSection side="left" index="1" heading="Quark - A framework to build cross-platform desktop applications" upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/system-monitor.png" crossorigin="anonymous" class="image-transition" slot="image">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/system-monitor.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
         <heroSection side="right" index="2" heading="IDE and Runtime" upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE." lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share." learnMoreLink="/guide/quark-ide.html">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition" slot="image">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
         <heroSection side="left" index="3" heading="Quark App store" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch.">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition" slot="image">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
         <heroSection side="right" index="4" heading="DevOps" upper="Continous integration and deployement, app distribution channel, end-to-end testing." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch.">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition" slot="image">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
@@ -30,19 +30,19 @@
 
     <Timeline timeline="July 2016 - January 2018" heading="DR17" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
         <heroSection side="left" index="1" heading="Formula Student UK, July 2017" upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-9.jpg" crossorigin="anonymous" class="image-transition" slot="image">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-9.jpg" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/dr17.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
         <heroSection side="right" index="2" heading="IDE and Runtime" upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE." lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share." learnMoreLink="/guide/quark-ide.html">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition" slot="image">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
         <heroSection side="left" index="3" heading="Quark App store" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch.">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition" slot="image">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
@@ -50,9 +50,20 @@
 
     <Timeline timeline="January 2015 - July 2016" heading="DR16" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
         <heroSection side="left" index="1" heading="Formula Student UK, July 2016" upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr16-3.jpg" crossorigin="anonymous" class="image-transition" slot="image">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr16-3.jpg" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/dr17.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
+        </heroSection>
+
+        <heroSection side="right" index="2" heading="Formula Student UK, July 2016" upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
+            <agile slot="image" class="section-slot">
+                <div class="slide">
+                    <h3>slide 1</h3>
+                </div>
+                <div class="slide">
+                    <h3>slide n</h3>
+                </div>
+            </agile>
         </heroSection>
     </Timeline>
 </div>
@@ -158,5 +169,12 @@ export default {
         margin-bottom: 50px;
         padding: 10px 20px;
     }
+}
+
+.slide {
+    display: block;
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
 }
 </style>
