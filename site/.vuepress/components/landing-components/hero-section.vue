@@ -232,6 +232,7 @@ a:hover {
     .hero-section-container {
         flex-wrap: wrap;
         font-size: 12px;
+        margin-bottom: 50px;
 
         .meta-data {
             font-size: 12px;
