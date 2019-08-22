@@ -94,7 +94,7 @@
       <heroSection
         side="left"
         index="1"
-        heading="DR17 contender"
+        heading="Formula Student UK, July 2017"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
         learnMoreLink="/guide/intro.html"

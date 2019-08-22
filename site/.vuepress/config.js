@@ -91,6 +91,7 @@ module.exports = {
                 "typescript.md"
             ],
             "/mechanical/": [
+                "dyno.md",
                 "vgim.md",
                 "dr17.md"
             ],
