@@ -1,6 +1,6 @@
 <template>
   <div class="custom-agile-container-component">
-    <agile>
+    <agile :autoplay-speed="5000">
       <!-- <svg class="prev my-arrow" slot="prevButton" v-html="svgs.triangle.shape" viewBox="0 0 30 30" />
       <svg class="next my-arrow" slot="nextButton" v-html="svgs.triangle.shape" viewBox="0 0 30 30" />-->
       <div class="butt" slot="prevButton"><</div>
