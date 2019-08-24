@@ -35,15 +35,26 @@
             </video>
         </heroSection>
 
-        <heroSection side="right" index="2" heading="IDE and Runtime" upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE." lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share." learnMoreLink="/guide/quark-ide.html">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
-                <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+        <heroSection side="right" index="2" heading="Electronic steering wheel" upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE." lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share." learnMoreLink="/guide/quark-ide.html">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/steering-wheel-1.jpg" crossorigin="anonymous" class="image-transition section-slot" slot="image">
+                <source src="~@buildAssets/pictures/electronic-steering-wheel.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
-        <heroSection side="left" index="3" heading="Quark App store" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch.">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
-                <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+        <heroSection side="left" index="3" heading="Dynamometer" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch.">
+            <CustomAgile slot="image" class="section-slot">
+                <img src="~@buildAssets/pictures/engine-1.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/engine-2.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/engine-3.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dyno-1.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dyno-3.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dyno-4.jpg" class="slide" />
+            </CustomAgile>
+        </heroSection>
+
+        <heroSection side="right" index="4" heading="Data Logger" upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE." lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share." learnMoreLink="/guide/quark-ide.html">
+            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/daq-1.jpg" crossorigin="anonymous" class="image-transition section-slot" slot="image">
+                <source src="~@buildAssets/pictures/daq.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
     </Timeline>
