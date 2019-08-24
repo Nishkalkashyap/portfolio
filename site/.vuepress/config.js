@@ -147,5 +147,26 @@ module.exports = {
         config.plugins.push(new CaseSensitivePathsPlugin({
             debug: false
         }));
+        // config.plugins.push(new ImageminPlugin({
+        //     disable: process.env.NODE_ENV !== 'production', // Disable during development
+        //     // optipng: {
+        //     //     optimizationLevel: 9
+        //     // },
+        //     gifsicle: {
+        //         optimizationLevel: 9,
+        //         interlaced: false
+        //     },
+        //     // jpegtran: {
+        //     //     optimizationLevel: 9
+        //     // },
+        //     mozjpeg: {
+        //         progressive: true,
+        //         quality: 15
+        //     },
+        //     pngquant: {
+        //         quality: '25-30',
+        //         // speed: 4
+        //     }
+        // }));
     }
 }
