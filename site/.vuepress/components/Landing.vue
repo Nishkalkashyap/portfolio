@@ -120,8 +120,22 @@
           >
             <source src="~@buildAssets/pictures/dr17-2.mp4" type="video/mp4" />Your browser does not support the video tag.
           </video>
+          <video
+            muted
+            autoplay
+            loop
+            name="media"
+            poster="~@buildAssets/pictures/dr17-9.jpg"
+            crossorigin="anonymous"
+            class="image-transition slide"
+          >
+            <source src="~@buildAssets/pictures/dr17-3.mp4" type="video/mp4" />Your browser does not support the video tag.
+          </video>
+          <img src="~@buildAssets/pictures/dr17-13.jpg" class="slide" />
           <img src="~@buildAssets/pictures/dr17-4.jpg" class="slide" />
           <img src="~@buildAssets/pictures/dr17-10.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr17-11.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr17-12.jpg" class="slide" />
         </CustomAgile>
       </heroSection>
       
