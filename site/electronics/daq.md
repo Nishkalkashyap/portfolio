@@ -2,8 +2,8 @@
 description : 'Design and development of a telemetry cum data acquisition system'
 author : nishkal
 tags : ['guide']
-cover : '~@buildAssets/pictures/steering-wheel-1.jpg'
-video : '~@buildAssets/pictures/hello-world-intro.mp4'
+cover : '~@buildAssets/pictures/daq-1.jpg'
+video : '~@buildAssets/pictures/daq.mp4'
 pageClass: small-heading-page
 ---
 
