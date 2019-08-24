@@ -106,6 +106,7 @@
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
         learnMoreLink="/guide/intro.html"
+        flare="Competition,July 2017,United Kingdom"
       >
         <video
           muted
