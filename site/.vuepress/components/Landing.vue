@@ -47,7 +47,7 @@
             </video>
         </heroSection>
 
-        <heroSection side="right" index="4" heading="Dynamometer" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch.">
+        <heroSection side="right" index="4" heading="Dynamometer" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch." learnMoreLink="/mechanical/dyno.html">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/engine-1.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/engine-2.jpg" class="slide" />
@@ -58,7 +58,7 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="5" heading="Variable geometry intake manifold" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch.">
+        <heroSection side="left" index="5" heading="Variable geometry intake manifold" upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch." learnMoreLink="/mechanical/vgim.html">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/vgim-2.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/vgim-8.jpg" class="slide" />

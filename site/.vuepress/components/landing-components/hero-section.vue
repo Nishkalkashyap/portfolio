@@ -6,7 +6,7 @@
                 <h3>{{heading}}</h3>
                 <p v-html="upper"></p>
                 <p v-html="lower"></p>
-                <router-link :to="(learnMoreLink || '/mechanical/')">Learn more</router-link>
+                <router-link v-if="learnMoreLink" :to="(learnMoreLink || '/mechanical/')">Learn more</router-link>
             </div>
             <div class="video-container">
                 <slot name="image"></slot>
