@@ -108,18 +108,21 @@
         learnMoreLink="/guide/intro.html"
         flare="Competition,July 2017,United Kingdom"
       >
-        <video
-          muted
-          autoplay
-          loop
-          name="media"
-          poster="~@buildAssets/pictures/dr17-9.jpg"
-          crossorigin="anonymous"
-          class="image-transition section-slot"
-          slot="image"
-        >
-          <source src="~@buildAssets/pictures/dr17.mp4" type="video/mp4" />Your browser does not support the video tag.
-        </video>
+        <CustomAgile slot="image" class="section-slot">
+          <img src="~@buildAssets/pictures/engine-1.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/engine-2.jpg" class="slide" />
+          <video
+            muted
+            autoplay
+            loop
+            name="media"
+            poster="~@buildAssets/pictures/dr17-9.jpg"
+            crossorigin="anonymous"
+            class="image-transition slide"
+          >
+            <source src="~@buildAssets/pictures/dr17.mp4" type="video/mp4" />Your browser does not support the video tag.
+          </video>
+        </CustomAgile>
       </heroSection>
 
       <heroSection
