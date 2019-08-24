@@ -57,9 +57,9 @@
 
         <heroSection side="right" index="2" heading="Formula Student UK, July 2016" upper="Been building Quark since ..." lower="We provide you with all the tools and a canvas to help you make your art." learnMoreLink="/guide/intro.html">
             <CustomAgile slot="image" class="section-slot">
+                <img src="~@buildAssets/pictures/dr16-3.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-1.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-2.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/dr16-3.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-4.jpg" class="slide" />
             </CustomAgile>
         </heroSection>
