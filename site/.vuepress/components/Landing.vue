@@ -95,22 +95,20 @@
     </Timeline>
 
     <Timeline
-      timeline="July 2016 - January 2018"
+      timeline="July 2016 - July 2018"
       heading="DR17"
       content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received "
     >
       <heroSection
         side="left"
         index="1"
-        heading="Formula Student UK, July 2017"
+        heading="Formula Student India, January 2018"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
         learnMoreLink="/guide/intro.html"
         flare="Competition,July 2017,United Kingdom"
       >
         <CustomAgile slot="image" class="section-slot">
-          <img src="~@buildAssets/pictures/engine-1.jpg" class="slide" />
-          <img src="~@buildAssets/pictures/engine-2.jpg" class="slide" />
           <video
             muted
             autoplay
@@ -120,14 +118,46 @@
             crossorigin="anonymous"
             class="image-transition slide"
           >
-            <source src="~@buildAssets/pictures/dr17.mp4" type="video/mp4" />Your browser does not support the video tag.
+            <source src="~@buildAssets/pictures/dr17-2.mp4" type="video/mp4" />Your browser does not support the video tag.
           </video>
+          <img src="~@buildAssets/pictures/dr17-4.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr17-10.jpg" class="slide" />
+        </CustomAgile>
+      </heroSection>
+      
+      <heroSection
+        side="right"
+        index="2"
+        heading="Formula Student UK, July 2017"
+        upper="Been building Quark since ..."
+        lower="We provide you with all the tools and a canvas to help you make your art."
+        learnMoreLink="/guide/intro.html"
+        flare="Competition,July 2017,United Kingdom"
+      >
+        <CustomAgile slot="image" class="section-slot">
+          <video
+            muted
+            autoplay
+            loop
+            name="media"
+            poster="~@buildAssets/pictures/dr17-9.jpg"
+            crossorigin="anonymous"
+            class="image-transition slide"
+          >
+            <source src="~@buildAssets/pictures/dr17-1.mp4" type="video/mp4" />Your browser does not support the video tag.
+          </video>
+          <img src="~@buildAssets/pictures/dr17-1.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr17-2.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr17-3.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr17-6.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr17-9.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr17-8.jpg" class="slide" />
         </CustomAgile>
       </heroSection>
 
       <heroSection
-        side="right"
-        index="2"
+        side="left"
+        index="3"
         heading="Electronic steering wheel"
         upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
         lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
@@ -148,8 +178,8 @@
       </heroSection>
 
       <heroSection
-        side="left"
-        index="3"
+        side="right"
+        index="4"
         heading="Data Logger"
         upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
         lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
@@ -170,8 +200,8 @@
       </heroSection>
 
       <heroSection
-        side="right"
-        index="4"
+        side="left"
+        index="5"
         heading="Dynamometer"
         upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
         lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
@@ -188,12 +218,13 @@
       </heroSection>
 
       <heroSection
-        side="left"
-        index="5"
+        side="right"
+        index="6"
         heading="Variable geometry intake manifold"
         upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
         lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
         learnMoreLink="/mechanical/vgim.html"
+        flare="Research Paper,Thesis"
       >
         <CustomAgile slot="image" class="section-slot">
           <img src="~@buildAssets/pictures/vgim-2.jpg" class="slide" />
@@ -226,7 +257,7 @@
           class="image-transition section-slot"
           slot="image"
         >
-          <source src="~@buildAssets/pictures/dr17.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/dr17-1.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 

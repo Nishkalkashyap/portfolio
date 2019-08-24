@@ -80,15 +80,15 @@ module.exports = {
                 text: 'Software',
                 link: '/software/'
             },
-            {
-                text: 'Tags',
-                items: Object.keys(AllTags).map((tag) => {
-                    return {
-                        text: tag,
-                        link: `/tags/${tag}.html`
-                    }
-                })
-            },
+            // {
+            //     text: 'Tags',
+            //     items: Object.keys(AllTags).map((tag) => {
+            //         return {
+            //             text: tag,
+            //             link: `/tags/${tag}.html`
+            //         }
+            //     })
+            // },
             {
                 text: 'Links',
                 items: [{
