@@ -31,6 +31,7 @@ div.butt {
   font-weight: 900;
   padding: 1px 6px;
   border-radius: 5px;
+  line-height:40px;
 
   box-shadow: rgba(52, 152, 219, 0.3) 0px 10px 15px;
   background-image: linear-gradient(
