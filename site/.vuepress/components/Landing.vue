@@ -13,7 +13,6 @@
         heading="Quark - A framework to build cross-platform desktop applications"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
-        learnMoreLink="/guide/intro.html"
       >
         <video
           muted
@@ -35,7 +34,6 @@
         heading="IDE and Runtime"
         upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
         lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
-        learnMoreLink="/guide/quark-ide.html"
       >
         <video
           muted
@@ -105,8 +103,7 @@
         heading="Formula Student India, January 2018"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
-        learnMoreLink="/guide/intro.html"
-        flare="Competition,July 2017,United Kingdom"
+        flare="Competition,January 2018,India"
       >
         <CustomAgile slot="image" class="section-slot">
           <video
@@ -138,14 +135,13 @@
           <img src="~@buildAssets/pictures/dr17-12.jpg" class="slide" />
         </CustomAgile>
       </heroSection>
-      
+
       <heroSection
         side="right"
         index="2"
         heading="Formula Student UK, July 2017"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
-        learnMoreLink="/guide/intro.html"
         flare="Competition,July 2017,United Kingdom"
       >
         <CustomAgile slot="image" class="section-slot">
@@ -175,7 +171,6 @@
         heading="Electronic steering wheel"
         upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
         lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
-        learnMoreLink="/guide/quark-ide.html"
       >
         <video
           muted
@@ -197,7 +192,6 @@
         heading="Data Logger"
         upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
         lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
-        learnMoreLink="/guide/quark-ide.html"
       >
         <video
           muted
@@ -259,29 +253,32 @@
         heading="Formula Student UK, July 2016"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
-        learnMoreLink="/guide/intro.html"
+        flare="Competition,July 2016,United Kingdom"
       >
-        <video
-          muted
-          autoplay
-          loop
-          name="media"
-          poster="~@buildAssets/pictures/dr16-3.jpg"
-          crossorigin="anonymous"
-          class="image-transition section-slot"
-          slot="image"
-        >
-          <source src="~@buildAssets/pictures/dr17-1.mp4" type="video/mp4" />Your browser does not support the video tag.
-        </video>
+        <CustomAgile slot="image" class="section-slot">
+          <video
+            muted
+            autoplay
+            loop
+            name="media"
+            poster="~@buildAssets/pictures/dr16-3.jpg"
+            crossorigin="anonymous"
+            class="image-transition slide"
+          >
+            <source src="~@buildAssets/pictures/dr17-1.mp4" type="video/mp4" />Your browser does not support the video tag.
+          </video>
+          <img src="~@buildAssets/pictures/dr16-2.jpg" class="slide" />
+          <img src="~@buildAssets/pictures/dr16-5.jpg" class="slide" />
+        </CustomAgile>
       </heroSection>
 
       <heroSection
         side="right"
         index="2"
-        heading="Formula Student UK, July 2016"
+        heading="Formula Student India, January 2016"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
-        learnMoreLink="/guide/intro.html"
+        flare="Competition,January 2016,India"
       >
         <CustomAgile slot="image" class="section-slot">
           <img src="~@buildAssets/pictures/dr16-3.jpg" class="slide" />
@@ -289,6 +286,17 @@
           <img src="~@buildAssets/pictures/dr16-2.jpg" class="slide" />
           <img src="~@buildAssets/pictures/dr16-4.jpg" class="slide" />
         </CustomAgile>
+      </heroSection>
+
+      <heroSection
+        side="left"
+        index="3"
+        heading="Radiator design"
+        upper="Been building Quark since ..."
+        lower="We provide you with all the tools and a canvas to help you make your art."
+        flare="Competition,January 2016,India"
+      >
+        <img slot="image" src="~@buildAssets/pictures/radiator-4.jpg" class="section-slot" />
       </heroSection>
     </Timeline>
   </div>
