@@ -13,15 +13,6 @@
                 <h2 class="rotator" style="animation-delay:7.2s">all round smarty pants</h2>
                 <h2 class="rotator" style="animation-delay:9s">building things</h2>
             </div>
-            <!-- <div class="text-content">
-          <p>
-            I'm a Mechanical Engineer developing new technologies, building things, blogging, promoting sustainability, and heralding entrepreneurship.
-            I am particularly fascinated with multi-desciplinary engineering.
-            To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering, mechanics, electronics, web development and software engineering.
-            Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
-            I believe that creative engineering is indistinguishable from fine artwork.
-          </p>
-        </div>-->
             <div class="icons">
                 <SocialIcons />
             </div>
@@ -79,15 +70,6 @@ export default {
     h1.heading {
         margin-top: -50px;
     }
-
-    //   .text-content {
-    //     margin-top: 6em;
-    //     margin-left: 20px;
-    //     margin-right: 20px;
-    //     margin-bottom: 100px;
-    //     max-width: 800px;
-    //     display: none;
-    //   }
 }
 
 .learn-more {

@@ -92,6 +92,7 @@ export default {
         p {
             color: $color;
             font-size: 18px;
+            text-shadow: none;
         }
 
         h2 {
