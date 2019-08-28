@@ -21,8 +21,10 @@
             Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
             I believe that creative engineering is indistinguishable from fine artwork.
           </p>
-        </div> -->
-            <SocialIcons />
+        </div>-->
+            <div class="icons">
+                <SocialIcons />
+            </div>
             <div class="learn-more">
                 <span>More about Nishkal</span>
             </div>
@@ -75,7 +77,7 @@ export default {
     }
 
     h1.heading {
-        margin-top: -100px;
+        margin-top: -50px;
     }
 
     //   .text-content {
@@ -89,15 +91,19 @@ export default {
 }
 
 .learn-more {
-    margin-top: 20px;
     display: inline-block;
-    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0px 0.175em 0.5em rgba(2, 8, 20, 0.1),
-    0px 0.085em 0.175em rgba(2, 8, 20, 0.08);
-    background : var(--background);
-    // background: linear-gradient(225deg, #9ae6b4, #48bb78);
+        0px 0.085em 0.175em rgba(2, 8, 20, 0.08);
+
+    padding: 10px 40px;
+    margin-top: 10px;
+
+    // background: var(--background);
+    font-family: var(--heading-font-family);
+    text-shadow: none;
+    background: linear-gradient(225deg, #9ae6b4, #48bb78);
 }
 
 .hero::before {
@@ -115,7 +121,8 @@ export default {
     text-align: center;
     width: 100%;
     height: 30px;
-    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-bottom: 120px;
 }
 
 .pre-text {
@@ -136,9 +143,10 @@ export default {
     font-feature-settings: "kern";
     text-rendering: optimizeLegibility;
     display: inline-block;
-    margin: 0px;
 
     width: 100%;
+    margin: 0px 0px;
+    height: 40px;
 
     font-size: 2em !important;
 }
