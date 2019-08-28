@@ -83,91 +83,19 @@
         }
     }
 
-    $sectionHeight=80vh;
-
     .landing-page-background {
-        min-height: $sectionHeight;
+        min-height: 80vh;
     }
 
-    $thisColor=#161719;
-
-    $primaryColor=#a0d8f1;
-    $primaryColorTrans=#6574cd99;
-    $secondaryColor=#6574cd;
-
-    $color1=#e9af32;
-    $color2=#ffa31b;
-    $darkColor=var(--text-color--darker);
-
-    $gradient=linear-gradient(45deg, $color1 30%, $color2 100%);
-
-    .downloads-container svg {
-        fill: $primaryColorTrans;
-        stroke: $primaryColorTrans;
+    div.timeline-container-component:nth-child(2) div.full-circle {
+        left: 180px;
+        right: unset;
+        background-image: linear-gradient(225deg, #e53e3e, #feb2b2);
     }
-
-    $backgroundImage="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAJUlEQVQoU2NkYGAwZmBgOMtAADASkIcbQkgh3JwRpxAcRET7GgAV+gMLEiMsLQAAAABJRU5ErkJggg==";
-
-    // landing-page-download-section
-    .downloads-container {
-
-        div.platform {
-            margin-bottom: 0px !important;
-        }
-
-        button.download-enabled,
-        span.coming-soon {
-            background: $gradient;
-        }
-
-        h1 {
-            color: $darkColor !important;
-            background: $gradient;
-        }
-
-        button.download-enabled,
-        button.download-enabled span.platform-distro,
-        .other-downloads span,
-        span.coming-soon,
-        .other-downloads-heading {
-            color: $darkColor !important;
-        }
-
-        a {
-            color: $color1;
-        }
-
-        img.download-svg {
-            display: none;
-        }
-
-        h3 {
-
-            background: $gradient;
-
-            a {
-                color: $darkColor;
-            }
-        }
-    }
-
-    .hero-features-component {
-        margin-top: 50px;
-
-        h1 {
-            background: $gradient;
-            color: $darkColor;
-        }
-
-        .feature {
-            background: $gradient;
-
-            h1,
-            h3,
-            .svg,
-            p {
-                color: $darkColor;
-            }
-        }
+    
+    div.timeline-container-component:nth-child(2) div.small-full-circle {
+        left: 300px;
+        right: unset;
+        background-image: linear-gradient(72deg, #4c51bf, #667eea);
     }
 }

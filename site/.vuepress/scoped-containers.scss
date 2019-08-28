@@ -25,6 +25,10 @@
     position: relative;
     width: 100%;
     margin-bottom: 50px;
+
+    .social-icon svg {
+        fill: #ffffff !important;
+    }
 }
 
 .hero-features-component {
