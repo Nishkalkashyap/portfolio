@@ -54,7 +54,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-    color: #ffffff;
+    color: var(--text-color);
     text-align: center;
     position: relative;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -85,7 +85,7 @@ export default {
     // background: var(--background);
     font-family: var(--heading-font-family);
     text-shadow: none;
-    color: #ffffff;
+    color: var(--text-color);
     background: linear-gradient(225deg, #9ae6b4, #48bb78);
 }
 
