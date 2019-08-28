@@ -160,7 +160,8 @@ async function updatePrimaryColor() {
 
     //manifest json color
     const manifest = fs.readJsonSync(manifestFilePath);
-    manifest.theme_color = accentColor;
+    // manifest.theme_color = accentColor;
+    manifest.theme_color = '#141821';
     fs.writeFileSync(manifestFilePath, JSON.stringify(manifest, undefined, 4));
 
     function getRandomColor(): string {
