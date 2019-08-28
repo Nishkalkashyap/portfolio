@@ -33,12 +33,8 @@ div.butt {
   border-radius: 5px;
   line-height:40px;
 
-  box-shadow: rgba(52, 152, 219, 0.3) 0px 10px 15px;
-  background-image: linear-gradient(
-    30deg,
-    rgb(90, 189, 255) 0%,
-    rgb(71, 104, 180) 100%
-  );
+  box-shadow: var(--gradient-shadow) 0px 10px 15px;
+  background-image: var(--gradient);
   transition: all 0.3s ease-in-out;
 }
 
