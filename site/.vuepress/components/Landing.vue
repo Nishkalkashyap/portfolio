@@ -4,6 +4,7 @@
 
     <Timeline
       heading="About"
+      id="about"
       content="
       I'm a Mechanical Engineer developing new technologies, building things, blogging, promoting sustainability, and heralding entrepreneurship.
       I am particularly fascinated with multi-desciplinary engineering.

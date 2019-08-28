@@ -25,9 +25,9 @@
             <div class="icons">
                 <SocialIcons />
             </div>
-            <div class="learn-more">
+            <a class="learn-more" href="#about">
                 <span>More about Nishkal</span>
-            </div>
+            </a>
         </div>
     </div>
     <SWUpdatePopup :updateEvent="swUpdateEvent" />
@@ -103,6 +103,7 @@ export default {
     // background: var(--background);
     font-family: var(--heading-font-family);
     text-shadow: none;
+    color: #ffffff;
     background: linear-gradient(225deg, #9ae6b4, #48bb78);
 }
 
