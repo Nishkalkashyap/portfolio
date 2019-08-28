@@ -3,6 +3,7 @@
     <heroTop />
 
     <Timeline
+      timeline="September 22, 1996 - Present - 22 years old"
       heading="About"
       id="about"
       content="
@@ -124,7 +125,7 @@
             autoplay
             loop
             name="media"
-            poster="~@buildAssets/pictures/dr17-9.jpg"
+            poster="~@buildAssets/pictures/dr17-11.jpg"
             crossorigin="anonymous"
             class="image-transition slide"
           >
@@ -135,7 +136,7 @@
             autoplay
             loop
             name="media"
-            poster="~@buildAssets/pictures/dr17-9.jpg"
+            poster="~@buildAssets/pictures/dr17-11.jpg"
             crossorigin="anonymous"
             class="image-transition slide"
           >
