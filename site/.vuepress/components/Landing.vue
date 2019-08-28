@@ -3,6 +3,18 @@
     <heroTop />
 
     <Timeline
+      heading="About"
+      content="
+      I'm a Mechanical Engineer developing new technologies, building things, blogging, promoting sustainability, and heralding entrepreneurship.
+      I am particularly fascinated with multi-desciplinary engineering.
+      To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering, mechanics, electronics, web development and software engineering.
+      Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
+      I believe that creative engineering is indistinguishable from fine artwork.
+      "
+    >
+    </Timeline>
+
+    <Timeline
       timeline="2018 - Present"
       heading="Quark"
       content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received "
