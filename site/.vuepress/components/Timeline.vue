@@ -76,8 +76,7 @@ export default {
         border-radius: var(--border-radius);
         padding: 60px 60px;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-        // background-image: linear-gradient(72deg, #4c51bf, #667eea);
-        background-image: linear-gradient(30deg, rgb(90, 189, 255) 0%, rgb(71, 104, 180) 100%);
+        background-image: var(--gradient);
         z-index: 1;
         position: relative;
 

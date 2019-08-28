@@ -3,6 +3,9 @@
     --text-color: #ffffff;
     --text-color--light: #dddddd;
 
+    // --gradient: linear-gradient(30deg, rgb(90, 189, 255) 0%, rgb(71, 104, 180) 100%);
+    --gradient: linear-gradient(72deg, #4c51bf, #667eea);
+
     // --background: #ffffff;
     // --text-color: #141821;
     // --text-color--light: #1a202c;
@@ -92,7 +95,7 @@
         right: unset;
         background-image: linear-gradient(225deg, #e53e3e, #feb2b2);
     }
-    
+
     div.timeline-container-component:nth-child(2) div.small-full-circle {
         left: 300px;
         right: unset;
