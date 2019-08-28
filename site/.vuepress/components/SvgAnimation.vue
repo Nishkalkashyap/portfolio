@@ -35,7 +35,8 @@ path {
     // fill: rgb(240, 240, 240);
     fill: var(--background);
     width: 100%;
-    animation: 25s linear 0s infinite alternate none running MyAnimation;
+    animation: 7s linear 0s infinite alternate none running MyAnimation;
+    // animation: 25s linear 0s infinite alternate none running MyAnimation;
 }
 
 @keyframes MyAnimation {
