@@ -8,14 +8,18 @@
                 <h2 class="pre-text">And I am</h2>
                 <h2 class="rotator" style="animation-delay:0s">a blogger</h2>
                 <h2 class="rotator" style="animation-delay:1.8s">a mechanical engineer</h2>
-                <h2 class="rotator" style="animation-delay:3.6s">a software developer</h2>
+                <h2 class="rotator" style="animation-delay:3.6s">a full-stack developer</h2>
                 <h2 class="rotator" style="animation-delay:5.4s">doing multidesciplinary engineering</h2>
                 <h2 class="rotator" style="animation-delay:7.2s">all round smarty pants</h2>
                 <h2 class="rotator" style="animation-delay:9s">building things</h2>
             </div>
             <div class="text-content">
                 <p>
-                    I'm creating noice web experiences for the next generation of consumer-facing companies
+                    I'm a Mechanical Engineer developing new technologies, building things, blogging, promoting sustainability, and heralding entrepreneurship. 
+                    I am particularly fascinated with multi-desciplinary engineering.
+                    To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering, mechanics, electronics, web development and software engineering.
+                    Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
+                    I believe that creative engineering is indistinguishable from fine artwork. 
                 </p>
             </div>
         </div>
@@ -91,6 +95,11 @@ export default {
     text-align: center;
     width: 100%;
     height: 30px;
+}
+
+.text-content {
+    max-width: 800px;
+    margin: 0px 20px;
 }
 
 .pre-text {
