@@ -133,7 +133,9 @@ module.exports = {
                 "daq.md",
                 "steering-wheel.md"
             ],
-            "/software/": []
+            "/software/": [
+                "quark.md"
+            ]
         }
     },
     configureWebpack: (config) => {
