@@ -24,11 +24,9 @@ function addAnalytics(router, GA_ID) {
 
         ga('create', GA_ID, 'auto');
         ga('set', 'anonymizeIp', true);
-        ga('send', 'pageview');
 
         router.afterEach(function (to) {
-            ga('set', 'page', to.fullPath);
-            ga('send', 'pageview');
+            ga('send', 'pageview', to.fullPath);
         });
     }
 }
