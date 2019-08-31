@@ -3,7 +3,7 @@
     <heroTop />
 
     <Timeline
-      timeline="September 22, 1996 - Present - 22 years old"
+      timeline="Born - September 22, 1996 - 22 years old"
       heading="Here's what I'm all about"
       id="about"
       content="

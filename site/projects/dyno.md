@@ -13,7 +13,7 @@ pageClass: small-heading-page
 
 [[toc]]
 
-## DESIGN GOALS
+## Design goals
 1. To evaluate the characteristics of the KTM 500 EXC engine by
 measuring the power and torque at the crank of the engine.
 2. To acquire, analyse and apply the output characteristics of the
@@ -21,7 +21,7 @@ engine in further optimizations and calculations like engine
 performance, intake-exhaust simulations, fuel consumption
 calculations, etc.
 
-## CALCULATIONS
+## Calculations
 KEY
 * PE/1 = Instantaneous Power of Engine
 * τE/1 = Instantaneous torque of Engine
@@ -45,13 +45,13 @@ PE/1 = τE/1× ΩS1/1
 
 Hence αS1 is also known. 
 
-## COMPONENTS USED:
+## Components Used:
 1. CAM position sensor
 2. Engine test bench
 3. Arduino
 
 
-## DESIGN PROCESS
+## Design Process
 
 ![](~@buildAssets/pictures/dyno-1.jpg =450x)
 
