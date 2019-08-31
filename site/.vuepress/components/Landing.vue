@@ -313,6 +313,7 @@
         <img slot="image" src="~@buildAssets/pictures/radiator-4.jpg" class="section-slot" />
       </heroSection>
     </Timeline>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -321,12 +322,14 @@ import heroSection from "./landing-components/hero-section";
 import heroTop from "./landing-components/hero-top-new";
 import floaters from "./landing-components/floaters";
 import heroFeatures from "./landing-components/hero-features";
+import Footer from "./landing-components/footer";
 export default {
   components: {
     heroSection,
     heroTop,
     floaters,
-    heroFeatures
+    heroFeatures,
+    Footer
   },
   data: () => {
     return {
