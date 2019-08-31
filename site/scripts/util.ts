@@ -48,6 +48,7 @@ export type IFrontmatterData = {
 
 export type Frontmatter = {
     author: string;
+    category: 'software' | 'mechanical' | 'electronics';
     tags: string[];
     description: string;
     cover: string;

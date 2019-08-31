@@ -1,6 +1,7 @@
 ---
 description : 'Design and development of a variable geometry intake manifold'
 author : nishkal
+category: 'mechanical'
 tags : ['guide']
 cover : '~@buildAssets/pictures/vgim-13.jpg'
 pageClass: small-heading-page

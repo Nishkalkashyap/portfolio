@@ -1,6 +1,7 @@
 ---
 description : 'A javascript runtime and an integrated developement environment'
 author : nishkal
+category: 'software'
 tags : ['guide']
 cover : '~@buildAssets/pictures/hello-world-intro.png'
 video : '~@buildAssets/pictures/hello-world-intro.mp4'

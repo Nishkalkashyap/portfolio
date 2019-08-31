@@ -1,6 +1,7 @@
 ---
 description : 'Design and development of a telemetry cum data acquisition system'
 author : nishkal
+category: 'electronics'
 tags : ['guide']
 cover : '~@buildAssets/pictures/daq-1.jpg'
 video : '~@buildAssets/pictures/daq.mp4'

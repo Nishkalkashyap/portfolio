@@ -1,6 +1,7 @@
 ---
 description : 'Design and development of a radiator'
 author : nishkal
+category: 'mechanical'
 tags : ['guide']
 cover : '~@buildAssets/pictures/radiator-4.jpg'
 pageClass: small-heading-page

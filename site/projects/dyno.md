@@ -1,6 +1,7 @@
 ---
 description : 'Design and development of a combustion powertrain dynamometer'
 author : nishkal
+category: 'mechanical'
 tags : ['guide']
 cover : '~@buildAssets/pictures/dyno-6.png'
 pageClass: small-heading-page
