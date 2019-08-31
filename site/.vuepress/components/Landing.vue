@@ -4,11 +4,11 @@
 
     <Timeline
       timeline="September 22, 1996 - Present - 22 years old"
-      heading="About"
+      heading="Here's what I'm all about"
       id="about"
       content="
       I'm a Mechanical Engineer developing new technologies, building things, blogging, promoting sustainability, and heralding entrepreneurship.
-      I am particularly fascinated with multi-desciplinary engineering.
+      I am particularly fascinated with multi-disciplinary engineering.
       To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering, mechanics, electronics, web development and software engineering.
       Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
       I believe that creative engineering is indistinguishable from fine artwork.
