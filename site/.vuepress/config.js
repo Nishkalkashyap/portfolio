@@ -68,18 +68,6 @@ module.exports = {
             updatePopup: true
         },
         nav: [
-            // {
-            //     text: 'Mechanical',
-            //     link: '/mechanical/'
-            // },
-            // {
-            //     text: 'Electronics',
-            //     link: '/electronics/'
-            // },
-            // {
-            //     text: 'Software',
-            //     link: '/software/'
-            // },
             {
                 text: 'Projects',
                 link: '/projects/'
@@ -96,21 +84,21 @@ module.exports = {
             {
                 text: 'Links',
                 items: [{
-                        text: 'GitHub',
-                        link: 'https://github.com/Nishkalkashyap'
-                    },
-                    {
-                        text: 'Twitter',
-                        link: 'https://twitter.com/nishkalkashyap'
-                    },
-                    {
-                        text: 'Instagram',
-                        link: 'https://www.instagram.com/nishkalkashyap/'
-                    },
-                    {
-                        text: 'Quark',
-                        link: 'https://quarkjs.io'
-                    }
+                    text: 'GitHub',
+                    link: 'https://github.com/Nishkalkashyap'
+                },
+                {
+                    text: 'Twitter',
+                    link: 'https://twitter.com/nishkalkashyap'
+                },
+                {
+                    text: 'Instagram',
+                    link: 'https://www.instagram.com/nishkalkashyap/'
+                },
+                {
+                    text: 'Quark',
+                    link: 'https://quarkjs.io'
+                }
                 ]
             }
         ],
