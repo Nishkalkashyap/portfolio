@@ -67,8 +67,7 @@ module.exports = {
         serviceWorker: {
             updatePopup: true
         },
-        nav: [
-            {
+        nav: [{
                 text: 'Projects',
                 link: '/projects/'
             },
@@ -84,21 +83,21 @@ module.exports = {
             {
                 text: 'Links',
                 items: [{
-                    text: 'GitHub',
-                    link: 'https://github.com/Nishkalkashyap'
-                },
-                {
-                    text: 'Twitter',
-                    link: 'https://twitter.com/nishkalkashyap'
-                },
-                {
-                    text: 'Instagram',
-                    link: 'https://www.instagram.com/nishkalkashyap/'
-                },
-                {
-                    text: 'Quark',
-                    link: 'https://quarkjs.io'
-                }
+                        text: 'GitHub',
+                        link: 'https://github.com/Nishkalkashyap'
+                    },
+                    {
+                        text: 'Twitter',
+                        link: 'https://twitter.com/nishkalkashyap'
+                    },
+                    {
+                        text: 'Instagram',
+                        link: 'https://www.instagram.com/nishkalkashyap/'
+                    },
+                    {
+                        text: 'Quark',
+                        link: 'https://quarkjs.io'
+                    }
                 ]
             }
         ],
@@ -115,15 +114,16 @@ module.exports = {
                 "typescript.md"
             ],
             "/projects/": [
-                "daq.md",
                 "dr16.md",
                 "dr17.md",
-                "dyno.md",
-                "quark.md",
-                "radiator-design.md",
+                "daq.md",
                 "steering-wheel.md",
+                "quark.md",
+                "dyno.md",
+                "radiator-design.md",
                 "vgim.md"
-            ]
+            ],
+            "/all/": []
         }
     },
     configureWebpack: (config) => {
