@@ -45,8 +45,8 @@
       <heroSection
         side="right"
         index="2"
-        heading="IDE and Runtime"
-        upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
+        heading="Featured"
+        upper="Since announcement, has been featured in 50 publications."
         lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
       >
         <video
@@ -317,14 +317,12 @@
 </template>
 
 <script>
-import companyLogos from "./landing-components/companyLogos";
 import heroSection from "./landing-components/hero-section";
 import heroTop from "./landing-components/hero-top-new";
 import floaters from "./landing-components/floaters";
 import heroFeatures from "./landing-components/hero-features";
 export default {
   components: {
-    companyLogos,
     heroSection,
     heroTop,
     floaters,

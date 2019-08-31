@@ -68,55 +68,54 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-            text: 'All Projects',
-            link: '/projects/'
-        },
-        // {
-        //     text: 'Tags',
-        //     items: Object.keys(AllTags).map((tag) => {
-        //         return {
-        //             text: tag,
-        //             link: `/tags/${tag}.html`
-        //         }
-        //     })
-        // },
-        {
-            text: 'Categories',
-            items: [
-                {
-                    text: 'Mechanical',
-                    link: '/categories/mechanical.html'
-                },
-                {
-                    text: 'Electronics',
-                    link: '/categories/electronics.html'
-                },
-                {
-                    text: 'Software',
-                    link: '/categories/software.html'
-                },
-            ]
-        },
-        {
-            text: 'Links',
-            items: [{
-                text: 'GitHub',
-                link: 'https://github.com/Nishkalkashyap'
+                text: 'All Projects',
+                link: '/projects/'
+            },
+            // {
+            //     text: 'Tags',
+            //     items: Object.keys(AllTags).map((tag) => {
+            //         return {
+            //             text: tag,
+            //             link: `/tags/${tag}.html`
+            //         }
+            //     })
+            // },
+            {
+                text: 'Categories',
+                items: [{
+                        text: 'Mechanical',
+                        link: '/categories/mechanical.html'
+                    },
+                    {
+                        text: 'Electronics',
+                        link: '/categories/electronics.html'
+                    },
+                    {
+                        text: 'Software',
+                        link: '/categories/software.html'
+                    },
+                ]
             },
             {
-                text: 'Twitter',
-                link: 'https://twitter.com/nishkalkashyap'
-            },
-            {
-                text: 'Instagram',
-                link: 'https://www.instagram.com/nishkalkashyap/'
-            },
-            {
-                text: 'Quark',
-                link: 'https://quarkjs.io'
+                text: 'Links',
+                items: [{
+                        text: 'GitHub',
+                        link: 'https://github.com/Nishkalkashyap'
+                    },
+                    {
+                        text: 'Twitter',
+                        link: 'https://twitter.com/nishkalkashyap'
+                    },
+                    {
+                        text: 'Instagram',
+                        link: 'https://www.instagram.com/nishkalkashyap/'
+                    },
+                    {
+                        text: 'Quark',
+                        link: 'https://quarkjs.io'
+                    }
+                ]
             }
-            ]
-        }
         ],
         sidebar: {
             "/tags/": [
