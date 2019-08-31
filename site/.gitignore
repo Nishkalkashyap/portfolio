@@ -92,6 +92,7 @@ guide/README.md
 references/README.md
 structures/README.md
 all/README.md
+categories
 
 .vuepress/public/g-images/
 cloud-storage-key.json

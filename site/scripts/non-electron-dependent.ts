@@ -3,24 +3,74 @@ import * as Path from 'path';
 import * as recc from 'recursive-readdir';
 import { AllTags } from './types';
 import { themeConfig } from '../.vuepress/config';
-import { IFrontmatterData, getFrontmatterFromPath, capitalize, randomIntFromInterval, reccursiveIgnoreFunction, Frontmatter } from './util';
+import { IFrontmatterData, getFrontmatterFromPath, capitalize, reccursiveIgnoreFunction, Frontmatter } from './util';
 import * as sharp from 'sharp';
 
 var beautify = require('js-beautify').js;
 
-const sidebars = ['tags', 'projects'].filter((val) => fs.existsSync(val));
-const readmefiles = ['projects'].filter((val) => fs.existsSync(val));
+const sidebars = ['tags', 'projects', 'categories'].filter((val) => fs.existsSync(val));
+const readmefiles = ['projects', 'categories'].filter((val) => fs.existsSync(val));
 
 const TAGS_BASE_PATH = './tags';
+const CATEGORIES_BASE_PATH = './categories';
 
 (async () => {
     await createTagsDirectory();
+    await createCategoriesDirectory();
     createSidebars(sidebars);
     createReadmeFiles(readmefiles);
     await updatePrimaryColor();
     generateAllDocsPage();
     await createRoutes();
 })().catch(console.error);
+
+async function createCategoriesDirectory() {
+    fs.ensureDirSync(TAGS_BASE_PATH);
+
+    const frontmatterData: IFrontmatterData[] = [];
+    (await recc(Path.join('./'), ['README.md', reccursiveIgnoreFunction])).map((file) => {
+        frontmatterData.push({
+            path: file,
+            frontmatter: getFrontmatterFromPath(file)
+        });
+    });
+
+
+    const mechanicalFiles = frontmatterData.filter((val) => val.frontmatter.category == 'mechanical');
+    const electronicsFiles = frontmatterData.filter((val) => val.frontmatter.category == 'electronics');
+    const softwareFiles = frontmatterData.filter((val) => val.frontmatter.category == 'software');
+
+    makeCategoryFile(mechanicalFiles);
+    makeCategoryFile(electronicsFiles);
+    makeCategoryFile(softwareFiles);
+
+
+    function makeCategoryFile(data: IFrontmatterData[]) {
+        if (!data.length) {
+            return;
+        }
+
+        const category = caps(data[0].frontmatter.category);
+
+        let str = '';
+        str = str.concat('---', '\n',
+            'pageClass : sidebar-metacard-container', '\n',
+            // `description : ${AllTags[tag].description}`, '\n',
+            `title : ${category}`, '\n',
+            '---', '\n\n');
+        // str = str.concat(`<Tag name="${capitalize(category)}" />`, '\n\n');
+        str = str.concat(`# ${capitalize(category)}`, '\n\n');
+        str = str.concat(`<Header />`, '\n\n');
+        str = str.concat('<div class="tags-container">', '\n\n');
+        data.map((file) => {
+            str = str.concat(getCardFromFrontmatter(Object.assign(file.frontmatter, { path: file.path })));
+        });
+        str = str.concat('</div>', '\n');
+        const filename = Path.join(CATEGORIES_BASE_PATH, category + '.md').toLowerCase();
+        fs.ensureFileSync(filename);
+        fs.writeFileSync(filename, str);
+    }
+}
 
 
 async function createTagsDirectory() {
@@ -157,25 +207,10 @@ async function updatePrimaryColor() {
         .toBuffer();
     fs.writeFileSync(pngFilePath, imageBuffer);
 
-
     //manifest json color
     const manifest = fs.readJsonSync(manifestFilePath);
-    // manifest.theme_color = accentColor;
     manifest.theme_color = '#141821';
     fs.writeFileSync(manifestFilePath, JSON.stringify(manifest, undefined, 4));
-
-    function getRandomColor(): string {
-        const arr = [
-            '#ff5252',
-            '#3880ff',
-            '#3b5bdb',
-            '#ffce00',
-            '#09c372',
-            '#fa7c3b',
-            '#5851ff'
-        ];
-        return arr[randomIntFromInterval(0, 6)]
-    }
 }
 
 function createSidebars(paths: string[]) {
@@ -203,7 +238,7 @@ function createSidebars(paths: string[]) {
 function generateAllDocsPage() {
 
     const folders = sidebars.filter((val) => {
-        return !val.match(/(tags|FAQ|all)/);
+        return !val.match(/(tags|all)/);
     });
 
     let str = ``;

@@ -123,6 +123,11 @@ module.exports = {
                 "radiator-design.md",
                 "vgim.md"
             ],
+            "/categories/": [
+                "mechanical.md",
+                "electronics.md",
+                "software.md"
+            ],
             "/all/": []
         }
     },
