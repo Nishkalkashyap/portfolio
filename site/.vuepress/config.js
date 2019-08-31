@@ -67,17 +67,22 @@ module.exports = {
         serviceWorker: {
             updatePopup: true
         },
-        nav: [{
-                text: 'Mechanical',
-                link: '/mechanical/'
-            },
+        nav: [
+            // {
+            //     text: 'Mechanical',
+            //     link: '/mechanical/'
+            // },
+            // {
+            //     text: 'Electronics',
+            //     link: '/electronics/'
+            // },
+            // {
+            //     text: 'Software',
+            //     link: '/software/'
+            // },
             {
-                text: 'Electronics',
-                link: '/electronics/'
-            },
-            {
-                text: 'Software',
-                link: '/software/'
+                text: 'Projects',
+                link: '/projects/'
             },
             // {
             //     text: 'Tags',
@@ -121,19 +126,15 @@ module.exports = {
                 "structures.md",
                 "typescript.md"
             ],
-            "/mechanical/": [
-                "dr16.md",
-                "radiator-design.md",
-                "dyno.md",
-                "vgim.md",
-                "dr17.md"
-            ],
-            "/electronics/": [
+            "/projects/": [
                 "daq.md",
-                "steering-wheel.md"
-            ],
-            "/software/": [
-                "quark.md"
+                "dr16.md",
+                "dr17.md",
+                "dyno.md",
+                "quark.md",
+                "radiator-design.md",
+                "steering-wheel.md",
+                "vgim.md"
             ]
         }
     },
