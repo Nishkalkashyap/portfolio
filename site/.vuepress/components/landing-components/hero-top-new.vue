@@ -24,7 +24,6 @@
             </a>
         </div>
     </div>
-    <SWUpdatePopup :updateEvent="swUpdateEvent" />
 </div>
 </template>
 
@@ -36,24 +35,15 @@ import moment from "moment";
 export default {
     components: {
         SvgAnimation,
-        floaters,
-        SWUpdatePopup
+        floaters
     },
     data() {
         const date = this.getDate();
         return {
-            swUpdateEvent: null,
             ...date
         };
     },
-    mounted() {
-        this.$on("sw-updated", this.onSWUpdated);
-    },
     methods: {
-        onSWUpdated(e) {
-            console.log(`Service Worker Updated`);
-            this.swUpdateEvent = e;
-        },
         getDate() {
             const now = moment().format("L");
             const bday = moment("19960922", "YYYYMMDD").format("L");

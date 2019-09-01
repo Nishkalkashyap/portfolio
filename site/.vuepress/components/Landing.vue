@@ -157,6 +157,7 @@
         </heroSection>
     </Timeline>
     <Footer></Footer>
+    <SWUpdatePopup :updateEvent="swUpdateEvent" />
 </div>
 </template>
 
@@ -166,13 +167,15 @@ import heroTop from "./landing-components/hero-top-new";
 import floaters from "./landing-components/floaters";
 import heroFeatures from "./landing-components/hero-features";
 import Footer from "./landing-components/footer";
+import SWUpdatePopup from "@default-theme/SWUpdatePopup";
 export default {
     components: {
         heroSection,
         heroTop,
         floaters,
         heroFeatures,
-        Footer
+        Footer,
+        SWUpdatePopup
     },
     data: () => {
         return {
