@@ -68,7 +68,7 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-                text: 'All Projects',
+                text: 'Major Projects',
                 link: '/projects/'
             },
             // {

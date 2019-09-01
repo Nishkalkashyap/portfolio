@@ -30,7 +30,7 @@
             </video>
         </heroSection>
 
-        <heroSection side="right" index="2" flare="Quark IDE,Features" heading="Features" content="
+        <heroSection side="right" index="2" flare="Tech Stack: Electron.js,Angular 7,Node.js,Webpack" heading="Features" content="
         Quark IDE is built on the top of the same code editor as of Microsoft's Visual Studio Code (VSCode).
         This means Quark has out of the box support for things like intelligent code completions,'go to definitions', 'replace occurrences' e.t.c
         <br/>
@@ -49,8 +49,13 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="3" heading="Quark App store" content="
-        Currently under active development. Quark appstore is a full-fledged application sharing platform
+        <heroSection side="left" index="3" flare="Tech Stack: React.js,Firebase,Firestore Database,Cloud Functions" heading="Quark App store" content="
+        Currently under active development. <a target='_blank' href='https://dash.quarkjs.io'>Quark appstore</a> 
+        is a full-fledged application sharing platform.
+        <br/>
+        <br/>
+        Users will be able to create, share, download and monetize applications on Quark app store.
+        The aim of the app store is to help open-source developers to build and monetize their creations.
         ">
             <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
