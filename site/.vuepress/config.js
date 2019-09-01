@@ -4,6 +4,7 @@ const manifest = require('./../.vuepress/public/pwa/manifest.json');
 var CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 var ImageminPlugin = require('imagemin-webpack-plugin').default;
 var imageminMozjpeg = require('imagemin-mozjpeg');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
     title: 'Portfolio',
@@ -151,6 +152,7 @@ module.exports = {
     configureWebpack: (config) => {
         const inlineLimit = 100000000; //10 kb
 
+        config.resolve.alias['moment'] = 'moment/src/moment';
 
         config.resolve.alias['@public'] = path.resolve('./.vuepress/public');
         config.resolve.alias['@vuepress'] = path.resolve('./.vuepress');
@@ -177,6 +179,10 @@ module.exports = {
                 })
             ]
         }));
+
+        if (process.env.NODE_ENV !== 'production') {
+            config.plugins.push(new BundleAnalyzerPlugin());
+        }
         // imageminMozjpeg
         // 10.8 - 50%
         // 10.2 - 30%

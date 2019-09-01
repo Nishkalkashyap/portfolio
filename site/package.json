@@ -56,7 +56,8 @@
     "table": "^5.2.3",
     "vuepress": "^0.14.11",
     "vuesax": "^3.8.35",
-    "vuetify": "^1.4.4"
+    "vuetify": "^1.4.4",
+    "webpack-bundle-analyzer": "^3.4.1"
   },
   "dependencies": {
     "@google-cloud/storage": "^2.5.0",
