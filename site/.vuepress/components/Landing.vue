@@ -62,10 +62,15 @@
             </video>
         </heroSection>
 
-        <heroSection side="right" index="4" heading="DevOps" content="Continuous integration and deployment, app distribution channel, end-to-end testing.">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
-                <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
-            </video>
+        <heroSection side="right" index="4" flare="Tech Stack: Vue.js,Travis CI,Firebase,Digital Ocean,Cloud Functions" heading="Quark documentation, DevOps and E2E testing" content="
+        Continuous integration and deployment, app distribution channel, end-to-end testing.
+        ">
+            <CustomAgile slot="image" class="section-slot">
+                <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot">
+                    <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+                </video>
+                <img src="~@buildAssets/pictures/quark-1.jpg" class="slide" />
+            </CustomAgile>
         </heroSection>
     </Timeline>
 
