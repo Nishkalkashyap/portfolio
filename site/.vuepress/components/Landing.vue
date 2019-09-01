@@ -29,7 +29,7 @@
       <heroSection
         side="left"
         index="1"
-        heading="Quark - A framework to build cross-platform desktop applications"
+        heading="Build cross-platform desktop applications"
         upper="Been building Quark since ..."
         lower="We provide you with all the tools and a canvas to help you make your art."
       >
@@ -38,12 +38,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/pictures/system-monitor.png"
+          poster="~@buildAssets/pictures/hello-world-intro.png"
           crossorigin="anonymous"
           class="image-transition section-slot"
           slot="image"
         >
-          <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 
@@ -59,12 +59,12 @@
           autoplay
           loop
           name="media"
-          poster="~@buildAssets/pictures/hello-world-intro.png"
+          poster="~@buildAssets/pictures/system-monitor.png"
           crossorigin="anonymous"
           class="image-transition section-slot"
           slot="image"
         >
-          <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+          <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
         </video>
       </heroSection>
 

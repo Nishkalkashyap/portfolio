@@ -7,8 +7,7 @@
               <span>{{flares}}</span>
           </div>
           <h3>{{heading}}</h3>
-          <p v-html="upper"></p>
-          <p v-html="lower"></p>
+          <p v-html="content"></p>
           <router-link v-if="learnMoreLink" :to="(learnMoreLink || '/mechanical/')">Learn more</router-link>
         </div>
         <div class="video-container">
@@ -28,8 +27,7 @@ export default {
   props: [
     "side",
     "heading",
-    "upper",
-    "lower",
+    "content",
     "image",
     "learnMoreLink",
     "index",
