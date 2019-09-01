@@ -13,7 +13,8 @@
                 <h2 class="rotator" style="animation-delay:7.2s">all round smarty pants</h2>
                 <h2 class="rotator" style="animation-delay:9s">building things</h2>
                 <!-- <h2 class="rotator" style="animation-delay:10.8s">{{this.final_year}}years {{this.final_month}}months {{this.final_day}}days old</h2> -->
-                <h2 class="rotator" style="animation-delay:10.8s">{{this.final_year}}years and {{this.final_month}}months old</h2>
+                <!-- <h2 class="rotator" style="animation-delay:10.8s">{{this.final_year}}years and {{this.final_month}}months old</h2> -->
+                <h2 class="rotator" style="animation-delay:10.8s">{{this.final_year}} years old</h2>
             </div>
             <div class="icons">
                 <SocialIcons />

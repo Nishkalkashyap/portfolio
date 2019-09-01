@@ -7,7 +7,7 @@
             <div class="meta-card">
                 <span>{{timeline}}</span>
                 <h2>{{heading}}</h2>
-                <p>{{content}}</p>
+                <p v-html="content"></p>
             </div>
         </div>
         <slot></slot>
@@ -90,8 +90,12 @@ export default {
 
         p {
             color: $color;
-            font-size: 18px;
+            // font-size: 18px;
+            font-size: 16px;
             text-shadow: none;
+
+            // text-align: justify;
+            // text-justify: distribute-all-lines;
         }
 
         h2 {

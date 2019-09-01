@@ -13,13 +13,18 @@
       Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
       I believe that creative engineering is indistinguishable from fine artwork.
       "
-    >
-    </Timeline>
+    ></Timeline>
 
     <Timeline
       timeline="2018 - Present"
       heading="Quark"
-      content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received "
+      content="
+      I started this project while I was persuing my degree in mechanical engineering
+      and got really frustrated with the fact that there were hardly any tools on the software side that would make my life easier,
+      just to do simple things like plot scientific charts, IoT development, create dashboards etc.
+      <br/><br/> 
+      After realizing the commercial potential of a project like this, I decided to build this software tool myself.
+      "
     >
       <heroSection
         side="left"
