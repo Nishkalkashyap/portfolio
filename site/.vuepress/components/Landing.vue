@@ -30,8 +30,7 @@
         side="left"
         index="1"
         heading="Build cross-platform desktop applications"
-        upper="Been building Quark since ..."
-        lower="We provide you with all the tools and a canvas to help you make your art."
+        content="Been building Quark since ..."
       >
         <video
           muted
@@ -51,8 +50,10 @@
         side="right"
         index="2"
         heading="Featured"
-        upper="Since announcement, has been featured in 50 publications."
-        lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
+        content="
+        Since announcement, has been featured in 50 publications.
+        <strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share.
+        "
       >
         <video
           muted
@@ -72,8 +73,7 @@
         side="left"
         index="3"
         heading="Quark App store"
-        upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
-        lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
+        content="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
       >
         <video
           muted
@@ -93,8 +93,7 @@
         side="right"
         index="4"
         heading="DevOps"
-        upper="Continous integration and deployement, app distribution channel, end-to-end testing."
-        lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
+        content="Continous integration and deployement, app distribution channel, end-to-end testing."
       >
         <video
           muted
@@ -120,8 +119,7 @@
         side="left"
         index="1"
         heading="Formula Student India, January 2018"
-        upper="Been building Quark since ..."
-        lower="We provide you with all the tools and a canvas to help you make your art."
+        content="Been building Quark since ..."
         flare="Competition,January 2018,India"
       >
         <CustomAgile slot="image" class="section-slot">
@@ -159,8 +157,7 @@
         side="right"
         index="2"
         heading="Formula Student UK, July 2017"
-        upper="Been building Quark since ..."
-        lower="We provide you with all the tools and a canvas to help you make your art."
+        content="Been building Quark since ..."
         flare="Competition,July 2017,United Kingdom"
       >
         <CustomAgile slot="image" class="section-slot">
@@ -188,8 +185,7 @@
         side="left"
         index="3"
         heading="Electronic steering wheel"
-        upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
-        lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
+        content="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
       >
         <video
           muted
@@ -209,8 +205,7 @@
         side="right"
         index="4"
         heading="Data Logger"
-        upper="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
-        lower="<strong>Quark development environment</strong> is designed from ground up, for rapid prototyping and development of projects. This means that projects built with Quark are quick to setup, build and share."
+        content="On the left you see the Quark IDE, on the right is an application built on the Quark IDE."
       >
         <video
           muted
@@ -230,8 +225,7 @@
         side="left"
         index="5"
         heading="Dynamometer"
-        upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
-        lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
+        content="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
         learnMoreLink="/mechanical/dyno.html"
       >
         <CustomAgile slot="image" class="section-slot">
@@ -248,8 +242,7 @@
         side="right"
         index="6"
         heading="Variable geometry intake manifold"
-        upper="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
-        lower="This means, that you have access to all of the Node.js and Electron's renderer process API's in your sketch."
+        content="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches."
         learnMoreLink="/mechanical/vgim.html"
         flare="Research Paper,Thesis"
       >
@@ -270,8 +263,7 @@
         side="left"
         index="1"
         heading="Formula Student UK, July 2016"
-        upper="Been building Quark since ..."
-        lower="We provide you with all the tools and a canvas to help you make your art."
+        content="Been building Quark since ..."
         flare="Competition,July 2016,United Kingdom"
       >
         <CustomAgile slot="image" class="section-slot">
@@ -295,8 +287,7 @@
         side="right"
         index="2"
         heading="Formula Student India, January 2016"
-        upper="Been building Quark since ..."
-        lower="We provide you with all the tools and a canvas to help you make your art."
+        content="Been building Quark since ..."
         flare="Competition,January 2016,India"
       >
         <CustomAgile slot="image" class="section-slot">
@@ -311,8 +302,7 @@
         side="left"
         index="3"
         heading="Radiator design"
-        upper="Been building Quark since ..."
-        lower="We provide you with all the tools and a canvas to help you make your art."
+        content="Been building Quark since ..."
         flare="Competition,January 2016,India"
       >
         <img slot="image" src="~@buildAssets/pictures/radiator-4.jpg" class="section-slot" />
