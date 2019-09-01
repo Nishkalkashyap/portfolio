@@ -2,7 +2,8 @@ const path = require('path');
 const AllTags = require('./../scripts/types').AllTags;
 const manifest = require('./../.vuepress/public/pwa/manifest.json');
 var CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
-var ImageminPlugin = require('imagemin-webpack-plugin').default
+var ImageminPlugin = require('imagemin-webpack-plugin').default;
+var imageminMozjpeg = require('imagemin-mozjpeg');
 
 module.exports = {
     title: 'Portfolio',
@@ -158,26 +159,27 @@ module.exports = {
         config.plugins.push(new CaseSensitivePathsPlugin({
             debug: false
         }));
-        // config.plugins.push(new ImageminPlugin({
-        //     disable: process.env.NODE_ENV !== 'production', // Disable during development
-        //     // optipng: {
-        //     //     optimizationLevel: 9
-        //     // },
-        //     gifsicle: {
-        //         optimizationLevel: 9,
-        //         interlaced: false
-        //     },
-        //     // jpegtran: {
-        //     //     optimizationLevel: 9
-        //     // },
-        //     mozjpeg: {
-        //         progressive: true,
-        //         quality: 15
-        //     },
-        //     pngquant: {
-        //         quality: '25-30',
-        //         // speed: 4
-        //     }
-        // }));
+        config.plugins.push(new ImageminPlugin({
+            test: /\.(jpe?g|png|gif|svg)$/i,
+            disable: process.env.NODE_ENV !== 'production', // Disable during development
+            gifsicle: {
+                optimizationLevel: 9,
+                interlaced: false
+            },
+            pngquant: {
+                quality: '25-30',
+                speed: 1 //1-11
+            },
+            plugins: [
+                imageminMozjpeg({
+                    quality: 30,
+                    progressive: true
+                })
+            ]
+        }));
+        // imageminMozjpeg
+        // 10.8 - 50%
+        // 10.2 - 30%
+        // 14.6
     }
 }
