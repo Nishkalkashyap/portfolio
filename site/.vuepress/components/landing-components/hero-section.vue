@@ -112,10 +112,13 @@ $cssSvgWidth: 250;
   position: relative;
   max-width: 40%;
   min-width: 500px;
-  margin-top: 50px;
   z-index: 1;
   display: inline-flex;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 25px;
+
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 .section-slot {
@@ -289,6 +292,8 @@ a:hover {
       max-width: 100%;
       margin-left: 0px !important;
       margin-right: 0px !important;
+
+      margin-top: 50px;
     }
   }
 
