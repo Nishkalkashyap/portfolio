@@ -57,9 +57,19 @@
         Users will be able to create, share, download and monetize applications on Quark app store.
         The aim of the app store is to help open-source developers to build and monetize their creations.
         ">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
-                <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
-            </video>
+            <CustomAgile slot="image" class="section-slot">
+                <video muted autoplay loop name="media" poster="~@buildAssets/pictures/system-monitor.png" crossorigin="anonymous" class="image-transition section-slot">
+                    <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
+                </video>
+                <video muted autoplay loop name="media" poster="~@buildAssets/pictures/arduino-dash.png" crossorigin="anonymous" class="image-transition section-slot">
+                    <source src="~@buildAssets/pictures/arduino-dash.mp4" type="video/mp4" />Your browser does not support the video tag.
+                </video>
+                <img src="~@buildAssets/pictures/quark-1.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/quark-2.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/quark-3.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/quark-4.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/quark-5.jpg" class="slide" />
+            </CustomAgile>
         </heroSection>
 
         <heroSection side="right" index="4" flare="Tech Stack: Vue.js,Travis CI,Firebase,Digital Ocean,Cloud Functions" heading="Quark documentation, DevOps and E2E testing" content="
