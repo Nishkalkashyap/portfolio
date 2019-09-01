@@ -11,28 +11,28 @@
       "></Timeline>
 
     <Timeline timeline="2018 - Present" heading="Quark" content="
-      I started this project while I was persuing my degree in mechanical engineering
+      I started this project while I was pursuing my degree in mechanical engineering
       and got really frustrated with the fact that there were hardly any tools on the software side that would make my life easier,
       just to do simple things like plot scientific charts, IoT development, create dashboards etc.
       <br/><br/> 
       After realizing the commercial potential of a project like this, I decided to build this software tool myself.
       ">
-        <heroSection side="left" index="1" heading="Build cross-platform desktop applications" content="
+        <heroSection side="left" index="1" flare="Introduction,Cross Platform,App development" heading="Build cross-platform desktop applications" content="
         Simply Said: Quark is an <strong>integrated development environment(IDE)</strong> and a <strong>JavaScript runtime</strong>.
         You write your code in the IDE and press a button to build your project. That’s all!
         <br/>
         <br/>
-        The IDE automatically takes care of transpiling and bundling the project behind the scenes, and emits a single executable file.
-        All done in just <strong>one click!</strong>
+        The IDE automatically takes care of transpiling and bundling the project behind the scenes and outputs a Quark app.
+        Quark apps are cross-platform and run on <strong>MacOS, Linux and Windows.</strong>
         ">
             <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
-        <heroSection side="right" index="2" heading="Features" content="
+        <heroSection side="right" index="2" flare="Quark IDE,Features" heading="Features" content="
         Quark IDE is built on the top of the same code editor as of Microsoft's Visual Studio Code (VSCode).
-        This means Quark has out of the box support for things like intelligent code completions,'go to definitions', 'replace occurences' e.t.c
+        This means Quark has out of the box support for things like intelligent code completions,'go to definitions', 'replace occurrences' e.t.c
         <br/>
         <br/>
         On top of that, Quark also boasts of other features like an integrated terminal,
@@ -41,28 +41,30 @@
         ">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/introduction.png" crossorigin="anonymous" class="image-transition section-slot">
-                  <source src="~@buildAssets/pictures/introduction.mp4" type="video/mp4" />Your browser does not support the video tag.
+                    <source src="~@buildAssets/pictures/introduction.mp4" type="video/mp4" />Your browser does not support the video tag.
                 </video>
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/introduction.png" crossorigin="anonymous" class="image-transition section-slot">
-                  <source src="~@buildAssets/pictures/terminal.mp4" type="video/mp4" />Your browser does not support the video tag.
+                    <source src="~@buildAssets/pictures/terminal.mp4" type="video/mp4" />Your browser does not support the video tag.
                 </video>
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="3" heading="Quark App store" content="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches.">
+        <heroSection side="left" index="3" heading="Quark App store" content="
+        Currently under active development. Quark appstore is a full-fledged application sharing platform
+        ">
             <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
-        <heroSection side="right" index="4" heading="DevOps" content="Continous integration and deployement, app distribution channel, end-to-end testing.">
+        <heroSection side="right" index="4" heading="DevOps" content="Continuous integration and deployment, app distribution channel, end-to-end testing.">
             <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
     </Timeline>
 
-    <Timeline timeline="July 2016 - July 2018" heading="DR17" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
+    <Timeline timeline="July 2016 - July 2018" heading="DR17" content="My first ever commercial project. Created a software development framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
         <heroSection side="left" index="1" heading="Formula Student India, January 2018" content="Been building Quark since ..." flare="Competition,January 2018,India">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-11.jpg" crossorigin="anonymous" class="image-transition slide">
@@ -125,7 +127,7 @@
         </heroSection>
     </Timeline>
 
-    <Timeline timeline="January 2015 - July 2016" heading="DR16" content="My first ever commercial project. Created a software developement framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
+    <Timeline timeline="January 2015 - July 2016" heading="DR16" content="My first ever commercial project. Created a software development framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
         <heroSection side="left" index="1" heading="Formula Student UK, July 2016" content="Been building Quark since ..." flare="Competition,July 2016,United Kingdom">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr16-3.jpg" crossorigin="anonymous" class="image-transition slide">
