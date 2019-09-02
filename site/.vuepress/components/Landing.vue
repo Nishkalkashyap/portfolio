@@ -185,7 +185,17 @@
         </heroSection>
     </Timeline>
 
-    <Timeline timeline="January 2015 - July 2016" heading="DR16" content="My first ever commercial project. Created a software development framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
+    <Timeline timeline="January 2015 - July 2016" heading="DR16" content="
+    Worked as a junior engineer in the powertrain department at 
+    <a target='_blank' href='https://www.facebook.com/teamdefianzracing'>Team Definaz Racing</a>.
+    <br/>
+    <br/>
+    <ol>
+        <li>Participated in <strong>Formula Student UK</strong> competition in July of 2016 at Silverstone Formula 1 circuit</li>
+        <li>Participated in <strong>Formula Student India</strong> competition in January of 2016 at Buddha International circuit</li>
+        <li>Also presented the vehicle at Auto-expo India 2016</li>
+    </ol>
+    ">
         <heroSection side="left" index="1" heading="Formula Student UK, July 2016" content="Been building Quark since ..." flare="Competition,July 2016,United Kingdom">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/dr16-8.jpg" class="slide" />
@@ -199,9 +209,8 @@
         <heroSection side="right" index="2" heading="Formula Student India, January 2016" content="Been building Quark since ..." flare="Competition,January 2016,India">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/dr16-3.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/dr16-1.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/dr16-2.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-4.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dr16-1.jpg" class="slide" />
             </CustomAgile>
         </heroSection>
 

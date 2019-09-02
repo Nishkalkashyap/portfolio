@@ -1,6 +1,6 @@
 <template>
   <div class="custom-agile-container-component">
-    <agile :autoplay-speed="5000">
+    <agile :autoplay-speed="5000" ref="carousel">
       <!-- <svg class="prev my-arrow" slot="prevButton" v-html="svgs.triangle.shape" viewBox="0 0 30 30" />
       <svg class="next my-arrow" slot="nextButton" v-html="svgs.triangle.shape" viewBox="0 0 30 30" />-->
       <div class="butt" slot="prevButton"><</div>
@@ -22,6 +22,12 @@ export default {
     return {
       svgs
     };
+  },
+  mounted() {
+    this.$refs.carousel.reload();
+    setTimeout(() => {
+      this.$refs.carousel.reload();
+    }, 5000);
   }
 };
 </script>
@@ -31,7 +37,7 @@ div.butt {
   font-weight: 900;
   padding: 1px 6px;
   border-radius: 5px;
-  line-height:40px;
+  line-height: 40px;
 
   box-shadow: var(--gradient-shadow) 0px 10px 15px;
   background-image: var(--gradient);
