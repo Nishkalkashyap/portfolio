@@ -68,8 +68,17 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="3" flare="Tech Stack: Vue.js,Travis CI,Firebase,Digital Ocean,Cloud Functions" heading="Quark documentation, DevOps and E2E testing" content="
-        Continuous integration and deployment, app distribution channel, end-to-end testing.
+        <heroSection side="left" index="3" flare="Tech Stack: Vue.js,Travis CI,Firebase,Digital Ocean,Cloud Functions,AWS" heading="Documentation, DevOps, E2E testing and Status page" content="
+        Quark follows all the best practices of software development,
+        has a <a target='_blank' href='https://quarkjs.io/guide/intro.html'>neat documentation</a> 
+        coupled with continuous integration and end-to-end tests on
+        <a target='_blank' href='https://travis-ci.org/Nishkalkashyap/Quark-electron/builds'>Travis CI</a>.
+        <br/>
+        <br/>
+        The software also boasts of novel features like 'automatic-updates' with multiple release channels namely <strong>'stable', 'insiders' and 'nightly' release</strong>.
+        <br/>
+        <br/>
+        Also, in case of service disruption, Quark has a <a target='_blank' href='https://status.quarkjs.io'>status page</a> that users can subscribe to via email, and get notified on the issue.
         ">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot">
@@ -81,9 +90,15 @@
     </Timeline>
 
     <Timeline timeline="July 2016 - July 2018" heading="DR17" content="
-    Chief engineer and Deputy Team Leader. Under my Leadership, the team secured its best-ever overall position at Formula Student UK and finished Second Overall at Formula Student Bharat (the teams best result till date). 
+    Chief engineer and Deputy Team Leader at <a target='_blank' href='https://www.facebook.com/teamdefianzracing'>Team Definaz Racing</a>. 
+    Under my leadership, the team secured its best-ever overall position at Formula Student UK and finished Second Overall at Formula Student Bharat (teams best result till date). 
     ">
-        <heroSection side="left" index="1" heading="Formula Student India, January 2018" content="Been building Quark since ..." flare="Competition,January 2018,India">
+        <heroSection side="left" index="1" heading="Formula Student India, January 2018" content="
+        Participated in the Formula Student Bharat competition and led the team to an overall <strong>Second position</strong>.
+        <br/>
+        <br/>
+        Responsible for the design and development of the combustion powertrain, systems integration and electronics of the vehicle. 
+        " flare="Competition,January 2018,India">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-11.jpg" crossorigin="anonymous" class="image-transition slide">
                     <source src="~@buildAssets/pictures/dr17-3.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -99,7 +114,13 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="right" index="2" heading="Formula Student UK, July 2017" content="Been building Quark since ..." flare="Competition,July 2017,United Kingdom">
+        <heroSection side="right" index="2" heading="Formula Student UK, July 2017" content="
+        Participated in the Formula Student UK competition held at the Silverstone Formula 1 track, near London.
+        Secured the best ever overall position by the team.
+        <br/>
+        <br/>
+        During the time, I was responsible for the design of the engine and its sub-systems (fuel tank, exhaust manifold, intake manifold, radiator design) and electronics of the vehicle.
+        " flare="Competition,July 2017,United Kingdom">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-9.jpg" crossorigin="anonymous" class="image-transition slide">
                     <source src="~@buildAssets/pictures/dr17-1.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -113,13 +134,24 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="3" heading="Electronic steering wheel" content="On the left you see the Quark IDE, on the right is an application built on the Quark IDE.">
+        <heroSection side="left" index="3" heading="Electronic steering wheel" flare="Arduino,Nextion HMI display,Carbon fiber,Pneumatics" content="
+        Developed this carbon fiber reinforced, touch controlled, electronic steering wheel.
+        <br/>
+        <br/>
+        Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for all the vehicle electronics that includes the 
+        <strong>pneumatic gear shifter, data acquisition system/data logger, drag reduction system and the variable geometry intake manifold.</strong>
+        ">
             <video muted autoplay loop name="media" poster="~@buildAssets/pictures/steering-wheel-1.jpg" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/electronic-steering-wheel.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
         </heroSection>
 
-        <heroSection side="right" index="4" heading="Data Logger" content="On the left you see the Quark IDE, on the right is an application built on the Quark IDE.">
+        <heroSection side="right" index="4" heading="Data acquisition system" flare="Arduino,Processing" content="
+        Build with Arduino and Processing, this data acquisition system handles more that 20 different sensors.
+        <br/>
+        <br/>
+        The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
+        ">
             <video muted autoplay loop name="media" poster="~@buildAssets/pictures/daq-1.jpg" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/daq.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
