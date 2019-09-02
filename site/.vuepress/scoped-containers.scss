@@ -8,6 +8,10 @@
 
 .timeline-container-component {
     width: 100%;
+    .meta-card p a {
+        color: #ffffff;
+        text-decoration: underline;
+    }
 }
 
 .hero-section-component {

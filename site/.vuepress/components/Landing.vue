@@ -2,7 +2,7 @@
 <div class="home4-component">
     <heroTop />
 
-    <Timeline timeline="Born - September 22, 1996 - 22 years old" heading="Here's what I'm all about" id="about" content="
+    <Timeline timeline="22 years old" heading="Here's what I'm all about" id="about" content="
       I'm a Mechanical Engineer developing new technologies, building things, blogging, promoting sustainability, and heralding entrepreneurship.
       I am particularly fascinated with multi-disciplinary engineering.
       To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering, mechanics, electronics, web development and software engineering.
@@ -11,36 +11,31 @@
       ">
     </Timeline>
 
-    <Timeline timeline="2018 - Present" heading="Quark" content="
-      I started this project while I was pursuing my degree in mechanical engineering
+    <!-- I started this project while I was pursuing my degree in mechanical engineering
       and got really frustrated with the fact that there were hardly any tools on the software side that would make my life easier,
       just to do simple things like plot scientific charts, IoT development, create dashboards etc.
       <br/><br/> 
-      After realizing the commercial potential of a project like this, I decided to build this software tool myself.
-      ">
-        <heroSection side="left" index="1" flare="Introduction,Cross Platform,App development" heading="Build cross-platform desktop applications" content="
-        Simply Said: Quark is an <strong>integrated development environment(IDE)</strong> and a <strong>JavaScript runtime</strong>.
-        You write your code in the IDE and press a button to build your project. That’s all!
+      After realizing the commercial potential of a project like this, I decided to build this software tool myself. -->
+    <Timeline timeline="2018 - Present" heading="Quark" content="
+    Created the <strong>Quark</strong> software.
+    A full fledged application development and distribution platform for Windows, Mac and Linux based operating systems.
+    <br/>
+    <br/>
+    Since it's <a target='_blank' href='https://medium.com/hackernoon/announcing-quark-a-software-sketchbook-for-your-projects-2f53553415b'>public announcement</a> in August 2019,
+    the project website has been <strong>viewed over 115,000 times</strong> and the Quark software itself has been downloaded by <strong>over 10,000 users</strong> around the world.
+    ">
+        <heroSection side="left" index="1" flare="Tech Stack: Electron.js,Angular 7,Node.js,Webpack" heading="Quark development environment" content="
+        Quark development environment is powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
         <br/>
         <br/>
-        The IDE automatically takes care of transpiling and bundling the project behind the scenes and outputs a Quark app.
-        Quark apps are cross-platform and run on <strong>MacOS, Linux and Windows.</strong>
-        ">
-            <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot" slot="image">
-                <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
-            </video>
-        </heroSection>
-
-        <heroSection side="right" index="2" flare="Tech Stack: Electron.js,Angular 7,Node.js,Webpack" heading="Features" content="
-        Quark IDE is built on the top of the same code editor as of Microsoft's Visual Studio Code (VSCode).
-        This means Quark has out of the box support for things like intelligent code completions,'go to definitions', 'replace occurrences' e.t.c
-        <br/>
-        <br/>
-        On top of that, Quark also boasts of other features like an integrated terminal,
+        The IDE is cross-platform, and boasts of features like an integrated terminal,
         multiple theme support, more than 150 different editor settings, an inbuilt package manager,
         and a fully-configurable build system <i>(webpack)</i>.
         ">
             <CustomAgile slot="image" class="section-slot">
+                <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot">
+                    <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
+                </video>
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/introduction.png" crossorigin="anonymous" class="image-transition section-slot">
                     <source src="~@buildAssets/pictures/introduction.mp4" type="video/mp4" />Your browser does not support the video tag.
                 </video>
@@ -50,7 +45,7 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="3" flare="Tech Stack: React.js,Firebase,Firestore Database,Cloud Functions" heading="Quark App store" content="
+        <heroSection side="right" index="2" flare="Tech Stack: React.js,Firebase,Firestore Database,Cloud Functions" heading="Quark App store" content="
         Currently under active development. <a target='_blank' href='https://dash.quarkjs.io'>Quark appstore</a> 
         is a full-fledged application sharing platform.
         <br/>
@@ -73,7 +68,7 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="right" index="4" flare="Tech Stack: Vue.js,Travis CI,Firebase,Digital Ocean,Cloud Functions" heading="Quark documentation, DevOps and E2E testing" content="
+        <heroSection side="left" index="3" flare="Tech Stack: Vue.js,Travis CI,Firebase,Digital Ocean,Cloud Functions" heading="Quark documentation, DevOps and E2E testing" content="
         Continuous integration and deployment, app distribution channel, end-to-end testing.
         ">
             <CustomAgile slot="image" class="section-slot">
@@ -85,7 +80,9 @@
         </heroSection>
     </Timeline>
 
-    <Timeline timeline="July 2016 - July 2018" heading="DR17" content="My first ever commercial project. Created a software development framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
+    <Timeline timeline="July 2016 - July 2018" heading="DR17" content="
+    Chief engineer and Deputy Team Leader. Under my Leadership, the team secured its best-ever overall position at Formula Student UK and finished Second Overall at Formula Student Bharat (the teams best result till date). 
+    ">
         <heroSection side="left" index="1" heading="Formula Student India, January 2018" content="Been building Quark since ..." flare="Competition,January 2018,India">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-11.jpg" crossorigin="anonymous" class="image-transition slide">
