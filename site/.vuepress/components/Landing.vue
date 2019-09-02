@@ -81,10 +81,9 @@
         Also, in case of service disruption, Quark has a <a target='_blank' href='https://status.quarkjs.io'>status page</a> that users can subscribe to via email, and get notified on the issue.
         ">
             <CustomAgile slot="image" class="section-slot">
-                <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot">
-                    <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
-                </video>
-                <img src="~@buildAssets/pictures/quark-1.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/misc-1.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/misc-3.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/misc-2.jpg" class="slide" />
             </CustomAgile>
         </heroSection>
     </Timeline>
