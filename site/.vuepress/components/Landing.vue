@@ -198,6 +198,9 @@
     ">
         <heroSection side="left" index="1" heading="Formula Student UK, July 2016" content="Been building Quark since ..." flare="Competition,July 2016,United Kingdom">
             <CustomAgile slot="image" class="section-slot">
+                <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr16-2.jpg" crossorigin="anonymous" class="image-transition slide">
+                    <source src="~@buildAssets/pictures/dr16-8.mp4" type="video/mp4" />Your browser does not support the video tag.
+                </video>
                 <img src="~@buildAssets/pictures/dr16-8.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-2.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-5.jpg" class="slide" />
