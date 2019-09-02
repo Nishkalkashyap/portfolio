@@ -1,21 +1,18 @@
 body {
     --gradient: linear-gradient(72deg, #4c51bf, #667eea);
     --gradient-shadow: #4c51bf88;
+
+    // --gradient: linear-gradient(30deg, rgb(90, 189, 255) 0%, rgb(71, 104, 180) 100%);
+    // --gradient-shadow: rgba(52, 152, 219, 0.3);
+    
+    // --gradient: linear-gradient(30deg, #FBAB7E 0%, #F7CE68 100%);
+    // --gradient-shadow: #FBAB7E88;
 }
 
 .landing-page {
     --background: #141821;
     --text-color: #ffffff;
     --text-color--light: #dddddd;
-
-    --gradient: linear-gradient(72deg, #4c51bf, #667eea);
-    // --gradient: linear-gradient(30deg, rgb(90, 189, 255) 0%, rgb(71, 104, 180) 100%);
-    // --gradient: linear-gradient(225deg, #e53e3e, #feb2b2);
-    // --gradient: linear-gradient(225deg, #fbd38d, #ed8936);
-    // --gradient: linear-gradient(225deg, #9ae6b4, #48bb78);
-
-    --gradient-shadow: #4c51bf88;
-    // --gradient-shadow: rgba(52, 152, 219, 0.3);
 
     // --background: #ffffff;
     // --text-color: #141821;
