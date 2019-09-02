@@ -188,11 +188,11 @@
     <Timeline timeline="January 2015 - July 2016" heading="DR16" content="My first ever commercial project. Created a software development framework Quark, which can be used to create cross-platform desktop applications using web technologies. Since it's announcement in August 2019, the project has received ">
         <heroSection side="left" index="1" heading="Formula Student UK, July 2016" content="Been building Quark since ..." flare="Competition,July 2016,United Kingdom">
             <CustomAgile slot="image" class="section-slot">
-                <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr16-3.jpg" crossorigin="anonymous" class="image-transition slide">
-                    <source src="~@buildAssets/pictures/dr17-1.mp4" type="video/mp4" />Your browser does not support the video tag.
-                </video>
+                <img src="~@buildAssets/pictures/dr16-8.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-2.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-5.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dr16-6.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dr16-7.jpg" class="slide" />
             </CustomAgile>
         </heroSection>
 
