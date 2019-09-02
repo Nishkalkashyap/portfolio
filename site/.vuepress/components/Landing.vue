@@ -168,7 +168,15 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="right" index="6" heading="Variable geometry intake manifold" content="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." learnMoreLink="/mechanical/vgim.html" flare="Research Paper,Thesis">
+        <heroSection side="right" index="6" heading="Variable geometry intake manifold" flare="Powertrain,Research Paper,Thesis" content="
+        This project won the <strong>second best innovation award</strong> in the Formula Student UK competition.
+        I've also published a research paper on the same.
+        <br/>
+        <br/>
+        Built on top of a banned Formula 1 technology <i>(variable resonance induction system)</i>,
+        this system massively improved the overall vehicle performance, mainly power of the engine at the top end
+        and throttle response of the engine on the bottom end of the RPM range.
+        " learnMoreLink="/mechanical/vgim.html">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/vgim-2.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/vgim-8.jpg" class="slide" />
