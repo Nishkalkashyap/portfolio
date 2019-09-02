@@ -13,7 +13,11 @@ sidebar : false
 </video>
 </MetaCard>
 
-<MetaCard link="/projects/dr16.html" ><img src="~@buildAssets/pictures/dr16-3.jpg"> </MetaCard>
+<MetaCard link="/projects/dr16.html" >
+<video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr16-8.jpg" crossorigin="anonymous" class="image-transition" style="max-width:100%;margin-top:0px;" >
+    <source src="~@buildAssets/pictures/dr16-1.mp4" type="video/mp4" />Your browser does not support the video tag.
+</video>
+</MetaCard>
 
 <MetaCard link="/projects/dr17.html" >
 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-9.jpg" crossorigin="anonymous" class="image-transition" style="max-width:100%;margin-top:0px;" >
