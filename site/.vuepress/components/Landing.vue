@@ -230,8 +230,22 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="3" heading="Radiator design" content="Been building Quark since ..." flare="Competition,January 2016,India">
-            <img slot="image" src="~@buildAssets/pictures/radiator-4.jpg" class="section-slot" />
+        <heroSection side="left" index="3" heading="Design and manufacturing of various subsystems" content="Been building Quark since ..." flare="Competition,January 2016,India">
+            <CustomAgile slot="image" class="section-slot">
+                <!-- intake -->
+                <img src="~@buildAssets/pictures/subsystems-8.jpg" class="section-slot" />
+                <img src="~@buildAssets/pictures/subsystems-2.jpg" class="section-slot" />
+                <img src="~@buildAssets/pictures/subsystems-6.jpg" class="section-slot" />
+                <!-- exhaust -->
+                <img src="~@buildAssets/pictures/subsystems-7.jpg" class="section-slot" />
+                <img src="~@buildAssets/pictures/subsystems-1.jpg" class="section-slot" />
+                <!-- sump -->
+                <img src="~@buildAssets/pictures/subsystems-5.jpg" class="section-slot" />
+                <img src="~@buildAssets/pictures/subsystems-3.jpg" class="section-slot" />
+                <img src="~@buildAssets/pictures/subsystems-4.jpg" class="section-slot" />
+                <!-- radiator -->
+                <img src="~@buildAssets/pictures/radiator-4.jpg" class="section-slot" />
+            </CustomAgile>
         </heroSection>
     </Timeline>
     <Footer></Footer>
