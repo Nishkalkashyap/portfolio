@@ -134,7 +134,7 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="3" heading="Electronic steering wheel" flare="Arduino,Nextion HMI display,Carbon fiber,Pneumatics" content="
+        <heroSection side="left" index="3" heading="Electronic steering wheel" flare="Tech Stack: Arduino,Nextion HMI display,Carbon fiber,Pneumatics" content="
         Developed this carbon fiber reinforced, touch controlled, electronic steering wheel.
         <br/>
         <br/>
@@ -146,7 +146,7 @@
             </video>
         </heroSection>
 
-        <heroSection side="right" index="4" heading="Data acquisition system" flare="Arduino,Processing" content="
+        <heroSection side="right" index="4" heading="Data acquisition system" flare="Tech Stack: Arduino,Processing" content="
         Build with Arduino and Processing, this data acquisition system handles more that 20 different sensors.
         <br/>
         <br/>
@@ -157,18 +157,20 @@
             </video>
         </heroSection>
 
-        <heroSection side="left" index="5" heading="Dynamometer" content="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." learnMoreLink="/mechanical/dyno.html">
+        <heroSection side="left" index="5" heading="Finance Management App" flare="Tech Stack: Firebase Firestore,Ionic 3,Angular 4" content="
+        Built a finance management app for the team. The app was built using <strong>Ionic 3, Angular 4</strong> at the frontend and <strong>Firebase Firestore</strong> at the backend.
+        <br/>
+        <br/>
+        It was used in production from August 2017- July 2018.
+        " learnMoreLink="/projects/vgim.html">
             <CustomAgile slot="image" class="section-slot">
-                <img src="~@buildAssets/pictures/engine-1.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/engine-2.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/engine-3.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/dyno-1.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/dyno-3.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/dyno-4.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/fms-1.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/fms-2.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/fms-3.jpg" class="slide" />
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="right" index="6" heading="Variable geometry intake manifold" flare="Powertrain,Research Paper,Thesis" content="
+        <heroSection side="right" index="6" heading="Variable geometry intake manifold" flare="Solidworks,Research Paper,Thesis" content="
         This project won the <strong>second best innovation award</strong> in the Formula Student UK competition.
         I've also published a research paper on the same.
         <br/>
@@ -176,11 +178,22 @@
         Built on top of a banned Formula 1 technology <i>(variable resonance induction system)</i>,
         this system massively improved the overall vehicle performance, mainly power of the engine at the top end
         and throttle response of the engine on the bottom end of the RPM range.
-        " learnMoreLink="/mechanical/vgim.html">
+        " learnMoreLink="/projects/vgim.html">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/vgim-2.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/vgim-8.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/vgim-14.jpg" class="slide" />
+            </CustomAgile>
+        </heroSection>
+
+        <heroSection side="left" index="1" heading="Dynamometer" content="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." learnMoreLink="/projects/dyno.html">
+            <CustomAgile slot="image" class="section-slot">
+                <img src="~@buildAssets/pictures/engine-1.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/engine-2.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/engine-3.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dyno-1.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dyno-3.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/dyno-4.jpg" class="slide" />
             </CustomAgile>
         </heroSection>
     </Timeline>
