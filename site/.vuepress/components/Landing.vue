@@ -8,7 +8,8 @@
       To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering, mechanics, electronics, web development and software engineering.
       Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
       I believe that creative engineering is indistinguishable from fine artwork.
-      "></Timeline>
+      ">
+    </Timeline>
 
     <Timeline timeline="2018 - Present" heading="Quark" content="
       I started this project while I was pursuing my degree in mechanical engineering
@@ -54,7 +55,7 @@
         is a full-fledged application sharing platform.
         <br/>
         <br/>
-        Users will be able to create, share, download and monetize applications on Quark app store.
+        Once completed, users will be able to create, share, download and monetize applications on Quark app store.
         The aim of the app store is to help open-source developers to build and monetize their creations.
         ">
             <CustomAgile slot="image" class="section-slot">
@@ -88,10 +89,10 @@
         <heroSection side="left" index="1" heading="Formula Student India, January 2018" content="Been building Quark since ..." flare="Competition,January 2018,India">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-11.jpg" crossorigin="anonymous" class="image-transition slide">
-                    <source src="~@buildAssets/pictures/dr17-2.mp4" type="video/mp4" />Your browser does not support the video tag.
+                    <source src="~@buildAssets/pictures/dr17-3.mp4" type="video/mp4" />Your browser does not support the video tag.
                 </video>
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-11.jpg" crossorigin="anonymous" class="image-transition slide">
-                    <source src="~@buildAssets/pictures/dr17-3.mp4" type="video/mp4" />Your browser does not support the video tag.
+                    <source src="~@buildAssets/pictures/dr17-2.mp4" type="video/mp4" />Your browser does not support the video tag.
                 </video>
                 <img src="~@buildAssets/pictures/dr17-13.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr17-4.jpg" class="slide" />
