@@ -196,7 +196,12 @@
         <li>Also presented the vehicle at Auto-expo India 2016</li>
     </ol>
     ">
-        <heroSection side="left" index="1" heading="Formula Student UK, July 2016" content="Been building Quark since ..." flare="Competition,July 2016,United Kingdom">
+        <heroSection side="left" index="1" heading="Formula Student UK, July 2016" content="
+        Participated in the Formula Student UK competition held at the Silverstone Formula 1 racing circuit.
+        <br/>
+        <br/>
+        Responsible for the design and development of the intake manifold, exhaust manifold and the cooling system of the engine.
+        " flare="Competition,July 2016,United Kingdom">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr16-2.jpg" crossorigin="anonymous" class="image-transition slide">
                     <source src="~@buildAssets/pictures/dr16-1.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -209,7 +214,15 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="right" index="2" heading="Formula Student India, January 2016" content="Been building Quark since ..." flare="Competition,January 2016,India">
+        <heroSection side="right" index="2" heading="Formula Student India, January 2016" content="
+        Participated in the Formula Student India competition held at the Buddha International Circuit.
+        <br/>
+        <br/>
+        Responsible for the design and development of the intake manifold, exhaust manifold and the cooling system of the engine.
+        <br/>
+        <br/>
+        Also presented the car to various sponsors at the 2016 Auto Expo show, held in Greater Noida. It is Asia's largest and the world's second-largest motor show.
+        " flare="Competition,January 2016,India">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/dr16-3.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-4.jpg" class="slide" />
