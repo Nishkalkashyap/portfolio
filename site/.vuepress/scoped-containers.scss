@@ -128,5 +128,11 @@
             border-radius: 5px;
             max-height: 400px;
         }
+
+        @media only screen and (max-width: 600px) {
+            .slide {
+                max-height: 250px;
+            }
+        }
     }
 }

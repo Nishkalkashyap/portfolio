@@ -183,6 +183,7 @@
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/vgim-14.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/vgim-8.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/vgim-13.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/vgim-2.jpg" class="slide" />
             </CustomAgile>
         </heroSection>

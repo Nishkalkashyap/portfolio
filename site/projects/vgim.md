@@ -24,7 +24,7 @@ Short answer, to achieve greater Volumetric efficiency. As a consequence of grea
 #### What is Volumetric efficiency?
 Volumetric efficiency in an internal combustion engine, is defined as the ratio of the mass density of the air-fuel mixture drawn into the cylinder at atmospheric pressure (during the intake stroke) to the mass density of the same volume of air in the intake manifold. 
 
-#### DIY-Variable geometry intake manifold: 
+#### Variable geometry intake manifold: 
 The design consists of the following components, arranged in the direction downstream to the air flow:
 
 1. __Design__: The design consists of the following components, arranged in the direction downstream to the air flow:
@@ -39,11 +39,11 @@ The design consists of the following components, arranged in the direction downs
    8. __Pressure Sensor__: Is used to measure pressure at different parts of the intake.
    9. __Fuel Delivery system__: Made up of fuel injector and fuel delivery lines from the fuel tank.
 
-    <p style="text-align:center">
-        <img src="~@buildAssets/pictures/vgim-13.jpg"/>
-        <img src="~@buildAssets/pictures/vgim-2.jpg"/>
-        <img src="~@buildAssets/pictures/vgim-3.jpg"/>
-    </p>
+<CustomAgile class="section-slot">
+<img src="~@buildAssets/pictures/vgim-13.jpg"/>
+<img src="~@buildAssets/pictures/vgim-2.jpg"/>
+<img src="~@buildAssets/pictures/vgim-3.jpg"/>
+</CustomAgile>
 
 ## Specifications
 
