@@ -33,7 +33,7 @@
         The IDE is cross-platform, and boasts of features like an integrated terminal,
         multiple theme support, more than 150 different editor settings, an inbuilt package manager,
         and a fully-configurable build system <i>(webpack)</i>.
-        ">
+        " learnMoreLink="/projects/quark.html">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition section-slot">
                     <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -54,7 +54,7 @@
         <br/>
         Once completed, users will be able to create, share, download and monetize applications on Quark app store.
         The aim of the app store is to help open-source developers to build and monetize their creations.
-        ">
+        " learnMoreLink="/projects/quark.html#quark-app-store">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/system-monitor.png" crossorigin="anonymous" class="image-transition section-slot">
                     <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -81,7 +81,7 @@
         <br/>
         <br/>
         Also, in case of service disruption, Quark has a <a target='_blank' href='https://status.quarkjs.io'>status page</a> that users can subscribe to via email, and get notified on the issue.
-        ">
+        " learnMoreLink="/projects/quark.html#documentation-devops-e2e-testing-and-status-page">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/misc-1.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/misc-3.jpg" class="slide" />
