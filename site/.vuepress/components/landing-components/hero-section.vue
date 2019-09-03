@@ -103,7 +103,8 @@ $cssSvgWidth: 250;
 
   p {
     margin-top: 0px;
-    font-size: 1.25em;
+    // font-size: 1.25em;
+    font-size: 15px;
     color: var(--text-color--light);
   }
 }

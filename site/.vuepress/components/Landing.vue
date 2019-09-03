@@ -4,6 +4,8 @@
 
     <Timeline timeline="22 years old" heading="Here's what I'm all about" id="about" content="
       I'm a Mechanical Engineer developing new technologies, building things, blogging, promoting sustainability, and heralding entrepreneurship.
+      <br/>
+      <br/>
       I am particularly fascinated with multi-disciplinary engineering.
       To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering, mechanics, electronics, web development and software engineering.
       Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
@@ -160,7 +162,7 @@
         Built a finance management app for the team. The app was built using <strong>Ionic 3, Angular 4</strong> at the frontend and <strong>Firebase Firestore</strong> at the backend.
         <br/>
         <br/>
-        It was used in production from August 2017- July 2018.
+        The app was used in production from August 2017- July 2018.
         " learnMoreLink="/projects/vgim.html">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/fms-1.jpg" class="slide" />
@@ -205,6 +207,7 @@
     <ol>
         <li>Participated in <strong>Formula Student UK</strong> competition in July of 2016 at Silverstone Formula 1 circuit</li>
         <li>Participated in <strong>Formula Student India</strong> competition in January of 2016 at Buddha International circuit</li>
+        <li>Developed several subsystems of the vehicle.</li>
         <li>Also presented the vehicle at Auto-expo India 2016</li>
     </ol>
     ">
@@ -242,7 +245,14 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="3" heading="Design and manufacturing of various subsystems" content="Been building Quark since ..." flare="Competition,January 2016,India">
+        <heroSection side="left" index="3" heading="Design and manufacturing of various subsystems" flare="Solidworks,Engineering Design,3D Printing" content="
+        <ol>
+            <li><strong>Air intake manifold</strong> for a 4-cylinder internal combustion engine(IC engine)</li>
+            <li><strong>Exhaust manifold</strong> for a 4-cylinder internal combustion engine(IC engine)</li>
+            <li>Designed and manufactured the <strong>Oil sump</strong></li>
+            <li><strong>Radiator design</strong></li>
+        </ol>
+        ">
             <CustomAgile slot="image" class="section-slot">
                 <!-- intake -->
                 <img src="~@buildAssets/pictures/subsystems-8.jpg" class="section-slot" />
