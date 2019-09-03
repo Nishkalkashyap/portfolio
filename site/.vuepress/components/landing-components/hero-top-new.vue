@@ -1,7 +1,7 @@
 <template>
 <div class="hero-top-component">
     <SvgAnimation style="position:absolute;bottom:0px;width:100%;" />
-    <div class="hero landing-page-background">
+    <div class="hero">
         <div style="z-index:2;">
             <h1 class="heading">Hi, I'm Nishkal kashyap</h1>
             <div class="rotator-container">
@@ -82,6 +82,13 @@ export default {
     position: relative;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     min-height: 100vh !important;
+
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
     h1,
     p,
