@@ -3,7 +3,7 @@
     <heroTop />
 
     <Timeline timeline="22 years old" heading="Here's what I'm all about" id="about" content="
-      I'm a Mechanical Engineer developing new technologies, building things, blogging, promoting sustainability, and heralding entrepreneurship.
+      I'm a Mechanical Engineer and a self taught fullstack developer, building things, developing new technologies, blogging, promoting sustainability, and heralding entrepreneurship.
       <br/>
       <br/>
       I am particularly fascinated with multi-disciplinary engineering.
@@ -54,6 +54,9 @@
         <br/>
         Once completed, users will be able to create, share, download and monetize applications on Quark app store.
         The aim of the app store is to help open-source developers to build and monetize their creations.
+        <br/>
+        <br/>
+        This project is fully open-sourced on <a target='_blank' href='https://github.com/Nishkalkashyap/Quark-appstore'>GitHub.</a> 
         " learnMoreLink="/projects/quark.html#quark-app-store">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/system-monitor.png" crossorigin="anonymous" class="image-transition section-slot">
