@@ -15,7 +15,10 @@ pageClass: small-heading-page
 ## Introduction
 Other than the obvious, the function of this electronic steering wheel is to control several sub-systems of the car, that includes a radiator fan, the drag reduction system and variable geometry intake manifold. To get a brief idea, first watch the video below and then continue.
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/iABpj2nnqXU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<video muted autoplay loop style="max-width:100%; height:auto" name="media" poster="~@buildAssets/pictures/steering-wheel-1.jpg" crossOrigin="anonymous">
+  <source src="~@buildAssets/pictures/electronic-steering-wheel.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
 
 ## The Setup
 The setup can be divided into 4 levels of hierarchy. Consider the diagram below:

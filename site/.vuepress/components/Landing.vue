@@ -181,13 +181,16 @@
         and throttle response of the engine on the bottom end of the RPM range.
         " learnMoreLink="/projects/vgim.html">
             <CustomAgile slot="image" class="section-slot">
-                <img src="~@buildAssets/pictures/vgim-2.jpg" class="slide" />
-                <img src="~@buildAssets/pictures/vgim-8.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/vgim-14.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/vgim-8.jpg" class="slide" />
+                <img src="~@buildAssets/pictures/vgim-2.jpg" class="slide" />
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="left" index="1" heading="Dynamometer" content="Built on top of the electron framework. Behind the scenes, Quark uses electron's renderer process as the runtime for your sketches." learnMoreLink="/projects/dyno.html">
+        <heroSection side="left" index="1" heading="Dynamometer" flare="Solidworks,Engineering Design,Optimization" content="
+        The aim of this project was to acquire,
+        analyse and apply the output characteristics of the engine in further optimizations and calculations like engine performance, intake-exhaust simulations, fuel consumption calculations, etc
+        " learnMoreLink="/projects/dyno.html">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/engine-1.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/engine-2.jpg" class="slide" />
