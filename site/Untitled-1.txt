@@ -1,0 +1,44 @@
+---
+description : 'Design and development of a combustion powertrain dynamometer'
+author : nishkal
+category: 'mechanical'
+tags : ['guide']
+cover : '~@buildAssets/pictures/dyno-6.png'
+pageClass: small-heading-page
+---
+
+Project manager for the design, manufacturing, and development of a Formula SAE car. Managed a team of 30 undergraduate students across 6 departments including Vehicle Dynamics, Powertrain, Aerodynamics, Controls and Electronics.
+
+Responsible for design and manufacturing of drivetrain components of Formula Student racecar. Components include differential mount, sprocket-hub, sprocket, chain tensioning mechanism and gear shifter. Implemented a pneumatic gear shifting mechanism using in-house electronics system. Finite element and CAD software were used to optimize designs while considering cost, ... See more
+
+Project on development and fabrication of composite body armour panels. Used ANSYS ACP for composite modelling, ANSYS Explicit Dynamics for impact analysis and Solidworks for CAD modelling. Real life results from ballistic impact laboratory were used for validation of results.
+
+
+- Worked on parametric shape optimisation (Airfoils and VAWT) using evolutionary/genetic algorithms. 
+- Designed optimisation frameworks for both single and multi-objective routines. 
+- Developed a seamless and efficient integration between PDE solvers (OpenFOAM, XFOIL) and the optimisation script coded in Python. 
+- Worked on High-Performance Computing systems to tackle the computational complexity. 
+- Implemented Artificial Neural Networks to reduce the computational cost attributed to CFD simulations.
+
+- Responsible for the Localisation and Mapping subsystem of an Autonomous Ground Vehicle (AGV) robot which was developed using the Robot Operating System (ROS). 
+- Participated in the IGVC 2018 competition.
+
+
+## Team Leader
+
+Responsible for Managing:
+- A team of 25 undergraduate students to participate in Formula Student UK 2017 and Formula Bharat 2018. 
+- Team Resources
+- Interdepartmental Communication
+- Overall Organisation 
+- Logistics associated with the Formula Student Project.
+
+Under my Leadership, the team secured its best-ever overall position at Formula Student UK and finished Second Overall at Formula Student Bharat (the teams best result till date). 
+
+## Aerodynamics and Chassis Department Lead
+
+- Led both departments independently with the goal of developing the respective subsystems for Formula Student UK 2017 Formula Bharat 2018 competitions. 
+- Developed a complete aerodynamics package consisting of an undertray diffuser, sidepods, front and rear wings along with miscellaneous bodywork. 
+- Developed a hybrid Steel spaceframe accompanied by an Aluminium Rear Bulkhead. 
+- Managed the complete design, manufacturing and testing cycles of both the departments.
+- Responsible for attaining the departmental goals and ensuring proper communication with other departments, in a time-bound and efficient manner.
