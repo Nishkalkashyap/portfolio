@@ -4,7 +4,7 @@
         <img src="~@buildAssets/pictures/avatar.jpg" alt="avatar" align="middle">
     </div>
     <div class="social-icons">
-        <p class="contact">
+        <p class="contact" title="Email">
             <a class="block-elements" href="mailto:hello@nishkal.in?subject=Hey%20Nishkal," target="_blank">hello@nishkal.in</a>
         </p>
         <SocialIcons />
@@ -43,7 +43,7 @@
             a universe of atoms
             an atom in the Universe.
         </p>
-        <p class="title">– Richard Feynman, Nobel Prize in Physics 1965</p>
+        <p class="title">– Prof. Richard Feynman, Nobel Prize in Physics - 1965</p>
     </div>
 </div>
 </template>
@@ -55,7 +55,11 @@ export default {};
 <style lang="scss" scoped>
 .avatar {
     text-align: center;
-    margin-top: 50px;
+    max-width: 960px;
+    border-top: solid 1px #ffffff22;
+
+    padding-top: 60px;
+    margin: 20px 50px 0px 50px;
 
     img {
         width: 150px;
