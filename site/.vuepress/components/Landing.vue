@@ -99,7 +99,8 @@
         <br/>
         <br/>
         Responsible for the design and development of the combustion powertrain, systems integration and electronics of the vehicle. 
-        " flare="Competition,January 2018,India">
+        " flare="Competition,January 2018,India"
+        learnMoreLink="/projects/dr17.html">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-11.jpg" crossorigin="anonymous" class="image-transition slide">
                     <source src="~@buildAssets/pictures/dr17-3.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -121,7 +122,8 @@
         <br/>
         <br/>
         During the time, I was responsible for the design of the engine and its sub-systems (fuel tank, exhaust manifold, intake manifold, radiator design) and electronics of the vehicle.
-        " flare="Competition,July 2017,United Kingdom">
+        " flare="Competition,July 2017,United Kingdom"
+        learnMoreLink="/projects/dr17.html">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr17-9.jpg" crossorigin="anonymous" class="image-transition slide">
                     <source src="~@buildAssets/pictures/dr17-1.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -141,7 +143,7 @@
         <br/>
         Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for all the vehicle electronics that includes the 
         <strong>pneumatic gear shifter, data acquisition system/data logger, drag reduction system and the variable geometry intake manifold.</strong>
-        ">
+        " learnMoreLink="/projects/steering-wheel.html">
             <video muted autoplay loop name="media" poster="~@buildAssets/pictures/steering-wheel-1.jpg" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/electronic-steering-wheel.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
@@ -152,7 +154,7 @@
         <br/>
         <br/>
         The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
-        ">
+        " learnMoreLink="/projects/daq.html">
             <video muted autoplay loop name="media" poster="~@buildAssets/pictures/daq-1.jpg" crossorigin="anonymous" class="image-transition section-slot" slot="image">
                 <source src="~@buildAssets/pictures/daq.mp4" type="video/mp4" />Your browser does not support the video tag.
             </video>
@@ -163,7 +165,7 @@
         <br/>
         <br/>
         The app was used in production from August 2017- July 2018.
-        " learnMoreLink="/projects/vgim.html">
+        " learnMoreLink="/projects/dr17.html#finance-management-app">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/fms-1.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/fms-2.jpg" class="slide" />
@@ -220,7 +222,8 @@
         <br/>
         <br/>
         Responsible for the design and development of the intake manifold, exhaust manifold and the cooling system of the engine.
-        " flare="Competition,July 2016,United Kingdom">
+        " flare="Competition,July 2016,United Kingdom"
+        learnMoreLink="/projects/dr16.html">
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/dr16-2.jpg" crossorigin="anonymous" class="image-transition slide">
                     <source src="~@buildAssets/pictures/dr16-1.mp4" type="video/mp4" />Your browser does not support the video tag.
@@ -241,7 +244,8 @@
         <br/>
         <br/>
         Also presented the car to various sponsors at the 2016 Auto Expo show, held in Greater Noida. It is Asia's largest and the world's second-largest motor show.
-        " flare="Competition,January 2016,India">
+        " flare="Competition,January 2016,India"
+        learnMoreLink="/projects/dr16.html">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/dr16-3.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/dr16-4.jpg" class="slide" />
@@ -256,7 +260,7 @@
             <li>Designed and manufactured the <strong>Oil sump</strong></li>
             <li><strong>Radiator design</strong></li>
         </ol>
-        ">
+        " learnMoreLink="/projects/dr16.html#intake-manifold">
             <CustomAgile slot="image" class="section-slot">
                 <!-- intake -->
                 <img src="~@buildAssets/pictures/subsystems-8.jpg" class="section-slot" />
