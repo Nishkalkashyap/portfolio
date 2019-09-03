@@ -173,7 +173,7 @@
             </CustomAgile>
         </heroSection>
 
-        <heroSection side="right" index="6" heading="Variable geometry intake manifold" flare="Solidworks,Research Paper,Thesis" content="
+        <heroSection side="right" index="4" heading="Variable geometry intake manifold" flare="Solidworks,Research Paper,Thesis" content="
         This project won the <strong>second best innovation award</strong> in the Formula Student UK competition.
         I've also published a research paper on the same.
         <br/>

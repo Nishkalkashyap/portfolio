@@ -4,11 +4,15 @@
       <div class="hero-section-container">
         <div style class="meta-data">
           <div class="flares" v-if="flares">
-              <span>{{flares}}</span>
+            <span>{{flares}}</span>
           </div>
           <h3>{{heading}}</h3>
-          <p v-html="content"></p>
-          <router-link v-if="learnMoreLink" :to="(learnMoreLink || '/mechanical/')">Learn more</router-link>
+          <p v-html="content" class="text-content"></p>
+          <router-link
+            v-if="learnMoreLink"
+            :to="(learnMoreLink || '/mechanical/')"
+            class="learn-more"
+          >Learn more</router-link>
         </div>
         <div class="video-container">
           <slot name="image"></slot>
@@ -36,7 +40,7 @@ export default {
   data() {
     return {
       canShow: true,
-      flares : (this.flare || '').replace(/\,/gi, ' • ')
+      flares: (this.flare || "").replace(/\,/gi, " • ")
     };
   },
   mounted() {
@@ -80,16 +84,22 @@ $cssSvgWidth: 250;
 
   font-size: 14px;
 
+  .learn-more,
+  .text-content {
+    position: relative;
+    z-index: 2;
+  }
+
   .flares {
-      background: linear-gradient(225deg, #fbd38d, #ed8936);
-      color: #ffffff;
-      padding: 2px 10px;
-      display: inline-block;
-      border-radius: 5px;
-      font-family: var(--heading-font-family);
-      font-size: 11px;
-      margin-bottom: 10px;
-        box-shadow: #fbd38d55 0px 5px 15px;
+    background: linear-gradient(225deg, #fbd38d, #ed8936);
+    color: #ffffff;
+    padding: 2px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: var(--heading-font-family);
+    font-size: 11px;
+    margin-bottom: 10px;
+    box-shadow: #fbd38d55 0px 5px 15px;
   }
 
   h3 {
@@ -158,6 +168,7 @@ $cssSvgWidth: 250;
 
 .hero-section-wrapper {
   width: 100%;
+  margin: 70px 0px;
 }
 
 .hero-section-container {
@@ -169,7 +180,6 @@ $cssSvgWidth: 250;
   flex-wrap: wrap;
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 100px;
 }
 
 a {
@@ -279,10 +289,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  .hero-section-wrapper {
+    margin: 40px 0px;
+  }
+
   .hero-section-container {
     flex-wrap: wrap;
     font-size: 12px;
-    margin-bottom: 50px;
 
     .meta-data {
       font-size: 12px;
