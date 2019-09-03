@@ -14,9 +14,9 @@
           {{desc}}
           <router-link :to="{ path: this.link}">...</router-link>
         </div>
-        <div class="tags">
+        <!-- <div class="tags">
           <Tag v-for="tag of frontmatter.tags" :name="tag" :key="tag"></Tag>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -41,9 +41,10 @@ export default {
   computed: {
     desc() {
       let str = this.frontmatter.description || "";
-      if (str.length >= 140) {
+      const len = 240;
+      if (str.length >= len) {
         // str = str.substring(0, 140).concat("....");
-        str = str.substring(0, 140);
+        str = str.substring(0, len);
       }
       return str;
     },
