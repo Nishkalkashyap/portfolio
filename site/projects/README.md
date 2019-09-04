@@ -27,6 +27,8 @@ sidebar : false
 
 <MetaCard link="/projects/dyno.html" ><img src="~@buildAssets/pictures/dyno-6.png"> </MetaCard>
 
+<MetaCard link="/projects/quark-appstore.html" ><img src="~@buildAssets/pictures/quark-2.jpg"> </MetaCard>
+
 <MetaCard link="/projects/quark.html" >
 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/hello-world-intro.png" crossorigin="anonymous" class="image-transition" style="max-width:100%;margin-top:0px;" >
     <source src="~@buildAssets/pictures/hello-world-intro.mp4" type="video/mp4" />Your browser does not support the video tag.

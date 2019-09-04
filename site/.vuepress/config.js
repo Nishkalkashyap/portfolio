@@ -132,6 +132,7 @@ module.exports = {
                 "typescript.md"
             ],
             "/projects/": [
+                "quark-appstore.md",
                 "dr16.md",
                 "dr17.md",
                 "daq.md",
