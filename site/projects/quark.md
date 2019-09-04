@@ -5,6 +5,7 @@ category: 'software'
 tags : ['guide']
 cover : '~@buildAssets/pictures/hello-world-intro.png'
 video : '~@buildAssets/pictures/hello-world-intro.mp4'
+pageClass: small-heading-page
 ---
 
 # Quark development environment
