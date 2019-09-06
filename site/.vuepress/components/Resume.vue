@@ -46,6 +46,14 @@
     </section>
     <section class="experience-container">
         <Divider title="Projects" />
+        <ResumeItem title="Electronic Steering Wheel" timeline="Dec 2015" 
+        flare="Tech Stack: Electron.js,Angular 7,Node.js,Webpack"
+        content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products. Developed CAD
+            models for pulleys and sprockets on SolidWorks. Studied the Quality Control processes
+            implemented by the company.
+        "/>
     </section>
 </div>
 </template>

@@ -4,13 +4,21 @@
         <h4>{{title}}</h4>
         <span>{{timeline}}</span>
     </div>
+    <div class="flares" v-if="flares">
+        <span>{{flares}}</span>
+    </div>
     <p> {{content}} </p>
 </div>
 </template>
 
 <script>
 export default {
-    props: ['title', 'timeline', 'content']
+    props: ['title', 'timeline', 'content', 'flare'],
+    data() {
+        return {
+            flares: (this.flare || "").replace(/\,/gi, " • ")
+        };
+    }
 };
 </script>
 
@@ -20,9 +28,16 @@ export default {
     justify-content: space-between;
     margin-top: 20px;
 }
+
 h4 {
     margin: 0px !important;
     padding: 0px;
     font-family: var(--font-family) !important;
+}
+
+.flares {
+    span {
+        font-size: 12px;
+    }
 }
 </style>
