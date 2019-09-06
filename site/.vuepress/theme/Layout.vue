@@ -5,7 +5,7 @@
 
     <!-- <PageBottom slot="sidebar-top"/> -->
     <!-- <BuySellAds slot="page-bottom"/> -->
-    <div slot="page-bottom">
+    <div slot="page-bottom" class="page-bottom-custom">
         <div style="text-align:center;margin-top:50px;font-size:14px">
             MIT Licensed | Copyright © 2019-present
             <a href="https://nishkal.in" target="_blank">Nishkal Kashyap</a>

@@ -1,0 +1,24 @@
+.resume-page {
+
+    .navbar,
+    .page-bottom-custom {
+        display: none;
+    }
+
+    .custom-layout {
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .resume-container {
+        min-width: 800px;
+        padding: 50px 50px;
+        --divider-color: #dddddd;
+    }
+
+}
+
+.resume-item-container {
+    margin: 0px 30px;
+}
