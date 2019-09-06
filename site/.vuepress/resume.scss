@@ -1,5 +1,22 @@
 .resume-page {
 
+    --text-color--dark: #222222;
+    --text-color: #333333 !important;
+    --divider-color: #dddddd;
+
+    p,
+    span {
+        color: var(--text-color);
+    }
+
+    hr {
+        border-top-color: var(--divider-color);
+    }
+
+    svg {
+        fill: var(--text-color);
+    }
+
     .navbar,
     .page-bottom-custom {
         display: none;
@@ -14,7 +31,6 @@
     .resume-container {
         min-width: 800px;
         padding: 0px 50px;
-        --divider-color: #dddddd;
     }
 
 }
