@@ -105,6 +105,10 @@ module.exports = {
                         link: 'https://github.com/Nishkalkashyap'
                     },
                     {
+                        text: 'LinkedIn',
+                        link: 'https://www.linkedin.com/in/nishkalkashyap/'
+                    },
+                    {
                         text: 'Twitter',
                         link: 'https://twitter.com/nishkalkashyap'
                     },
