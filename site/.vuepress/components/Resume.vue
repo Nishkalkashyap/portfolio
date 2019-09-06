@@ -13,7 +13,7 @@
                 <a class="social-icon" :title="website.title" v-html="website.svg" :href="website.link" target="_blank"></a>
                 <p>https://nishkal.in</p>
             </div>
-            <div class="meta-item">
+            <div class="meta-item" style="--text-color:var(--accent-color);">
                 <a class="social-icon" :title="email.title" v-html="email.svg" :href="email.link" target="_blank"></a>
                 <p>hello@nishkal.in</p>
             </div>
@@ -22,25 +22,18 @@
     <section class="summary-container">
         <Divider title="Summary" />
         <div>
-            <p style="margin: 0px 30px;">
+            <p style="margin: 0px 30px;font-size: var(--content-font-size)">
                 I'm a Mechanical Engineer and a self taught fullstack developer, building things, developing new technologies,
                 blogging, promoting sustainability, and heralding entrepreneurship.
-
-                I am particularly fascinated with multi-disciplinary engineering.
-                To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering,
-                mechanics, electronics, web development and software engineering.
-                Furthermore, I have also been a part of several inter-disciplinary student teams at university,
-                particularly the Formula Student initiative at Delhi Technological University.
-                I believe that creative engineering is indistinguishable from fine artwork.
             </p>
         </div>
     </section>
     <section class="experience-container">
         <Divider title="Experience" />
         <ResumeItem title="Team Defianz Racing" timeline="August 2017 - July 2019" content="
-        Currently working on parametric shape optimisation using evolution based genetic
+        Currently working on parametric shape optimization using evolution based genetic
         algorithms for single and multi-objective algorithms. Also, working on coupling of partial
-        differential solver - CFD: OpenFOAM, with optimisation heuristics and data I/O using
+        differential solver - CFD: OpenFOAM, with optimization heuristics and data I/O using
         Python. Parallel programming and Artificial Neural Network implementation to reduce
         computational time.
         " />

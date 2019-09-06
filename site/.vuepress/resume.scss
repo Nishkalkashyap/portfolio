@@ -3,6 +3,13 @@
     --text-color--dark: #222222;
     --text-color: #333333 !important;
     --divider-color: #dddddd;
+    --accent-color: #3880ff;
+    --content-font-size: 15px;
+
+    ::selection {
+        color: #ffffff;
+        background: var(--accent-color);
+    }
 
     p,
     span {
@@ -29,8 +36,8 @@
     }
 
     .resume-container {
-        min-width: 800px;
-        padding: 0px 50px;
+        max-width: 800px;
+        padding: 0px 30px;
     }
 
 }

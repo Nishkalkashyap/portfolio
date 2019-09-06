@@ -27,6 +27,11 @@ export default {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+
+    span {
+        color: var(--accent-color);
+        font-size: 13px;
+    }
 }
 
 h4 {
@@ -39,5 +44,9 @@ h4 {
     span {
         font-size: 12px;
     }
+}
+
+P {
+    font-size: var(--content-font-size);
 }
 </style>
