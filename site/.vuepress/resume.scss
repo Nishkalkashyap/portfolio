@@ -1,11 +1,13 @@
 .resume-page {
 
     --text-color--dark: #222222;
+    --text-color--light: #777777;
     --text-color: #333333 !important;
     --divider-color: #dddddd;
     --accent-color: #3880ff;
     --content-font-size: 13px;
     --content-margin: 20px;
+    --font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif !important; 
 
     ::selection {
         color: #ffffff;
@@ -15,6 +17,10 @@
     p,
     span {
         color: var(--text-color);
+    }
+
+    p,span,h1,h2,h3,h4,h5,h6 {
+        font-family: var(--font-family);
     }
 
     hr {

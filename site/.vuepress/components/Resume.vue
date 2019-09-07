@@ -35,19 +35,15 @@
         " />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Currently working on parametric shape optimization using evolution based genetic
-        algorithms for single and multi-objective algorithms. Also, working on coupling of partial
-        differential solver - CFD: OpenFOAM, with optimization heuristics and data I/O using
-        Python. Parallel programming and Artificial Neural Network implementation to reduce
+        algorithms for single and multi-objective algorithms. Parallel programming and Artificial Neural Network implementation to reduce
         computational time.
         " />
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
         Worked with the Design department of Universal Industries, which is a renowned
-        manufacturer of a wide range of mechanical power transmission products. Developed CAD
-        models for pulleys and sprockets on SolidWorks. Studied the Quality Control processes
-        implemented by the company.
+        manufacturer of a wide range of mechanical power transmission products.
         " />
     </section>
-    <section class="experience-container">
+    <section class="projects-container">
         <Divider title="Projects" />
         <ResumeItem title="Electronic Steering Wheel" timeline="Dec 2015" flare="
         Tech Stack: Electron.js,Angular 7,Node.js,Webpack" content="
@@ -57,16 +53,44 @@
             implemented by the company.
         " />
     </section>
+    <section class="competitions-container">
+        <Divider title="Competitions and Achievements" />
+        <ResumeItem title="Formula Student India, 2018" timeline="Dec 2015" flare="
+        Location: Curry motorway" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Formula Student India, 2018" timeline="Dec 2015" flare="
+        Location: Curry motorway" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Formula Student India, 2018" timeline="Dec 2015" flare="
+        Location: Curry motorway" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Formula Student India, 2018" timeline="Dec 2015" flare="
+        Location: Curry motorway" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+    </section>
     <section class="skills-container">
         <Divider title="Skills" />
         <div class="table">
             <table>
-                <!-- <tr>
-                    <th>Mechanical</th>
-                </tr> -->
                 <tr>
                     <td>Programming Languages</td>
                     <td>HTML, CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>CLoud Technologies</td>
+                    <td>Big Query, Google App Engine</td>
+                </tr>
+                <tr>
+                    <td>CLoud Technologies</td>
+                    <td>Big Query, Google App Engine</td>
                 </tr>
                 <tr>
                     <td>CLoud Technologies</td>
@@ -148,6 +172,8 @@ section.summary-container {
 section.skills-container {
     table {
         display: table;
+        margin: 0px var(--content-margin);
+        width: calc(100% - 2*var(--content-margin));
 
         td {
             padding: 2px;

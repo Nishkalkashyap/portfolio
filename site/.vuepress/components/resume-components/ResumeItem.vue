@@ -26,7 +26,7 @@ export default {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 5px;
 
     span {
         color: var(--accent-color);
@@ -38,17 +38,21 @@ h4 {
     margin: 0px !important;
     padding: 0px;
     font-family: var(--font-family) !important;
+    font-size: 14px !important;
 }
 
 .flares {
+    font-size: 8px;
+    margin-top: -2px;
     span {
-        font-size: 10px;
+    color: var(--text-color--light);
     }
 }
 
-P {
+p {
     font-size: var(--content-font-size);
+    line-height: calc(5px + var(--content-font-size));
     margin: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 </style>

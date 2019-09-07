@@ -21,6 +21,7 @@ export default {
     h3 {
         margin: 0px !important;
         padding-top: 0px;
+        font-size: 18px !important;
     }
     hr {
         overflow: auto;
