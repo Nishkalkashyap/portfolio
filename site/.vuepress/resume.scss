@@ -5,6 +5,7 @@
     --divider-color: #dddddd;
     --accent-color: #3880ff;
     --content-font-size: 15px;
+    --content-margin: 30px;
 
     ::selection {
         color: #ffffff;
@@ -37,7 +38,7 @@
 
     .resume-container {
         max-width: 800px;
-        padding: 0px 30px;
+        padding: 0px var(--content-margin);
     }
 
 }
@@ -48,5 +49,5 @@
 }
 
 .resume-item-container {
-    margin: 0px 30px;
+    margin: 0px var(--content-margin);
 }

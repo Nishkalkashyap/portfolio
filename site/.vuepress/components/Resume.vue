@@ -22,7 +22,7 @@
     <section class="summary-container">
         <Divider title="Summary" />
         <div>
-            <p style="margin: 0px 30px;font-size: var(--content-font-size)">
+            <p style="margin: 0px var(--content-margin);font-size: var(--content-font-size)">
                 I'm a Mechanical Engineer and a self taught fullstack developer, building things, developing new technologies,
                 blogging, promoting sustainability, and heralding entrepreneurship.
             </p>
