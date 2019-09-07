@@ -96,6 +96,10 @@ module.exports = {
                         text: 'Software',
                         link: '/categories/software.html'
                     },
+                    {
+                        text: 'Resume',
+                        link: '/resume/'
+                    }
                 ]
             },
             {
@@ -121,6 +125,11 @@ module.exports = {
                         link: 'https://quarkjs.io'
                     }
                 ]
+            },
+            {
+                text: 'Download CV',
+                link: 'https://github.com/Nishkalkashyap/portfolio/raw/master/site/.vuepress/buildAssets/resume.pdf'
+                // link: '/download/'
             }
         ],
         sidebar: {
