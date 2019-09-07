@@ -6,6 +6,8 @@ var ImageminPlugin = require('imagemin-webpack-plugin').default;
 var imageminMozjpeg = require('imagemin-mozjpeg');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
+const isProductionEnvironment = process.env.NODE_ENV === 'production';
+
 module.exports = {
     title: 'Portfolio',
     description: 'My portfolio',
@@ -70,67 +72,67 @@ module.exports = {
             updatePopup: true
         },
         nav: [{
-                text: 'Major Projects',
-                link: '/projects/'
-            },
-            // {
-            //     text: 'Tags',
-            //     items: Object.keys(AllTags).map((tag) => {
-            //         return {
-            //             text: tag,
-            //             link: `/tags/${tag}.html`
-            //         }
-            //     })
-            // },
-            {
-                text: 'Categories',
-                items: [{
-                        text: 'Mechanical',
-                        link: '/categories/mechanical.html'
-                    },
-                    {
-                        text: 'Electronics',
-                        link: '/categories/electronics.html'
-                    },
-                    {
-                        text: 'Software',
-                        link: '/categories/software.html'
-                    },
-                    {
-                        text: 'Resume',
-                        link: '/resume/'
-                    }
-                ]
+            text: 'Major Projects',
+            link: '/projects/'
+        },
+        // {
+        //     text: 'Tags',
+        //     items: Object.keys(AllTags).map((tag) => {
+        //         return {
+        //             text: tag,
+        //             link: `/tags/${tag}.html`
+        //         }
+        //     })
+        // },
+        {
+            text: 'Categories',
+            items: [{
+                text: 'Mechanical',
+                link: '/categories/mechanical.html'
             },
             {
-                text: 'Links',
-                items: [{
-                        text: 'GitHub',
-                        link: 'https://github.com/Nishkalkashyap'
-                    },
-                    {
-                        text: 'LinkedIn',
-                        link: 'https://www.linkedin.com/in/nishkalkashyap/'
-                    },
-                    {
-                        text: 'Twitter',
-                        link: 'https://twitter.com/nishkalkashyap'
-                    },
-                    {
-                        text: 'Instagram',
-                        link: 'https://www.instagram.com/nishkalkashyap/'
-                    },
-                    {
-                        text: 'Quark',
-                        link: 'https://quarkjs.io'
-                    }
-                ]
+                text: 'Electronics',
+                link: '/categories/electronics.html'
             },
             {
-                text: 'Download CV',
-                link: 'https://github.com/Nishkalkashyap/portfolio/raw/master/site/.vuepress/buildAssets/resume.pdf'
-                // link: '/download/'
+                text: 'Software',
+                link: '/categories/software.html'
+            },
+            {
+                text: 'Resume',
+                link: (isProductionEnvironment ? null : '/resume/')
             }
+            ]
+        },
+        {
+            text: 'Links',
+            items: [{
+                text: 'GitHub',
+                link: 'https://github.com/Nishkalkashyap'
+            },
+            {
+                text: 'LinkedIn',
+                link: 'https://www.linkedin.com/in/nishkalkashyap/'
+            },
+            {
+                text: 'Twitter',
+                link: 'https://twitter.com/nishkalkashyap'
+            },
+            {
+                text: 'Instagram',
+                link: 'https://www.instagram.com/nishkalkashyap/'
+            },
+            {
+                text: 'Quark',
+                link: 'https://quarkjs.io'
+            }
+            ]
+        },
+        {
+            text: 'Download CV',
+            link: 'https://github.com/Nishkalkashyap/portfolio/raw/master/site/.vuepress/buildAssets/resume.pdf'
+            // link: '/download/'
+        }
         ],
         sidebar: {
             "/tags/": [

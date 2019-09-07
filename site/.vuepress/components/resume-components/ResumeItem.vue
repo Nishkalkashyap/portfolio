@@ -42,7 +42,7 @@ h4 {
 
 .flares {
     span {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 

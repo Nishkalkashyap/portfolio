@@ -30,7 +30,10 @@
     </section>
     <section class="experience-container">
         <Divider title="Experience" />
-        <ResumeItem title="Team Defianz Racing" timeline="August 2017 - July 2019" content="
+        <ResumeItem title="Quark" timeline="July 2018 - Present" content="
+        Created Quark software.
+        " />
+        <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Currently working on parametric shape optimization using evolution based genetic
         algorithms for single and multi-objective algorithms. Also, working on coupling of partial
         differential solver - CFD: OpenFOAM, with optimization heuristics and data I/O using
