@@ -128,11 +128,11 @@ module.exports = {
                     }
                 ]
             },
-            {
-                text: 'Download CV',
-                link: 'https://github.com/Nishkalkashyap/portfolio/raw/master/site/.vuepress/buildAssets/resume.pdf'
-                // link: '/download/'
-            }
+            // {
+            //     text: 'Download CV',
+            //     link: 'https://github.com/Nishkalkashyap/portfolio/raw/master/site/.vuepress/buildAssets/resume.pdf'
+            //     // link: '/download/'
+            // }
         ],
         sidebar: {
             "/tags/": [
