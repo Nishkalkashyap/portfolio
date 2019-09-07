@@ -138,6 +138,9 @@ section.top-heading-container {
             margin-top: 0px;
             margin-bottom: 0px !important;
         }
+        p {
+            margin-top: 0px;
+        }
     }
 
     .right {
@@ -176,8 +179,11 @@ section.skills-container {
         width: calc(100% - 2*var(--content-margin));
 
         td {
+            color: var(--text-color);
             padding: 2px;
+            font-family: var(--font-family);
             font-size: var(--content-font-size);
+            line-height: var(--content-font-size);
         }
     }
 }

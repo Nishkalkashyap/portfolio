@@ -18,11 +18,13 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     h3 {
         margin: 0px !important;
         padding-top: 0px;
         font-size: 18px !important;
     }
+
     hr {
         overflow: auto;
         flex-grow: 1;

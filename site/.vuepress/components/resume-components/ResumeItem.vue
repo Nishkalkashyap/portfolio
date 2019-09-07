@@ -38,14 +38,16 @@ h4 {
     margin: 0px !important;
     padding: 0px;
     font-family: var(--font-family) !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
+    color: var(--text-color) !important;
 }
 
 .flares {
     font-size: 8px;
     margin-top: -2px;
+
     span {
-    color: var(--text-color--light);
+        color: var(--text-color--light);
     }
 }
 
@@ -53,6 +55,6 @@ p {
     font-size: var(--content-font-size);
     line-height: calc(5px + var(--content-font-size));
     margin: 0px;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 </style>

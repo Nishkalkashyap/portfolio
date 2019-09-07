@@ -1,8 +1,8 @@
 .resume-page {
 
-    --text-color--dark: #222222;
+    --text-color--dark: #333333;
     --text-color--light: #777777;
-    --text-color: #333333 !important;
+    --text-color: #555555 !important;
     --divider-color: #dddddd;
     --accent-color: #3880ff;
     --content-font-size: 13px;
@@ -50,8 +50,7 @@
 }
 
 .divider-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 5px 0px;
 }
 
 .resume-item-container {
