@@ -1,8 +1,8 @@
 <template>
 <div class="footer-container">
-    <div class="avatar">
+    <!-- <div class="avatar">
         <img src="~@buildAssets/pictures/avatar.jpg" alt="avatar" align="middle">
-    </div>
+    </div> -->
     <div class="social-icons">
         <p class="contact" title="Email">
             <a class="block-elements" href="mailto:hello@nishkal.in?subject=Hey%20Nishkal," target="_blank">hello@nishkal.in</a>
