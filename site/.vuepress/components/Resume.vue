@@ -6,16 +6,21 @@
             <p>Mechanical Engineer and self-taught developer</p>
         </div>
         <div class="right">
-            <div class="meta-item">
-                <p>Chandigarh</p>
-            </div>
-            <div class="meta-item" style="--text-color:var(--accent-color);">
-                <a class="social-icon" :title="website.title" v-html="website.svg" :href="website.link" target="_blank"></a>
-                <p>https://nishkal.in</p>
-            </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
                 <a class="social-icon" :title="email.title" v-html="email.svg" :href="email.link" target="_blank"></a>
                 <p>hello@nishkal.in</p>
+            </div>
+            <div class="meta-item" style="--text-color:var(--accent-color);">
+                <a class="social-icon" :title="website.title" v-html="website.svg" :href="website.link" target="_blank"></a>
+                <p>nishkal.in</p>
+            </div>
+            <div class="meta-item" style="--text-color:var(--accent-color);">
+                <a class="social-icon" :title="github.title" v-html="github.svg" :href="github.link" target="_blank"></a>
+                <p>github.com/Nishkalkashyap</p>
+            </div>
+            <div class="meta-item" style="--text-color:var(--accent-color);">
+                <a class="social-icon" :title="linkedin.title" v-html="linkedin.svg" :href="linkedin.link" target="_blank"></a>
+                <p>linkedin.com/in/nishkalkashyap</p>
             </div>
         </div>
     </section>
@@ -85,15 +90,15 @@
                     <td>HTML, CSS, JavaScript</td>
                 </tr>
                 <tr>
-                    <td>CLoud Technologies</td>
+                    <td>Cloud Technologies</td>
                     <td>Big Query, Google App Engine</td>
                 </tr>
                 <tr>
-                    <td>CLoud Technologies</td>
+                    <td>Cloud Technologies</td>
                     <td>Big Query, Google App Engine</td>
                 </tr>
                 <tr>
-                    <td>CLoud Technologies</td>
+                    <td>Cloud Technologies</td>
                     <td>Big Query, Google App Engine</td>
                 </tr>
             </table>
@@ -121,6 +126,16 @@ export default {
                 svg: require("!!svg-inline-loader!@buildAssets/signature/mail.svg"),
                 link: "mailto:hello@nishkal.in?subject=Hey%20Nishkal,",
                 title: 'Email'
+            },
+            github: {
+                svg: require("!!svg-inline-loader!@buildAssets/signature/github.svg"),
+                link: "https://github.com/nishkalkashyap",
+                title: 'GitHub'
+            },
+            linkedin: {
+                svg: require("!!svg-inline-loader!@buildAssets/signature/linkedin.svg"),
+                link: "https://linkedin.com/in/nishkalkashyap",
+                title: 'LinkedIn'
             }
         }
     }
@@ -138,6 +153,7 @@ section.top-heading-container {
             margin-top: 0px;
             margin-bottom: 0px !important;
         }
+
         p {
             margin-top: 0px;
         }
@@ -153,6 +169,7 @@ section.top-heading-container {
         p {
             margin: 0px;
             display: inline-block;
+            font-size: 11px;
         }
 
         a.social-icon {

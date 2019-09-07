@@ -30,7 +30,7 @@ export default {
 
     span {
         color: var(--accent-color);
-        font-size: 13px;
+        font-size: 11px;
     }
 }
 
