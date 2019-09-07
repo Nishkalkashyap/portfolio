@@ -9,7 +9,7 @@
             <div class="meta-item">
                 <p>Chandigarh</p>
             </div>
-            <div class="meta-item">
+            <div class="meta-item" style="--text-color:var(--accent-color);">
                 <a class="social-icon" :title="website.title" v-html="website.svg" :href="website.link" target="_blank"></a>
                 <p>https://nishkal.in</p>
             </div>
