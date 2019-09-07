@@ -26,7 +26,7 @@ export default {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
 
     span {
         color: var(--accent-color);
@@ -48,5 +48,7 @@ h4 {
 
 P {
     font-size: var(--content-font-size);
+    margin: 0px;
+    margin-top: 10px;
 }
 </style>

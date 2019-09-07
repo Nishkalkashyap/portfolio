@@ -45,7 +45,6 @@
         manufacturer of a wide range of mechanical power transmission products. Developed CAD
         models for pulleys and sprockets on SolidWorks. Studied the Quality Control processes
         implemented by the company.
-
         " />
     </section>
     <section class="experience-container">
@@ -57,6 +56,24 @@
             models for pulleys and sprockets on SolidWorks. Studied the Quality Control processes
             implemented by the company.
         " />
+    </section>
+    <section class="skills-container">
+        <Divider title="Skills" />
+        <div class="table">
+            <table>
+                <!-- <tr>
+                    <th>Mechanical</th>
+                </tr> -->
+                <tr>
+                    <td>Programming Languages</td>
+                    <td>HTML, CSS, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>CLoud Technologies</td>
+                    <td>Big Query, Google App Engine</td>
+                </tr>
+            </table>
+        </div>
     </section>
 </div>
 </template>
@@ -125,6 +142,17 @@ section.summary-container {
     h3 {
         margin-top: 0px;
         margin-bottom: 0px !important;
+    }
+}
+
+section.skills-container {
+    table {
+        display: table;
+
+        td {
+            padding: 2px;
+            font-size: var(--content-font-size);
+        }
     }
 }
 </style>
