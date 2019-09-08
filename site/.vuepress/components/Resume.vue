@@ -142,8 +142,8 @@
                     <td>Big Query, Google App Engine</td>
                 </tr>
                 <tr>
-                    <td>Cloud Technologies</td>
-                    <td>Big Query, Google App Engine</td>
+                    <td>DevOps</td>
+                    <td>Travis CI and Appveyor CI</td>
                 </tr>
                 <tr>
                     <td>Cloud Technologies</td>

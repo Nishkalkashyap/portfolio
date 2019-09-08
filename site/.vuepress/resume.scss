@@ -66,7 +66,7 @@
 }
 
 .resume-item-container {
-    margin: 5px var(--content-margin);
+    margin: 0px var(--content-margin) 10px var(--content-margin);
     min-width: calc(50% - 2* var(--content-margin));
     max-width: calc(50% - 2* var(--content-margin));
     display: inline-block;
