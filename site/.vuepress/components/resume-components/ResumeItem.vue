@@ -38,7 +38,7 @@ h4 {
     margin: 0px !important;
     padding: 0px;
     font-family: var(--font-family) !important;
-    font-size: 15px !important;
+    font-size: 14px !important;
     color: var(--text-color) !important;
 }
 
@@ -53,7 +53,7 @@ h4 {
 
 p {
     font-size: var(--content-font-size);
-    line-height: calc(5px + var(--content-font-size));
+    line-height: calc(2px + var(--content-font-size));
     margin: 0px;
     margin-top: 0px;
 }

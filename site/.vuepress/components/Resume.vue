@@ -16,7 +16,7 @@
             </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
                 <a class="social-icon" :title="github.title" v-html="github.svg" :href="github.link" target="_blank"></a>
-                <p>github.com/Nishkalkashyap</p>
+                <p>github.com/nishkalkashyap</p>
             </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
                 <a class="social-icon" :title="linkedin.title" v-html="linkedin.svg" :href="linkedin.link" target="_blank"></a>
@@ -132,6 +132,14 @@
                     <td>Cloud Technologies</td>
                     <td>Big Query, Google App Engine</td>
                 </tr>
+                <tr>
+                    <td>Cloud Technologies</td>
+                    <td>Big Query, Google App Engine</td>
+                </tr>
+                <tr>
+                    <td>Cloud Technologies</td>
+                    <td>Big Query, Google App Engine</td>
+                </tr>
             </table>
         </div>
     </section>
@@ -196,16 +204,19 @@ section.top-heading-container {
     }
 
     .right {
+        $lineHeight:14px;
 
         .meta-item {
             border-left: solid 1px var(--divider-color);
             padding-left: 10px;
+            line-height: $lineHeight;
         }
 
         p {
             margin: 0px;
             display: inline-block;
             font-size: 11px;
+            line-height: $lineHeight;
         }
 
         a.social-icon {
@@ -214,6 +225,7 @@ section.top-heading-container {
             display: inline-block;
             position: relative;
             top: 3px;
+            line-height: $lineHeight;
         }
     }
 }
