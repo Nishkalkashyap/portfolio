@@ -67,3 +67,7 @@
     max-width: calc(50% - 2* var(--content-margin));
     display: inline-block;
 }
+
+.resume-item-container.flex-grow {
+    max-width: calc(100% - 2* var(--content-margin));
+}

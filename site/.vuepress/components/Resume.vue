@@ -46,10 +46,10 @@
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
         Worked with the Design department of Universal Industries, which is a renowned
         manufacturer of a wide range of mechanical power transmission products.
-        " />
+        " grow="true"/>
     </section>
-    <section class="competitions-container flex-box">
-        <Divider title="Projects, Competitions and Achievements" />
+    <section class="projects-container flex-box">
+        <Divider title="Projects" />
         <ResumeItem title="Quark development environment" timeline="Dec 2015" flare="
         Tech Stack: Electron.js • Angular 7 • Node.js • Webpack" content="
             Worked with the Design department of Universal Industries.
@@ -57,16 +57,6 @@
         <ResumeItem title="Quark app store" timeline="Dec 2015" flare="
         Tech Stack: React.js • Firebase • Firestore Database • Cloud Functions" content="
             Worked with the Design department of Universal Industries.
-        " />
-        <ResumeItem title="Formula Student India, January 2018" timeline="Dec 2015" flare="
-        Competition • January 2018 • India" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
-        " />
-        <ResumeItem title="Formula Student UK, July 2017" timeline="Dec 2015" flare="
-        Competition • July 2017 • United Kingdom" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
         " />
         <ResumeItem title="Electronic steering wheel" timeline="Dec 2015" flare="
         Tech Stack: Arduino • Nextion HMI display • Carbon fiber • Pneumatics" content="
@@ -93,6 +83,24 @@
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " inline="true" />
+        <ResumeItem title="Design and manufacturing of various subsystems" timeline="Dec 2015" flare="
+        Solidworks • Engineering Design • 3D Printing" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+    </section>
+    <section class="competitions-container flex-box">
+        <Divider title="Competitions and Achievements" />
+        <ResumeItem title="Formula Student India, January 2018" timeline="Dec 2015" flare="
+        Competition • January 2018 • India" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Formula Student UK, July 2017" timeline="Dec 2015" flare="
+        Competition • July 2017 • United Kingdom" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
         <ResumeItem title="Formula Student UK, July 2016" timeline="Dec 2015" flare="
         Competition • July 2016 • United Kingdom" content="
             Worked with the Design department of Universal Industries, which is a renowned
@@ -100,11 +108,6 @@
         " />
         <ResumeItem title="Formula Student India, January 2016" timeline="Dec 2015" flare="
         Competition • January 2016 • India" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
-        " />
-        <ResumeItem title="Design and manufacturing of various subsystems" timeline="Dec 2015" flare="
-        Solidworks • Engineering Design • 3D Printing" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />

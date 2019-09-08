@@ -1,5 +1,5 @@
 <template>
-<div class="resume-item-container">
+<div class="resume-item-container" :class="(grow && 'flex-grow')">
     <div class="header">
         <h4>{{title}}</h4>
         <span>{{timeline}}</span>
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-    props: ['title', 'timeline', 'content', 'flare'],
+    props: ['title', 'timeline', 'content', 'flare','grow'],
     data() {
         return {
             flares: (this.flare || "").replace(/\,/gi, " • ")
