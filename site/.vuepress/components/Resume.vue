@@ -33,50 +33,78 @@
             </p>
         </div>
     </section>
-    <section class="experience-container">
+    <section class="experience-container flex-box">
         <Divider title="Experience" />
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
-        Created Quark software.
+        Currently working on parametric shape optimization using evolution based genetic
+        algorithms for single and multi-objective algorithms.
         " />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Currently working on parametric shape optimization using evolution based genetic
-        algorithms for single and multi-objective algorithms. Parallel programming and Artificial Neural Network implementation to reduce
-        computational time.
+        algorithms for single and multi-objective algorithms.
         " />
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
         Worked with the Design department of Universal Industries, which is a renowned
         manufacturer of a wide range of mechanical power transmission products.
         " />
     </section>
-    <section class="projects-container">
-        <Divider title="Projects" />
-        <ResumeItem title="Electronic Steering Wheel" timeline="Dec 2015" flare="
-        Tech Stack: Electron.js,Angular 7,Node.js,Webpack" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products. Developed CAD
-            models for pulleys and sprockets on SolidWorks. Studied the Quality Control processes
-            implemented by the company.
+    <section class="competitions-container flex-box">
+        <Divider title="Projects, Competitions and Achievements" />
+        <ResumeItem title="Quark development environment" timeline="Dec 2015" flare="
+        Tech Stack: Electron.js • Angular 7 • Node.js • Webpack" content="
+            Worked with the Design department of Universal Industries.
         " />
-    </section>
-    <section class="competitions-container">
-        <Divider title="Competitions and Achievements" />
-        <ResumeItem title="Formula Student India, 2018" timeline="Dec 2015" flare="
-        Location: Curry motorway" content="
+        <ResumeItem title="Quark app store" timeline="Dec 2015" flare="
+        Tech Stack: React.js • Firebase • Firestore Database • Cloud Functions" content="
+            Worked with the Design department of Universal Industries.
+        " />
+        <ResumeItem title="Formula Student India, January 2018" timeline="Dec 2015" flare="
+        Competition • January 2018 • India" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
-        <ResumeItem title="Formula Student India, 2018" timeline="Dec 2015" flare="
-        Location: Curry motorway" content="
+        <ResumeItem title="Formula Student UK, July 2017" timeline="Dec 2015" flare="
+        Competition • July 2017 • United Kingdom" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
-        <ResumeItem title="Formula Student India, 2018" timeline="Dec 2015" flare="
-        Location: Curry motorway" content="
+        <ResumeItem title="Electronic steering wheel" timeline="Dec 2015" flare="
+        Tech Stack: Arduino • Nextion HMI display • Carbon fiber • Pneumatics" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
-        <ResumeItem title="Formula Student India, 2018" timeline="Dec 2015" flare="
-        Location: Curry motorway" content="
+        <ResumeItem title="Data acquisition system" timeline="Dec 2015" flare="
+        Tech Stack: Arduino • Processing" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Finance Management App" timeline="Dec 2015" flare="
+        Tech Stack: Firebase Firestore • Ionic 3 • Angular 4" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Variable geometry intake manifold" timeline="Dec 2015" flare="
+        Solidworks • Research Paper • Thesis" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Dynamometer" timeline="Dec 2015" flare="
+        Solidworks • Engineering Design • Optimization" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " inline="true" />
+        <ResumeItem title="Formula Student UK, July 2016" timeline="Dec 2015" flare="
+        Competition • July 2016 • United Kingdom" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Formula Student India, January 2016" timeline="Dec 2015" flare="
+        Competition • January 2016 • India" content="
+            Worked with the Design department of Universal Industries, which is a renowned
+            manufacturer of a wide range of mechanical power transmission products.
+        " />
+        <ResumeItem title="Design and manufacturing of various subsystems" timeline="Dec 2015" flare="
+        Solidworks • Engineering Design • 3D Printing" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
@@ -143,6 +171,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section.top-heading-container {
     display: flex;
     justify-content: space-between;
