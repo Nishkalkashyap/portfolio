@@ -1,11 +1,11 @@
 <template>
 <div class="resume-item-container" :class="(grow && 'flex-grow')">
+    <div class="flares" v-if="flares">
+        <span>{{flares}}</span>
+    </div>
     <div class="header">
         <h4>{{title}}</h4>
         <span>{{timeline}}</span>
-    </div>
-    <div class="flares" v-if="flares">
-        <span>{{flares}}</span>
     </div>
     <p> {{content}} </p>
 </div>
@@ -26,7 +26,6 @@ export default {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
 
     span {
         color: var(--accent-color);
@@ -38,13 +37,13 @@ h4 {
     margin: 0px !important;
     padding: 0px;
     font-family: var(--font-family) !important;
-    font-size: 14px !important;
+    font-size: 15px !important;
     color: var(--text-color) !important;
 }
 
 .flares {
     font-size: 8px;
-    margin-top: -2px;
+    margin-bottom: -2px;
 
     span {
         color: var(--text-color--light);
