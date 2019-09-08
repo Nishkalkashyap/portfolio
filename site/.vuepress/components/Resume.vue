@@ -3,36 +3,43 @@
     <section class="top-heading-container">
         <div class="left">
             <h1>Nishkal Kashyap</h1>
-            <p>Mechanical Engineer and self-taught developer</p>
+            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform Quark.js <a>https://quarkjs.io</a>
+                <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
+            </p>
         </div>
         <div class="right">
             <div class="meta-item" style="--text-color:var(--accent-color);">
-                <a class="social-icon" :title="email.title" v-html="email.svg" :href="email.link" target="_blank"></a>
-                <p>hello@nishkal.in</p>
+                <p>
+                    <a class="social-icon" :title="email.title" v-html="email.svg" :href="email.link" target="_blank"></a>
+                    hello@nishkal.in</p>
             </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
-                <a class="social-icon" :title="website.title" v-html="website.svg" :href="website.link" target="_blank"></a>
-                <p>nishkal.in</p>
+                <p>
+                    <a class="social-icon" :title="website.title" v-html="website.svg" :href="website.link" target="_blank"></a>
+                    nishkal.in</p>
             </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
-                <a class="social-icon" :title="github.title" v-html="github.svg" :href="github.link" target="_blank"></a>
-                <p>github.com/nishkalkashyap</p>
+                <p>
+                    <a class="social-icon" :title="github.title" v-html="github.svg" :href="github.link" target="_blank"></a>
+                    github.com/nishkalkashyap</p>
             </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
-                <a class="social-icon" :title="linkedin.title" v-html="linkedin.svg" :href="linkedin.link" target="_blank"></a>
-                <p>linkedin.com/in/nishkalkashyap</p>
+                <p>
+                    <a class="social-icon" :title="linkedin.title" v-html="linkedin.svg" :href="linkedin.link" target="_blank"></a>
+                    linkedin.com/in/nishkalkashyap
+                </p>
             </div>
         </div>
     </section>
-    <section class="summary-container">
+    <!-- <section class="summary-container">
         <Divider title="Summary" />
         <div>
-            <p style="margin: 0px var(--content-margin);font-size: var(--content-font-size)">
+            <p>
                 I'm a Mechanical Engineer and a self taught fullstack developer, building things, developing new technologies,
-                blogging, promoting sustainability, and heralding entrepreneurship.
+                blogging, and heralding entrepreneurship.
             </p>
         </div>
-    </section>
+    </section> -->
     <section class="experience-container flex-box">
         <Divider title="Experience" />
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
@@ -46,68 +53,78 @@
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
         Worked with the Design department of Universal Industries, which is a renowned
         manufacturer of a wide range of mechanical power transmission products.
-        " grow="true"/>
+        " grow="true" />
+    </section>
+    <section class="education-container flex-box">
+        <Divider title="Education" />
+        <ResumeItem title="Delhi Technological University" timeline="Aug 2014 - Jun 2018" content="
+           B. Tech, Mechanical Engineering • 70.4%
+        " />
+        <!-- All India Senior School Certificate Exam • 94.6% -->
+        <ResumeItem title="Shivalik Public School" timeline="Mar 2012 - May 2014" content="
+        CBSE • 94.6%
+        " />
     </section>
     <section class="projects-container flex-box">
         <Divider title="Projects" />
         <ResumeItem title="Quark development environment" timeline="Dec 2015" flare="
-        Tech Stack: Electron.js • Angular 7 • Node.js • Webpack" content="
+        Tech Stack: Electron.js,Angular 7, Node.js, Webpack" content="
             Worked with the Design department of Universal Industries.
         " />
         <ResumeItem title="Quark app store" timeline="Dec 2015" flare="
-        Tech Stack: React.js • Firebase • Firestore Database • Cloud Functions" content="
+        Tech Stack: React.js, Firebase, Firestore Database, Cloud Functions" content="
             Worked with the Design department of Universal Industries.
         " />
         <ResumeItem title="Electronic steering wheel" timeline="Dec 2015" flare="
-        Tech Stack: Arduino • Nextion HMI display • Carbon fiber • Pneumatics" content="
+        Tech Stack: Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
         <ResumeItem title="Data acquisition system" timeline="Dec 2015" flare="
-        Tech Stack: Arduino • Processing" content="
+        Tech Stack: Arduino, Processing" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
         <ResumeItem title="Finance Management App" timeline="Dec 2015" flare="
-        Tech Stack: Firebase Firestore • Ionic 3 • Angular 4" content="
+        Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
         <ResumeItem title="Variable geometry intake manifold" timeline="Dec 2015" flare="
-        Solidworks • Research Paper • Thesis" content="
+        Solidworks, Research Paper, Thesis" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
         <ResumeItem title="Dynamometer" timeline="Dec 2015" flare="
-        Solidworks • Engineering Design • Optimization" content="
+        Solidworks, Engineering Design, Optimization" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " inline="true" />
         <ResumeItem title="Design and manufacturing of various subsystems" timeline="Dec 2015" flare="
-        Solidworks • Engineering Design • 3D Printing" content="
+        Solidworks, Engineering Design, 3D Printing" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
     </section>
     <section class="competitions-container flex-box">
         <Divider title="Competitions and Achievements" />
-        <ResumeItem title="Formula Student India, January 2018" timeline="Dec 2015" flare="
-        Competition • January 2018 • India" content="
+        <ResumeItem title="Formula Bharat" timeline="January 2018" flare="
+        Competition, India, Buddha International Circuit" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
-        <ResumeItem title="Formula Student UK, July 2017" timeline="Dec 2015" flare="
-        Competition • July 2017 • United Kingdom" content="
+        <ResumeItem title="Formula Student UK" timeline="July 2017" flare="
+        Competition, July 2017, United Kingdom" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
-        <ResumeItem title="Formula Student UK, July 2016" timeline="Dec 2015" flare="
-        Competition • July 2016 • United Kingdom" content="
+        <ResumeItem title="Formula Student UK" timeline="July 2016" flare="
+        Competition, July 2016, United Kingdom" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
-        <ResumeItem title="Formula Student India, January 2016" timeline="Dec 2015" flare="
-        Competition • January 2016 • India" content="
+        <ResumeItem title="Formula Student India" timeline="January 2016" flare="
+        Competition, India, Buddh International Circuit" content="
             Worked with the Design department of Universal Industries, which is a renowned
             manufacturer of a wide range of mechanical power transmission products.
         " />
@@ -195,20 +212,25 @@ section.top-heading-container {
     .left {
         h1 {
             margin-top: 0px;
-            margin-bottom: 0px !important;
+            margin-bottom: 5px !important;
+            font-size: 50px !important;
         }
 
         p {
-            margin-top: 0px;
+            margin: 0px;
+            font-size: var(--content-font-size);
+            word-break: keep-all;
         }
     }
 
     .right {
-        $lineHeight:14px;
+        $lineHeight: 14px;
+        min-width: 160px;
+
+        border-left: solid 1px var(--divider-color);
+        padding-left: 10px;
 
         .meta-item {
-            border-left: solid 1px var(--divider-color);
-            padding-left: 10px;
             line-height: $lineHeight;
         }
 
@@ -216,7 +238,6 @@ section.top-heading-container {
             margin: 0px;
             display: inline-block;
             font-size: 11px;
-            line-height: $lineHeight;
         }
 
         a.social-icon {
@@ -234,6 +255,11 @@ section.summary-container {
     h3 {
         margin-top: 0px;
         margin-bottom: 0px !important;
+    }
+
+    p {
+        margin: 0px var(--content-margin);
+        font-size: var(--content-font-size);
     }
 }
 
