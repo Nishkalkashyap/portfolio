@@ -3,7 +3,7 @@
     <section class="top-heading-container">
         <div class="left">
             <h1>Nishkal Kashyap</h1>
-            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform QuarkJS.
+            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform Quark
                 <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
             </p>
             <p>
@@ -51,7 +51,7 @@
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
         Currently working on parametric shape optimization using evolution based genetic
         algorithms for single and multi-objective algorithms.
-        " />
+        " grow="true" />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Currently working on parametric shape optimization using evolution based genetic
         algorithms for single and multi-objective algorithms.
@@ -59,7 +59,7 @@
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
         Worked with the Design department of Universal Industries, which is a renowned
         manufacturer of a wide range of mechanical power transmission products.
-        " grow="true" />
+        " />
     </section>
     <section class="education-container flex-box">
         <Divider title="Education" />
@@ -214,6 +214,7 @@ section.top-heading-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5px;
 
     .left {
         h1 {
