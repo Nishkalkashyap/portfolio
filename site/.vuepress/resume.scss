@@ -4,15 +4,20 @@
     // --text-color--light: #777777;
     // --text-color: #444444 !important;
 
-    --text-color--dark: var(--ion-color-dark);
+    --text-color--dark: var(--ion-color-dark-shade);
     --text-color--light: var(--ion-color-medium-shade);
+    --text-color--medium: var(--ion-color-dark-tint);
     --text-color: var(--ion-color-dark-shade) !important;
 
     --divider-color: #dddddd;
     --accent-color: #055af9;
-    --content-font-size: 13px;
-    --content-margin: 10px;
+    --content-margin: 20px;
     --font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif !important;
+
+    --content-font-size: 12px;
+    --divider-font-size: 20px;
+    --heading-font-size: 15px;
+    --flare-font-size: 8px;
 
     ::selection {
         color: #ffffff;
@@ -76,12 +81,18 @@
 }
 
 .resume-item-container {
-    margin: 0px var(--content-margin) 10px var(--content-margin);
-    min-width: calc(50% - 2* var(--content-margin));
-    max-width: calc(50% - 2* var(--content-margin));
+    // margin: 0px 0px 10px var(--content-margin);
+    // min-width: calc(50% - 0px- var(--content-margin));
+    // max-width: calc(50% - 0px- var(--content-margin));
+    padding: 0px 0px 10px var(--content-margin);
+    min-width: 50%;
+    max-width: 50%;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 .resume-item-container.flex-grow {
-    max-width: calc(100% - 2* var(--content-margin));
+    // max-width: calc(100% - 0px- var(--content-margin));
+    min-width: 100%;
+    max-width: 100%;
 }

@@ -37,12 +37,13 @@ h4 {
     margin: 0px !important;
     padding: 0px;
     font-family: var(--font-family) !important;
-    font-size: 15px !important;
-    color: var(--text-color) !important;
+    font-size: var(--heading-font-size) !important;
+    line-height: var(--heading-font-size) !important;
+    color: var(--text-color--medium) !important;
 }
 
 .flares {
-    font-size: 8px;
+    font-size: var(--flare-font-size);
     margin-bottom: -2px;
 
     span {

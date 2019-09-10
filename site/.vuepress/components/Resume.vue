@@ -7,7 +7,7 @@
                 <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
             </p>
             <p>
-                Highly recommend visiting my portfolio website at: <a href="">https://nishkal.in</a>
+                Highly recommend visiting my portfolio website at: <a href="">nishkal.in</a>
             </p>
         </div>
         <div class="right">
@@ -273,7 +273,7 @@ section.skills-container {
     table {
         display: table;
         margin: 0px var(--content-margin);
-        width: calc(100% - 2*var(--content-margin));
+        width: calc(100% - var(--content-margin));
 
         td {
             color: var(--text-color);
