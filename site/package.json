@@ -9,14 +9,14 @@
     "start": "npm run tags && vuepress dev -p 80",
     "qs": "vuepress dev -p 80",
     "build": "npm run tags && vuepress build",
-    "cloud-build": "npm run tags && vuepress build",
     "post-build": "npx ts-node ./scripts/create-site-map.ts && npm run worker",
     "worker": "npx ts-node ./scripts/generate-service-worker.ts",
     "deploy-ci": "firebase deploy --token \"$FIREBASE_TOKEN\"",
     "bad": "npm run build && firebase deploy",
     "test": "npm run build",
     "check": "ts-node ./scripts/check-files.ts",
-    "loc": "bash -c 'cloc $(git ls-files)'"
+    "gr" : "ts-node ./scripts/generate-resume.ts",
+    "ur" : "ts-node ./scripts/upload-resume.ts"
   },
   "keywords": [
     "quark"
@@ -30,6 +30,7 @@
     "@types/fs-extra": "^5.0.5",
     "@types/open": "^6.1.0",
     "@types/package-json": "^5.0.1",
+    "@types/puppeteer": "^1.19.1",
     "@types/recursive-readdir": "^2.2.0",
     "@types/sharp": "^0.22.2",
     "@types/single-line-log": "^1.1.0",
@@ -48,6 +49,7 @@
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
     "open": "^6.1.0",
+    "puppeteer": "^1.19.0",
     "recursive-readdir": "^2.2.2",
     "sass-loader": "^7.1.0",
     "sharp": "^0.22.1",
