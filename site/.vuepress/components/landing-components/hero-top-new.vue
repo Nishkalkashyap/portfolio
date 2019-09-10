@@ -116,7 +116,7 @@ export default {
     font-family: var(--heading-font-family);
     text-shadow: none;
     color: var(--text-color);
-    background: linear-gradient(225deg, #9ae6b4, #48bb78);
+    background: var(--secondary-gradient);
 }
 
 .hero::before {

@@ -4,12 +4,14 @@ body {
 
     // --gradient: linear-gradient(30deg, rgb(90, 189, 255) 0%, rgb(71, 104, 180) 100%);
     // --gradient-shadow: rgba(52, 152, 219, 0.3);
-    
+
     // --gradient: linear-gradient(30deg, #FBAB7E 0%, #F7CE68 100%);
     // --gradient-shadow: #FBAB7E88;
 
     // --gradient: linear-gradient(225deg, #ef699e, #feb2b2);
     // --gradient-shadow: #ef699e88;
+
+    --secondary-gradient: linear-gradient(225deg, #9ae6b4, #48bb78);
 }
 
 .landing-page {
@@ -107,5 +109,11 @@ body {
         left: 300px;
         right: unset;
         background-image: linear-gradient(72deg, #4c51bf, #667eea);
+    }
+
+    div.theme-changer-component {
+        svg {
+            fill: var(--text-color);
+        }
     }
 }
