@@ -1,6 +1,7 @@
 <template>
 <div class="home4-component">
     <heroTop />
+    <ThemeChanger />
 
     <Timeline timeline="22 years old" heading="Here's what I'm all about" id="about" content="
       I'm a Mechanical Engineer and a self taught fullstack developer, building things, developing new technologies, blogging, promoting sustainability, and heralding entrepreneurship.
@@ -293,6 +294,7 @@ import floaters from "./landing-components/floaters";
 import heroFeatures from "./landing-components/hero-features";
 import Footer from "./landing-components/footer";
 import SWUpdatePopup from "@default-theme/SWUpdatePopup";
+import ThemeChanger from './landing-components/ThemeChanger'
 export default {
     components: {
         heroSection,
@@ -300,7 +302,8 @@ export default {
         floaters,
         heroFeatures,
         Footer,
-        SWUpdatePopup
+        SWUpdatePopup,
+        ThemeChanger
     },
     data: () => {
         return {
