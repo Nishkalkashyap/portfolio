@@ -128,11 +128,12 @@ module.exports = {
                     }
                 ]
             },
-            // {
-            //     text: 'Download CV',
-            //     link: 'https://github.com/Nishkalkashyap/portfolio/raw/master/site/.vuepress/buildAssets/resume.pdf'
-            //     // link: '/download/'
-            // }
+            {
+                text: 'Download CV',
+                // link: 'https://github.com/Nishkalkashyap/portfolio/raw/master/site/.vuepress/buildAssets/resume.pdf'
+                link: 'https://us-central1-diy-mechatronics.cloudfunctions.net/downloadCount/resume-count'
+                // link: '/download/'
+            }
         ],
         sidebar: {
             "/tags/": [
