@@ -3,7 +3,7 @@
     <section class="top-heading-container">
         <div class="left">
             <h1>Nishkal Kashyap</h1>
-            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform Quark.js <a>https://quarkjs.io</a>
+            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform QuarkJS.
                 <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
             </p>
         </div>
@@ -11,17 +11,20 @@
             <div class="meta-item" style="--text-color:var(--accent-color);">
                 <p>
                     <a class="social-icon" :title="email.title" v-html="email.svg" :href="email.link" target="_blank"></a>
-                    hello@nishkal.in</p>
+                    hello@nishkal.in
+                </p>
             </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
                 <p>
                     <a class="social-icon" :title="website.title" v-html="website.svg" :href="website.link" target="_blank"></a>
-                    nishkal.in</p>
+                    nishkal.in
+                </p>
             </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
                 <p>
                     <a class="social-icon" :title="github.title" v-html="github.svg" :href="github.link" target="_blank"></a>
-                    github.com/nishkalkashyap</p>
+                    github.com/nishkalkashyap
+                </p>
             </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
                 <p>
