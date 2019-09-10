@@ -26,7 +26,7 @@ export default {
                 ['linear-gradient(225deg, #ef699e, #feb2b2)', '#ef699e88']
             ];
 
-            this.currentIndex = index || (this.currentIndex + 1);
+            this.currentIndex = typeof index == 'number' ? index : (this.currentIndex + 1);
             if (!colors[this.currentIndex]) {
                 this.currentIndex = 0;
             }
@@ -49,6 +49,7 @@ export default {
 #theme-changer {
     position: fixed;
     min-width: 40px;
+    max-width: 40px;
     z-index: 200;
     border-radius: 5px;
     cursor: pointer;
