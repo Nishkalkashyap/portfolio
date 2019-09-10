@@ -90,6 +90,11 @@ $cssSvgWidth: 250;
     z-index: 2;
   }
 
+  a.learn-more {
+    text-decoration: none !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
   .flares {
     background: linear-gradient(225deg, #fbd38d, #ed8936);
     color: #ffffff;
