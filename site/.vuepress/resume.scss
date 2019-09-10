@@ -1,10 +1,15 @@
 .resume-page {
 
-    --text-color--dark: #333333;
-    --text-color--light: #777777;
-    --text-color: #444444 !important;
+    // --text-color--dark: #333333;
+    // --text-color--light: #777777;
+    // --text-color: #444444 !important;
+
+    --text-color--dark: var(--ion-color-dark);
+    --text-color--light: var(--ion-color-medium-shade);
+    --text-color: var(--ion-color-dark-shade) !important;
+
     --divider-color: #dddddd;
-    --accent-color: #3880ff;
+    --accent-color: #055af9;
     --content-font-size: 13px;
     --content-margin: 10px;
     --font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif !important;
@@ -12,6 +17,10 @@
     ::selection {
         color: #ffffff;
         background: var(--accent-color);
+    }
+
+    a {
+        color: var(--accent-color);
     }
 
     p,
@@ -56,7 +65,7 @@
     .resume-container {
         max-width: 800px;
         padding: 0px var(--content-margin);
-        margin: 50px;
+        margin: 30px 20px;
     }
 
 }

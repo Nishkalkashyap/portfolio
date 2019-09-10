@@ -6,6 +6,9 @@
             <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform QuarkJS.
                 <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
             </p>
+            <p>
+                Highly recommend visiting my portfolio website at: <a href="">https://nishkal.in</a>
+            </p>
         </div>
         <div class="right">
             <div class="meta-item" style="--text-color:var(--accent-color);">
