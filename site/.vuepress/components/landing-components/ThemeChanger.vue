@@ -9,9 +9,11 @@
 <script>
 export default {
     data() {
+        const currentIndex = typeof localStorage == 'undefined'? 0 : Number(localStorage.getItem('currentIndex') || 0);
         return {
             svg: require("!!svg-inline-loader!@buildAssets/landing-page-svgs/palette.svg"),
-            currentIndex: Number(localStorage.getItem('currentIndex') || 0)
+            currentIndex
+            // currentIndex: Number(localStorage.getItem('currentIndex') || 0)
         }
     },
     mounted() {
