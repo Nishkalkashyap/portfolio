@@ -154,7 +154,7 @@
         </heroSection>
 
         <heroSection side="right" index="4" heading="Data acquisition system" flare="Tech Stack: Arduino,Processing" content="
-        Build with Arduino and Processing, this data acquisition system handles more that 20 different sensors.
+        Built with Arduino and Processing, this data acquisition system handles more that 20 different sensors.
         <br/>
         <br/>
         The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.

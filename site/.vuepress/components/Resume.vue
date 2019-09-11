@@ -149,7 +149,7 @@
                 </tr>
                 <tr>
                     <td>Frontend technologies</td>
-                    <td>Angular 2+, Vue.js, React.js, SCSS/CSS, Babel, Webpack</td>
+                    <td>Electron.js, Angular 2+, Vue.js, React.js, SCSS/CSS, Babel, Webpack</td>
                 </tr>
                 <tr>
                     <td>Backend technologies</td>
