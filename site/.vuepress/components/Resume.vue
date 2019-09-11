@@ -77,44 +77,44 @@
     </section>
     <section class="projects-container flex-box">
         <Divider title="Projects" />
-        <ResumeItem title="Quark development environment" timeline="Dec 2015" flare="
+        <ResumeItem title="Quark development environment" timeline="2018 - Present" flare="
         Tech Stack: Electron.js,Angular 7, Node.js, Webpack" content="
         Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
         The IDE boasts of novel features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
         Visit <a href=''>quarkjs.io</a>
         " />
-        <ResumeItem title="Quark app store" timeline="Dec 2015" flare="
+        <ResumeItem title="Quark app store" timeline="July 2019 - Present" flare="
         Tech Stack: React.js, Firebase, Firestore Database, Cloud Functions" content="
             Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
             It supports novel features like release versioning, application auto updates, register user ratings e.t.c
             Visit <a href=''>dash.quarkjs.io</a>
         " />
-        <ResumeItem title="Electronic steering wheel" timeline="Dec 2015" flare="
+        <ResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
         Tech Stack: Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
             Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
             Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for all the vehicle electronics.
         " />
-        <ResumeItem title="Data acquisition system" timeline="Dec 2015" flare="
+        <ResumeItem title="Data acquisition system" timeline="March 2017" flare="
         Tech Stack: Arduino, Processing" content="
             Developed a data acquisition system, supporting more than 20 different sensor inputs.
             The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
         " />
-        <ResumeItem title="Finance Management App" timeline="Dec 2015" flare="
+        <ResumeItem title="Finance Management App" timeline="August 2017" flare="
         Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
             Developed a finance management app for the team.
             The app was built using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend
             and was used in production from Aug 2017-July 2018
         " />
-        <ResumeItem title="Variable geometry intake manifold" timeline="Dec 2015" flare="
+        <ResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
         Solidworks, Research Paper, Thesis" content="
             Developed a variable geometry intake manifold.
             This system massively improved the overall vehicle performance, mainly throttle response of the engine on the bottom end of the RPM range.
         " />
-        <ResumeItem title="Dynamometer" timeline="Dec 2015" flare="
+        <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
         Solidworks, Engineering Design, Optimization" content="
             The aim of this project was to acquire, analyse and apply the output characteristics of the engine in further optimizations and calculations like engine performance, intake-exhaust simulations, fuel consumption calculations, etc
         " inline="true" />
-        <ResumeItem title="Design and manufacturing of various subsystems" timeline="Dec 2015" flare="
+        <ResumeItem title="Design and manufacturing of various subsystems" timeline="Mar 2015 - Jan 2016" flare="
         Solidworks, Engineering Design, 3D Printing" content="
             Developed various sub-systems of vehicle, including an 
             air-intake manifold, exhaust manifold, oil sump and radiator.
@@ -122,25 +122,22 @@
     </section>
     <section class="competitions-container flex-box">
         <Divider title="Competitions and Achievements" />
-        <ResumeItem title="Formula Bharat" timeline="January 2018" flare="
-        Competition, India, Buddha International Circuit" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+        <ResumeItem title="Formula Student Bharat" timeline="January 2018" flare="
+        Competition, India, Coimbatore, Kari Motor Speedway" content="
+            Participated in the Formula Student Bharat competition and led a team of 30 to an overall <strong>Second position</strong>.
+            Responsible for the design and development of the combustion powertrain, systems integration and electronics of the vehicle.
         " />
         <ResumeItem title="Formula Student UK" timeline="July 2017" flare="
-        Competition, July 2017, United Kingdom" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+        Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
+            Participated in the Formula Student UK competition held at the Silverstone Formula 1 racing circuit. Secured the best ever overall position by the team.
         " />
         <ResumeItem title="Formula Student UK" timeline="July 2016" flare="
-        Competition, July 2016, United Kingdom" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+        Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
+           Participated in the Formula Student UK competition held at the Silverstone Formula 1 racing circuit.
         " />
         <ResumeItem title="Formula Student India" timeline="January 2016" flare="
-        Competition, India, Buddh International Circuit" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+        Competition, India, Buddha International Circuit" content="
+           Participated in the Formula Student India competition held at the Buddha International Circuit.
         " />
     </section>
     <section class="skills-container">
