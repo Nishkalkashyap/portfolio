@@ -112,13 +112,12 @@
         " />
         <ResumeItem title="Dynamometer" timeline="Dec 2015" flare="
         Solidworks, Engineering Design, Optimization" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+            The aim of this project was to acquire, analyse and apply the output characteristics of the engine in further optimizations and calculations like engine performance, intake-exhaust simulations, fuel consumption calculations, etc
         " inline="true" />
         <ResumeItem title="Design and manufacturing of various subsystems" timeline="Dec 2015" flare="
         Solidworks, Engineering Design, 3D Printing" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+            Developed various sub-systems of vehicle, including an 
+            air-intake manifold, exhaust manifold, oil sump and radiator.
         " />
     </section>
     <section class="competitions-container flex-box">
