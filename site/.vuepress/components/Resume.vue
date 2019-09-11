@@ -3,8 +3,10 @@
     <section class="top-heading-container">
         <div class="left">
             <h1>Nishkal Kashyap</h1>
-            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform Quark
+            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform 
+                <!-- Quark -->
                 <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
+                <a>QuarkJS.io</a>
             </p>
             <p>
                 Highly recommend visiting my portfolio website at: <a href="">nishkal.in</a>
@@ -49,15 +51,17 @@
     <section class="experience-container flex-box">
         <Divider title="Experience" />
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
-        Currently working on parametric shape optimization using evolution based genetic
-        algorithms for single and multi-objective algorithms.
+        Created javascript platform <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
+        Since it's public announcement in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 users around the world.
+
         " grow="true" />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
-        Currently working on parametric shape optimization using evolution based genetic
-        algorithms for single and multi-objective algorithms.
+        Participated in 4 Formula Student events held in India and the United Kingdom across 4 years. 
+        As Chief Engineer, led the team to its best positions till date at both FS Bharat <i>(2nd overall)</i> and FS United Kingdom. 
+        Previously worked as the head of the Powertrain and Electronics department.
         " />
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
-        Worked with the Design department of Universal Industries, which is a renowned
+        Worked as an intern with the Design department of Universal Industries, which is a renowned
         manufacturer of a wide range of mechanical power transmission products.
         " />
     </section>
@@ -75,11 +79,15 @@
         <Divider title="Projects" />
         <ResumeItem title="Quark development environment" timeline="Dec 2015" flare="
         Tech Stack: Electron.js,Angular 7, Node.js, Webpack" content="
-            Worked with the Design department of Universal Industries.
+        Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
+        The IDE boasts of novel features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
+        Visit <a href=''>quarkjs.io</a>
         " />
         <ResumeItem title="Quark app store" timeline="Dec 2015" flare="
         Tech Stack: React.js, Firebase, Firestore Database, Cloud Functions" content="
-            Worked with the Design department of Universal Industries.
+            Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
+            It supports novel features like release versioning, application auto updates, register user ratings e.t.c
+            Visit <a href=''>dash.quarkjs.io</a>
         " />
         <ResumeItem title="Electronic steering wheel" timeline="Dec 2015" flare="
         Tech Stack: Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="

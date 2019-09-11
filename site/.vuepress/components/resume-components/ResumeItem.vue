@@ -7,7 +7,7 @@
         <h4>{{title}}</h4>
         <span>{{timeline}}</span>
     </div>
-    <p> {{content}} </p>
+    <p v-html="content"> </p>
 </div>
 </template>
 
