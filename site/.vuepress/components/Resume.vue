@@ -3,7 +3,7 @@
     <section class="top-heading-container">
         <div class="left">
             <h1>Nishkal Kashyap</h1>
-            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform 
+            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform
                 <!-- Quark -->
                 <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
                 <a>QuarkJS.io</a>
@@ -53,7 +53,6 @@
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
         Developed a javascript platform <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
         Since it's public announcement in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 developers around the world.
-
         " grow="true" />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Participated in 4 Formula Student events held in India and the United Kingdom across 4 years. 
@@ -61,7 +60,7 @@
         Previously worked as the head of the Powertrain and Electronics department.
         " />
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
-        Worked as an intern with the Design department of Universal Industries, which is a renowned
+        Worked as an intern with the design department of Universal Industries, which is a renowned
         manufacturer of a wide range of mechanical power transmission products.
         " />
     </section>
@@ -146,23 +145,27 @@
             <table>
                 <tr>
                     <td>Programming Languages</td>
-                    <td>HTML, CSS, JavaScript</td>
+                    <td>JavaScript, TypeScript</td>
                 </tr>
                 <tr>
-                    <td>Cloud Technologies</td>
-                    <td>Big Query, Google App Engine</td>
+                    <td>Frontend technologies</td>
+                    <td>Angular 2+, Vue.js, React.js, SCSS/CSS, Babel, Webpack</td>
+                </tr>
+                <tr>
+                    <td>Backend technologies</td>
+                    <td>Node.js, Express.js, Cloud Functions, App Engine, heroku</td>
+                </tr>
+                <tr>
+                    <td>Databases</td>
+                    <td>Firebase Database, Firebase Firestore</td>
                 </tr>
                 <tr>
                     <td>DevOps</td>
                     <td>Travis CI and Appveyor CI</td>
                 </tr>
                 <tr>
-                    <td>Cloud Technologies</td>
-                    <td>Big Query, Google App Engine</td>
-                </tr>
-                <tr>
-                    <td>Cloud Technologies</td>
-                    <td>Big Query, Google App Engine</td>
+                    <td>Electronics</td>
+                    <td>Arduino, Node MCU, Nextion HMI display, OBD-2 (ELM-327)</td>
                 </tr>
                 <tr>
                     <td>Cloud Technologies</td>
