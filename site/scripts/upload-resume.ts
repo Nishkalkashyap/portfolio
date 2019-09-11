@@ -17,4 +17,14 @@ const file = 'resume.pdf';
             cacheControl: `public, max-age=0`,
         }
     });
+
+    // seperate for linkedin
+    await bucket.upload(file, {
+        gzip: true,
+        public: true,
+        destination: 'resume-view.pdf',
+        metadata: {
+            cacheControl: `public, max-age=0`,
+        }
+    });
 })();
