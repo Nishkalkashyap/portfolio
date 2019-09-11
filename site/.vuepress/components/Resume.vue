@@ -51,8 +51,8 @@
     <section class="experience-container flex-box">
         <Divider title="Experience" />
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
-        Created javascript platform <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
-        Since it's public announcement in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 users around the world.
+        Developed a javascript platform <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
+        Since it's public announcement in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 developers around the world.
 
         " grow="true" />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
@@ -91,23 +91,24 @@
         " />
         <ResumeItem title="Electronic steering wheel" timeline="Dec 2015" flare="
         Tech Stack: Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+            Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
+            Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for all the vehicle electronics.
         " />
         <ResumeItem title="Data acquisition system" timeline="Dec 2015" flare="
         Tech Stack: Arduino, Processing" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+            Developed a data acquisition system, supporting more than 20 different sensor inputs.
+            The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
         " />
         <ResumeItem title="Finance Management App" timeline="Dec 2015" flare="
         Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+            Developed a finance management app for the team.
+            The app was built using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend
+            and was used in production from Aug 2017-July 2018
         " />
         <ResumeItem title="Variable geometry intake manifold" timeline="Dec 2015" flare="
         Solidworks, Research Paper, Thesis" content="
-            Worked with the Design department of Universal Industries, which is a renowned
-            manufacturer of a wide range of mechanical power transmission products.
+            Developed a variable geometry intake manifold.
+            This system massively improved the overall vehicle performance, mainly throttle response of the engine on the bottom end of the RPM range.
         " />
         <ResumeItem title="Dynamometer" timeline="Dec 2015" flare="
         Solidworks, Engineering Design, Optimization" content="

@@ -25,7 +25,7 @@
     <br/>
     <br/>
     Since it's <a target='_blank' href='https://medium.com/hackernoon/announcing-quark-a-software-sketchbook-for-your-projects-2f53553415b'>public announcement</a> in August 2019,
-    the project website has been <strong>viewed over 125,000 times</strong> and the Quark software itself has been downloaded by <strong>over 10,000 users</strong> around the world.
+    the project website has been <strong>viewed over 125,000 times</strong> and the Quark software itself has been downloaded by <strong>over 10,000 developers</strong> around the world.
     ">
         <heroSection side="left" index="1" flare="Tech Stack: Electron.js,Angular 7,Node.js,Webpack" heading="Quark development environment" content="
         Quark development environment is powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
@@ -50,7 +50,7 @@
 
         <heroSection side="right" index="2" flare="Tech Stack: React.js,Firebase,Firestore Database,Cloud Functions" heading="Quark App store" content="
         Currently under active development. <a target='_blank' href='https://dash.quarkjs.io'>Quark appstore</a> 
-        is a full-fledged application sharing platform.
+        is a full-fledged application distribution platform.
         <br/>
         <br/>
         Once completed, users will be able to create, share, download and monetize applications on Quark app store.

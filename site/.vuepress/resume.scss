@@ -17,7 +17,7 @@
     --content-font-size: 12px;
     --divider-font-size: 20px;
     --heading-font-size: 15px;
-    --flare-font-size: 8px;
+    --flare-font-size: 9px;
 
     ::selection {
         color: #ffffff;
@@ -68,7 +68,7 @@
     }
 
     .resume-container {
-        max-width: 800px;
+        max-width: 710px;
         padding: 0px var(--content-margin);
         margin: 30px 20px;
     }
