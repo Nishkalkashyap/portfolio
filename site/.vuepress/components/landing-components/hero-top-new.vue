@@ -14,7 +14,8 @@
                 <h2 class="rotator" style="animation-delay:9s">building things</h2>
                 <!-- <h2 class="rotator" style="animation-delay:10.8s">{{this.final_year}}years {{this.final_month}}months {{this.final_day}}days old</h2> -->
                 <!-- <h2 class="rotator" style="animation-delay:10.8s">{{this.final_year}}years and {{this.final_month}}months old</h2> -->
-                <h2 class="rotator" style="animation-delay:10.8s">{{this.final_year}} years old</h2>
+                <!-- <h2 class="rotator" style="animation-delay:10.8s">{{this.final_year}} years old</h2> -->
+                <h2 class="rotator" style="animation-delay:10.8s">22 years old</h2>
             </div>
             <div class="icons">
                 <SocialIcons />
@@ -31,7 +32,7 @@
 import SvgAnimation from "./../SvgAnimation";
 import floaters from "./floaters";
 import SWUpdatePopup from "@default-theme/SWUpdatePopup.vue";
-import moment from "moment";
+// import moment from "moment";
 export default {
     components: {
         SvgAnimation,
@@ -44,33 +45,33 @@ export default {
         };
     },
     methods: {
-        getDate() {
-            const now = moment().format("L");
-            const bday = moment("19960922", "YYYYMMDD").format("L");
+        // getDate() {
+        //     const now = moment().format("L");
+        //     const bday = moment("19960922", "YYYYMMDD").format("L");
 
-            const now_day = now.split("/")[1];
-            const now_month = now.split("/")[0];
-            const now_year = now.split("/")[2];
+        //     const now_day = now.split("/")[1];
+        //     const now_month = now.split("/")[0];
+        //     const now_year = now.split("/")[2];
 
-            const bday_day = bday.split("/")[1];
-            const bday_month = bday.split("/")[0];
-            const bday_year = bday.split("/")[2];
+        //     const bday_day = bday.split("/")[1];
+        //     const bday_month = bday.split("/")[0];
+        //     const bday_year = bday.split("/")[2];
 
-            const final_year = now_year - bday_year - 1;
-            const final_month =
-                now_month - bday_month < 0 ?
-                now_month - bday_month + 12 :
-                now_month - bday_month;
-            const final_day =
-                now_day - bday_day < 0 ? now_day - bday_day + 30 : now_day - bday_day;
+        //     const final_year = now_year - bday_year - 1;
+        //     const final_month =
+        //         now_month - bday_month < 0 ?
+        //         now_month - bday_month + 12 :
+        //         now_month - bday_month;
+        //     const final_day =
+        //         now_day - bday_day < 0 ? now_day - bday_day + 30 : now_day - bday_day;
 
-            // console.log(`${final_day}/${final_month}/${final_year}`);
-            return {
-                final_day,
-                final_month,
-                final_year
-            };
-        }
+        //     // console.log(`${final_day}/${final_month}/${final_year}`);
+        //     return {
+        //         final_day,
+        //         final_month,
+        //         final_year
+        //     };
+        // }
     }
 };
 </script>

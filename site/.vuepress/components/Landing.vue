@@ -14,13 +14,8 @@
       ">
     </Timeline>
 
-    <!-- I started this project while I was pursuing my degree in mechanical engineering
-      and got really frustrated with the fact that there were hardly any tools on the software side that would make my life easier,
-      just to do simple things like plot scientific charts, IoT development, create dashboards etc.
-      <br/><br/> 
-      After realizing the commercial potential of a project like this, I decided to build this software tool myself. -->
     <Timeline timeline="2018 - Present" heading="Quark" content="
-    Created the <strong>Quark</strong> software.
+    Developed a JavaScript platform <strong>Quark</strong>.
     A full fledged application development and distribution platform for Windows, Mac and Linux based operating systems.
     <br/>
     <br/>

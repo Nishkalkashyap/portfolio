@@ -164,12 +164,8 @@
                     <td>Travis CI and Appveyor CI</td>
                 </tr>
                 <tr>
-                    <td>Electronics</td>
+                    <td>Electronics & MCU's</td>
                     <td>Arduino, Node MCU, Nextion HMI display, OBD-2 (ELM-327)</td>
-                </tr>
-                <tr>
-                    <td>Cloud Technologies</td>
-                    <td>Big Query, Google App Engine</td>
                 </tr>
             </table>
         </div>
