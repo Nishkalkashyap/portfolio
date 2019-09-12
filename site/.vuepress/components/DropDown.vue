@@ -54,6 +54,7 @@ export default {
     font-family: "Material Icons";
     transition: 0.2s transform;
     padding-left: 8px;
+    color: var(--text-color);
   }
 }
 .height-container {

@@ -8,6 +8,7 @@
                 <span>{{timeline}}</span>
                 <h2>{{heading}}</h2>
                 <p v-html="content"></p>
+                <slot name="inside"></slot>
             </div>
         </div>
         <slot></slot>
