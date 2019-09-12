@@ -71,7 +71,7 @@ export default {
     .meta-card {
         margin: 10px 20px;
         width: calc(100% - 80px);
-        max-width: 960px;
+        max-width: var(--content-max-width);
         box-sizing: border-box;
         border-radius: var(--border-radius);
         padding: 60px 60px;

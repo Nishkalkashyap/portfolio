@@ -55,7 +55,7 @@ export default {};
 <style lang="scss" scoped>
 .avatar {
     text-align: center;
-    max-width: 960px;
+    max-width: var(--content-max-width);
     border-top: solid 1px #ffffff22;
 
     padding-top: 60px;

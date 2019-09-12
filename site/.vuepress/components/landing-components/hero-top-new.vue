@@ -38,12 +38,12 @@ export default {
         SvgAnimation,
         floaters
     },
-    data() {
-        const date = this.getDate();
-        return {
-            ...date
-        };
-    },
+    // data() {
+    //     // const date = this.getDate();
+    //     // return {
+    //     //     ...date
+    //     // };
+    // },
     methods: {
         // getDate() {
         //     const now = moment().format("L");
