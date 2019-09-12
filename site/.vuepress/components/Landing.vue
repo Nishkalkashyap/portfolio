@@ -12,6 +12,7 @@
       Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
       I believe that creative engineering is indistinguishable from fine artwork.
       ">
+      <!-- <Skills slot="inside"/> -->
     </Timeline>
 
     <Timeline timeline="2018 - Present" heading="Quark" content="
@@ -291,6 +292,7 @@ import heroFeatures from "./landing-components/hero-features";
 import Footer from "./landing-components/footer";
 import SWUpdatePopup from "@default-theme/SWUpdatePopup";
 import ThemeChanger from './landing-components/ThemeChanger'
+import Skills from './landing-components/Skills'
 export default {
     components: {
         heroSection,
@@ -299,7 +301,8 @@ export default {
         heroFeatures,
         Footer,
         SWUpdatePopup,
-        ThemeChanger
+        ThemeChanger,
+        Skills
     },
     data: () => {
         return {
