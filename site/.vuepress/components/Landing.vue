@@ -15,18 +15,19 @@
     </Timeline>
 
     <Timeline timeline="2018 - Present" heading="Quark" content="
-    Developed a JavaScript platform <strong>Quark</strong>.
-    A full fledged application development and distribution platform for Windows, Mac and Linux based operating systems.
+    My first entrepreneurial undertaking - <strong>Quark</strong>, is
+    a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems.
     <br/>
     <br/>
     Since it's <a target='_blank' href='https://medium.com/hackernoon/announcing-quark-a-software-sketchbook-for-your-projects-2f53553415b'>public announcement</a> in August 2019,
     the project website has been <strong>viewed over 125,000 times</strong> and the Quark software itself has been downloaded by <strong>over 10,000 developers</strong> around the world.
     ">
         <heroSection side="left" index="1" flare="Tech Stack: Electron.js,Angular 7,Node.js,Webpack" heading="Quark development environment" content="
-        Quark development environment is powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
+        Quark development environment is a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>,
+        specifically designed to build Quark apps.
         <br/>
         <br/>
-        The IDE is cross-platform, and boasts of features like an integrated terminal,
+        The IDE boasts of features like an integrated terminal,
         multiple theme support, more than 150 different editor settings, an inbuilt package manager,
         and a fully-configurable build system <i>(webpack)</i>.
         " learnMoreLink="/projects/quark.html">

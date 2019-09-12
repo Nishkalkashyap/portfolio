@@ -51,7 +51,7 @@
     <section class="experience-container flex-box">
         <Divider title="Experience" />
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
-        Developed a javascript platform <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
+        My first entrepreneurial undertaking <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
         Since it's public announcement in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 developers around the world.
         " grow="true" />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
@@ -107,16 +107,16 @@
         <ResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
         Solidworks, Research Paper, Thesis" content="
             Developed a variable geometry intake manifold.
-            This system massively improved the overall vehicle performance, mainly throttle response of the engine on the bottom end of the RPM range.
+            This system massively improved the overall engine performance, mainly throttle response tn the bottom end of the RPM range.
         " />
         <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
         Solidworks, Engineering Design, Optimization" content="
             The aim of this project was to acquire, analyse and apply the output characteristics of the engine in further optimizations and calculations like engine performance, intake-exhaust simulations, fuel consumption calculations, etc
         " inline="true" />
-        <ResumeItem title="Design and manufacturing of various subsystems" timeline="Mar 2015 - Jan 2016" flare="
+        <ResumeItem title="Design and manufacturing of various powertrain subsystems" timeline="Mar 2015 - Jan 2016" flare="
         Solidworks, Engineering Design, 3D Printing" content="
             Developed various sub-systems of vehicle, including an 
-            air-intake manifold, exhaust manifold, oil sump and radiator.
+            air-intake manifold, exhaust manifold, oil sump and radiator for a 4-cylinder IC Engine.
         " />
     </section>
     <section class="competitions-container flex-box">
