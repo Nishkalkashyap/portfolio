@@ -9,8 +9,8 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 const isProductionEnvironment = process.env.NODE_ENV === 'production';
 
 module.exports = {
-    title: 'Portfolio',
-    description: 'My portfolio',
+    title: 'Nishkal kashyap',
+    description: 'Mechanical Engineer and a self taught fullstack developer',
     serviceWorker: true,
     head: [
         [
