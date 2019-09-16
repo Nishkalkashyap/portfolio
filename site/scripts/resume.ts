@@ -15,11 +15,7 @@ function createYML() {
     const timelines = landing.match(/(\<Timeline[\w\W]+?Timeline\>)/g);
 
     let str = String().concat('Timelines:', '\n');
-    timelines.map((timeline, index) => {
-        if (index > 1) {
-            return;
-        }
-
+    timelines.map((timeline) => {
         const timelineAttributes = getTimelineAttributes(timeline);
         str = str.concat('  -', '\n');
         str = str.concat('   timeline: ', timelineAttributes.timeline, '\n');
@@ -65,7 +61,10 @@ function createYML() {
         const heading = (section.match(/heading="([\w\W]+?)"/) || [])[1];
         const content = (section.match(/content="([\w\W]+?)"/) || [])[1];
         const learnMoreLink = (section.match(/learnMoreLink="([\w\W]+?)"/) || [])[1];
-        const slot = section.match(/<heroSection[\w\W]+?>([\w\W]+?)<\/heroSection>/)[0].replace(/"/g, '\\"');
+        const slot = section
+            .replace(/="[\w\W]+?"/g, '')
+            .match(/<heroSection[\w\W]+?>([\w\W]+?)<\/heroSection>/)[1]
+            .replace(/"/g, '\\"');
         return {
             side, index, flare, heading, content, learnMoreLink, slot
         }
