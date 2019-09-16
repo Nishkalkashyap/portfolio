@@ -1,0 +1,90 @@
+Timelines:
+  -
+   timeline: 22 years old
+   heading: Here's what I'm all about
+  -
+   timeline: 2018 - Present
+   heading: Quark
+   sections:
+    -
+        flare: "Tech Stack: Electron.js,Angular 7,Node.js,Webpack"
+        heading: Quark development environment
+        index: 1
+        learnMoreLink: /projects/quark.html
+        side: left
+        slot: "<heroSection side=\"left\" index=\"1\" flare=\"Tech Stack: Electron.js,Angular 7,Node.js,Webpack\" heading=\"Quark development environment\" content=\"
+        Quark development environment is a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>,
+        specifically designed to build Quark apps.
+        <br/>
+        <br/>
+        The IDE boasts of features like an integrated terminal,
+        multiple theme support, more than 150 different editor settings, an inbuilt package manager,
+        and a fully-configurable build system <i>(webpack)</i>.
+        \" learnMoreLink=\"/projects/quark.html\">
+            <CustomAgile slot=\"image\" class=\"section-slot\">
+                <video muted autoplay loop name=\"media\" poster=\"~@buildAssets/pictures/hello-world-intro.png\" crossorigin=\"anonymous\" class=\"image-transition section-slot\">
+                    <source src=\"~@buildAssets/pictures/hello-world-intro.mp4\" type=\"video/mp4\" />Your browser does not support the video tag.
+                </video>
+                <video muted autoplay loop name=\"media\" poster=\"~@buildAssets/pictures/introduction.png\" crossorigin=\"anonymous\" class=\"image-transition section-slot\">
+                    <source src=\"~@buildAssets/pictures/introduction.mp4\" type=\"video/mp4\" />Your browser does not support the video tag.
+                </video>
+                <video muted autoplay loop name=\"media\" poster=\"~@buildAssets/pictures/introduction.png\" crossorigin=\"anonymous\" class=\"image-transition section-slot\">
+                    <source src=\"~@buildAssets/pictures/terminal.mp4\" type=\"video/mp4\" />Your browser does not support the video tag.
+                </video>
+            </CustomAgile>
+        </heroSection>"
+    -
+        flare: "Tech Stack: React.js,Firebase,Firestore Database,Cloud Functions"
+        heading: Quark App store
+        index: 2
+        learnMoreLink: /projects/quark-appstore.html
+        side: right
+        slot: "<heroSection side=\"right\" index=\"2\" flare=\"Tech Stack: React.js,Firebase,Firestore Database,Cloud Functions\" heading=\"Quark App store\" content=\"
+        Currently under active development. <a target='_blank' href='https://dash.quarkjs.io'>Quark appstore</a> 
+        is a full-fledged application distribution platform.
+        <br/>
+        <br/>
+        Once completed, users will be able to create, share, download and monetize applications on Quark app store.
+        The aim of the app store is to help open-source developers to build and monetize their creations.
+        <br/>
+        <br/>
+        This project is fully open-sourced on <a target='_blank' href='https://github.com/Nishkalkashyap/Quark-appstore'>GitHub.</a> 
+        \" learnMoreLink=\"/projects/quark-appstore.html\">
+            <CustomAgile slot=\"image\" class=\"section-slot\">
+                <video muted autoplay loop name=\"media\" poster=\"~@buildAssets/pictures/system-monitor.png\" crossorigin=\"anonymous\" class=\"image-transition section-slot\">
+                    <source src=\"~@buildAssets/pictures/system-monitor.mp4\" type=\"video/mp4\" />Your browser does not support the video tag.
+                </video>
+                <video muted autoplay loop name=\"media\" poster=\"~@buildAssets/pictures/arduino-dash.png\" crossorigin=\"anonymous\" class=\"image-transition section-slot\">
+                    <source src=\"~@buildAssets/pictures/arduino-dash.mp4\" type=\"video/mp4\" />Your browser does not support the video tag.
+                </video>
+                <img src=\"~@buildAssets/pictures/quark-1.jpg\" class=\"slide\" />
+                <img src=\"~@buildAssets/pictures/quark-2.jpg\" class=\"slide\" />
+                <img src=\"~@buildAssets/pictures/quark-3.jpg\" class=\"slide\" />
+                <img src=\"~@buildAssets/pictures/quark-4.jpg\" class=\"slide\" />
+                <img src=\"~@buildAssets/pictures/quark-5.jpg\" class=\"slide\" />
+            </CustomAgile>
+        </heroSection>"
+    -
+        flare: "Tech Stack: Vue.js,Travis CI,Firebase,Digital Ocean,Cloud Functions,AWS"
+        heading: Documentation, DevOps, E2E testing and Status page
+        index: 3
+        learnMoreLink: /projects/quark.html#documentation-devops-e2e-testing-and-status-page
+        side: left
+        slot: "<heroSection side=\"left\" index=\"3\" flare=\"Tech Stack: Vue.js,Travis CI,Firebase,Digital Ocean,Cloud Functions,AWS\" heading=\"Documentation, DevOps, E2E testing and Status page\" content=\"
+        Quark follows all the best practices of software development,
+        has a <a target='_blank' href='https://quarkjs.io/guide/intro.html'>neat documentation</a> 
+        coupled with continuous integration and end-to-end tests on
+        <a target='_blank' href='https://travis-ci.org/Nishkalkashyap/Quark-electron/builds'>Travis CI</a>.
+        <br/>
+        <br/>
+        The software also boasts of novel features like 'automatic-updates' with multiple release channels namely <strong>'stable', 'insiders' and 'nightly' release</strong>.
+        <br/>
+        <br/>
+        Also, in case of service disruption, Quark has a <a target='_blank' href='https://status.quarkjs.io'>status page</a> that users can subscribe to via email, and get notified on the issue.
+        \" learnMoreLink=\"/projects/quark.html#documentation-devops-e2e-testing-and-status-page\">
+            <CustomAgile slot=\"image\" class=\"section-slot\">
+                <img src=\"~@buildAssets/pictures/misc-1.jpg\" class=\"slide\" />
+                <img src=\"~@buildAssets/pictures/misc-3.jpg\" class=\"slide\" />
+                <img src=\"~@buildAssets/pictures/misc-2.jpg\" class=\"slide\" />
+            </CustomAgile>
+        </heroSection>"
