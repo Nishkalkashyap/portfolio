@@ -6,7 +6,8 @@
             <h1 class="heading">Hi, I'm Nishkal kashyap</h1>
             <div class="rotator-container">
                 <h2 class="pre-text">And I am</h2>
-                <h2 class="rotator" style="animation-delay:0s">a blogger</h2>
+                <h2 class="rotator" style="animation-delay:0s">a highly driven individual</h2>
+                <!-- <h2 class="rotator" style="animation-delay:0s">a blogger</h2> -->
                 <h2 class="rotator" style="animation-delay:1.8s">a mechanical engineer</h2>
                 <h2 class="rotator" style="animation-delay:3.6s">a full-stack developer</h2>
                 <h2 class="rotator" style="animation-delay:5.4s">doing multi-desciplinary engineering</h2>

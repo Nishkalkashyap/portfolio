@@ -58,8 +58,9 @@
         The aim of the app store is to help open-source developers to build and monetize their creations.
         <br/>
         <br/>
-        This project is fully open-sourced on <a target='_blank' href='https://github.com/Nishkalkashyap/Quark-appstore'>GitHub.</a> 
+        This project was recently open-sourced on <a target='_blank' href='https://github.com/Nishkalkashyap/Quark-appstore'>GitHub.</a> 
         " learnMoreLink="/projects/quark-appstore.html">
+        <!-- This project is fully open-sourced on <a target='_blank' href='https://github.com/Nishkalkashyap/Quark-appstore'>GitHub.</a>  -->
             <CustomAgile slot="image" class="section-slot">
                 <video muted autoplay loop name="media" poster="~@buildAssets/pictures/system-monitor.png" crossorigin="anonymous" class="image-transition section-slot">
                     <source src="~@buildAssets/pictures/system-monitor.mp4" type="video/mp4" />Your browser does not support the video tag.
