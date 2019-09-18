@@ -5,14 +5,17 @@
 
 <!-- My first enuterpenaurial undertaking Quarkjs.io, is a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. -->
     <Timeline timeline="22 years old" heading="Here's what I'm all about" id="about" content="
-      I'm a Mechanical Engineer and a self taught fullstack developer, building things, developing new technologies, blogging, promoting sustainability, and heralding entrepreneurship.
+      I'm a Mechanical Engineer and a self taught full-stack developer, building things, developing new technologies, blogging, promoting sustainability, and heralding entrepreneurship.
+      <br/>
+      <br/>
+      Most recently, I've been involved with desktop application development using the Electron framework, Angular, React.js and Node.js to build my first commercial project - <strong>QuarkJS.io</strong> <i>(see below)</i>
       <br/>
       <br/>
       I am particularly fascinated with multi-disciplinary engineering.
-      To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including combustion powertrain engineering, mechanics, electronics, web development and software engineering.
+      To this end, I have undertaken a plethora of projects spanning a wide variety of disciplines including full-stack development, software engineering, combustion powertrain engineering, mechanics and electronics.
       Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
-      I believe that creative engineering is indistinguishable from fine artwork.
       ">
+      <!-- I believe that creative engineering is indistinguishable from fine artwork. -->
       <!-- <Skills slot="inside"/> -->
     </Timeline>
 
