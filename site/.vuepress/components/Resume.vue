@@ -9,8 +9,12 @@
                 <a>QuarkJS.io</a>
             </p>
             <p>
-                Highly recommend visiting my portfolio website at: <a href="">nishkal.in</a>
+                Perusing multi-disciplinary engineering and entrepreneurship.
+                Visit my portfolio website at: <a href="">nishkal.in</a>
             </p>
+            <!-- <p>
+                Highly recommend visiting my portfolio website at: <a href="">nishkal.in</a>
+            </p> -->
         </div>
         <div class="right">
             <div class="meta-item" style="--text-color:var(--accent-color);">
@@ -91,7 +95,7 @@
         <ResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
         Tech Stack: Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
             Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
-            Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for all the vehicle electronics.
+            Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for a formula student vehicle.
         " />
         <ResumeItem title="Data acquisition system" timeline="March 2017" flare="
         Tech Stack: Arduino, Processing" content="
@@ -165,7 +169,7 @@
                 </tr>
                 <tr>
                     <td>Electronics & MCU's</td>
-                    <td>Arduino, Node MCU, Nextion HMI display, OBD-2 (ELM-327)</td>
+                    <td>Arduino based boards, Node MCU, ESP, Nextion HMI display, OBD-2 (ELM-327)</td>
                 </tr>
             </table>
         </div>
