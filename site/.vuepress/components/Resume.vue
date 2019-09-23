@@ -114,7 +114,7 @@
         <ResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
         Solidworks, Research Paper, Thesis" content="
             Developed a variable geometry intake manifold.
-            This system massively improved the overall performance of an IC engine, mainly throttle response tn the bottom end of the RPM range.
+            This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
         " />
         <!-- <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
         Solidworks, Engineering Design, Optimization" content="
