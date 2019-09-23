@@ -66,6 +66,8 @@
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
         Worked as an intern with the design department of Universal Industries, which is a renowned
         manufacturer of a wide range of mechanical power transmission products.
+        Developed CAD models for pulleys and sprockets on SolidWorks.
+        Studied the Quality Control processes implemented by the company.
         " />
     </section>
     <section class="education-container flex-box">
