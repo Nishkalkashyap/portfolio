@@ -83,7 +83,7 @@
         <ResumeItem title="Quark development environment" timeline="2018 - Present" flare="
         Tech Stack: Electron.js,Angular 7, Node.js, Webpack" content="
         Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
-        The IDE boasts of novel features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
+        The IDE boasts of features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
         Visit <a href=''>quarkjs.io</a>
         " />
         <ResumeItem title="Quark app store" timeline="July 2019 - Present" flare="
@@ -93,25 +93,25 @@
             Visit <a href=''>dash.quarkjs.io</a>
         " />
         <ResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
-        Tech Stack: Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
+        Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
             Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
             Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for a formula student vehicle.
         " />
         <ResumeItem title="Data acquisition system" timeline="March 2017" flare="
         Tech Stack: Arduino, Processing" content="
-            Developed a data acquisition system, supporting more than 20 different sensor inputs.
+            Implemented a data acquisition system, supporting more than 20 different sensor inputs.
             The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
         " />
         <ResumeItem title="Finance Management App" timeline="August 2017" flare="
         Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
-            Developed a finance management app for the team.
+            Created a finance management app for the team.
             The app was built using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend
             and was used in production from Aug 2017-July 2018
         " />
         <ResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
         Solidworks, Research Paper, Thesis" content="
             Developed a variable geometry intake manifold.
-            This system massively improved the overall engine performance, mainly throttle response tn the bottom end of the RPM range.
+            This system massively improved the overall engine performance of an IC engine, mainly throttle response tn the bottom end of the RPM range.
         " />
         <!-- <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
         Solidworks, Engineering Design, Optimization" content="
@@ -119,7 +119,7 @@
         " inline="true" /> -->
         <ResumeItem title="Design and manufacturing of various powertrain subsystems" timeline="Mar 2015 - Jan 2016" flare="
         Solidworks, Engineering Design, 3D Printing" content="
-            Designed various sub-systems of vehicle, including an 
+            Conceived, designed and fabricated various sub-systems of a formula student vehicle, including an 
             air-intake manifold, exhaust manifold, oil sump and radiator for a 4-cylinder IC Engine.
         " grow="true" />
     </section>
@@ -170,6 +170,10 @@
                 <tr>
                     <td>Electronics & MCU's</td>
                     <td>Arduino based boards, Node MCU, ESP, Nextion HMI display, OBD-2 (ELM-327)</td>
+                </tr>
+                <tr>
+                    <td>Core Engineering</td>
+                    <td>Solidworks, IC Engines, Automobile electronics</td>
                 </tr>
             </table>
         </div>
