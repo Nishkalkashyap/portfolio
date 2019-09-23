@@ -1,6 +1,6 @@
 <template>
 <div class="theme-changer-component">
-    <div class="button" id="theme-changer" @click="nextColor()">
+    <div class="button" id="theme-changer" @click="nextColor()" title="Change theme">
         <div class="social-icon" v-html="svg"></div>
     </div>
 </div>
