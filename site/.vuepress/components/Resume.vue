@@ -177,7 +177,7 @@
                 </tr>
                 <tr>
                     <td>Core Engineering</td>
-                    <td>Solidworks, IC Engines, Automobile electronics</td>
+                    <td>Solidworks, IC Engines, Automobile electronics, Manufacturing processes</td>
                 </tr>
             </table>
         </div>
