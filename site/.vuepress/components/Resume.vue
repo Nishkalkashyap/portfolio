@@ -128,23 +128,22 @@
     </section>
     <section class="competitions-container flex-box">
         <Divider title="Competitions and Achievements" />
-        <!-- Participated in the Formula Student Bharat competition and led a team of 25 to an overall <strong>Second position</strong>. -->
-        <ResumeItem title="Formula Student Bharat" timeline="January 2018" flare="
+        <ResumeItem title="Formula Student Bharat" timeline="Jan 2018, Team Defianz Racing" flare="
         Competition, India, Coimbatore, Kari Motor Speedway" content="
-        Led a team of 25 student engineers to an overall <strong>Second position</strong> in the Formula Student Bharat competition.
+        <strong>Led a team of 25 student engineers</strong> to an overall second position in the Formula Student Bharat competition.
             Responsible for the development of the combustion powertrain, systems integration and electronics of the vehicle.
         " />
-        <ResumeItem title="Formula Student UK" timeline="July 2017" flare="
+        <ResumeItem title="Formula Student UK" timeline="July 2017, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
             Participated in the Formula Student UK competition held at the Silverstone Formula 1 racing circuit. Secured the best ever overall position by the team.
         " />
-        <ResumeItem title="Formula Student UK" timeline="July 2016" flare="
+        <ResumeItem title="Formula Student UK" timeline="July 2016, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
-           Participated in the Formula Student UK competition held at the Silverstone Formula 1 racing circuit as powertrain engineer.
+           Participated in the Formula Student UK competition held at the Silverstone Formula 1 racing circuit as a powertrain engineer.
         " />
-        <ResumeItem title="Formula Student India" timeline="January 2016" flare="
+        <ResumeItem title="Formula Student India" timeline="Jan 2016, Team Defianz Racing" flare="
         Competition, India, Buddha International Circuit" content="
-           Participated in the Formula Student India competition held at the Buddha International Circuit as junior powertrain engineer.
+           Participated in the Formula Student India competition held at the Buddha International Circuit as a junior powertrain engineer.
         " />
     </section>
     <section class="skills-container">
