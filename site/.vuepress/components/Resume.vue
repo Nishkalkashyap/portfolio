@@ -131,15 +131,16 @@
         <ResumeItem title="Formula Student Bharat" timeline="Jan 2018, Team Defianz Racing" flare="
         Competition, India, Coimbatore, Kari Motor Speedway" content="
         <strong>Led a team of 25 student engineers</strong> to an overall second position in the Formula Student Bharat competition.
-            Responsible for the development of the combustion powertrain, systems integration and electronics of the vehicle.
+            Responsible for systems integration and team management.
         " />
         <ResumeItem title="Formula Student UK" timeline="July 2017, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
-            Participated in the Formula Student UK competition held at the Silverstone Formula 1 racing circuit. Secured the best ever overall position by the team.
+            Participated in the Formula Student UK competition held at the Silverstone Formula 1 track.
+            Responsible for the development of the combustion powertrain and electronics of the vehicle.
         " />
         <ResumeItem title="Formula Student UK" timeline="July 2016, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
-           Participated in the Formula Student UK competition held at the Silverstone Formula 1 racing circuit as a powertrain engineer.
+           Participated in the Formula Student UK competition held at the Silverstone Formula 1 track as a powertrain engineer.
         " />
         <ResumeItem title="Formula Student India" timeline="Jan 2016, Team Defianz Racing" flare="
         Competition, India, Buddha International Circuit" content="
