@@ -12,9 +12,6 @@
                 Perusing multi-disciplinary engineering and entrepreneurship.
                 Visit my portfolio website at: <a href="">nishkal.in</a>
             </p>
-            <!-- <p>
-                Highly recommend visiting my portfolio website at: <a href="">nishkal.in</a>
-            </p> -->
         </div>
         <div class="right">
             <div class="meta-item" style="--text-color:var(--accent-color);">
@@ -94,7 +91,7 @@
             It supports novel features like release versioning, application auto updates, register user ratings e.t.c
             Visit <a href=''>dash.quarkjs.io</a>
         " />
-            <!-- Created a finance management app for the team.
+        <!-- Created a finance management app for the team.
             The app was built using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend
             and was used in production from Aug 2017-July 2018 -->
         <ResumeItem title="Finance Management App" timeline="August 2017" flare="
@@ -183,6 +180,12 @@
                 </tr>
             </table>
         </div>
+    </section>
+    <section class="resume-footer-container">
+        <p align="center" style="font-size:var(--content-font-size);color:var(--accent-color)">
+            Learn more about me on my website 
+            <a style="color:var(--secondary-color)" href="https://nishkal.in" target="_blank">nishkal.in</a>
+        </p>
     </section>
 </div>
 </template>
