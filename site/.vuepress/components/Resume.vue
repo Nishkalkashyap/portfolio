@@ -54,6 +54,7 @@
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
         My first entrepreneurial undertaking <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
         Released in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 developers around the world.
+        This project is also a beneficiary of the Google Cloud Startup Program!
         " grow="true" />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Participated in 4 Formula Student events held in India and the United Kingdom across 4 years. 
