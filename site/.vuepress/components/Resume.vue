@@ -56,7 +56,7 @@
         <Divider title="Experience" />
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
         My first entrepreneurial undertaking <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
-        Since it's public announcement in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 developers around the world.
+        Released in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 developers around the world.
         " grow="true" />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Participated in 4 Formula Student events held in India and the United Kingdom across 4 years. 
@@ -113,15 +113,15 @@
             Developed a variable geometry intake manifold.
             This system massively improved the overall engine performance, mainly throttle response tn the bottom end of the RPM range.
         " />
-        <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
+        <!-- <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
         Solidworks, Engineering Design, Optimization" content="
             The aim of this project was to acquire, analyse and apply the output characteristics of the engine in further optimizations and calculations like engine performance, intake-exhaust simulations, fuel consumption calculations, etc
-        " inline="true" />
+        " inline="true" /> -->
         <ResumeItem title="Design and manufacturing of various powertrain subsystems" timeline="Mar 2015 - Jan 2016" flare="
         Solidworks, Engineering Design, 3D Printing" content="
-            Developed various sub-systems of vehicle, including an 
+            Designed various sub-systems of vehicle, including an 
             air-intake manifold, exhaust manifold, oil sump and radiator for a 4-cylinder IC Engine.
-        " />
+        " grow="true" />
     </section>
     <section class="competitions-container flex-box">
         <Divider title="Competitions and Achievements" />
