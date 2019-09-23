@@ -60,7 +60,7 @@
         " grow="true" />
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Participated in 4 Formula Student events held in India and the United Kingdom across 4 years. 
-        As Chief Engineer, led the team to its best positions till date at both FS Bharat <i>(2nd overall)</i> and FS United Kingdom. 
+        Led a team of 25 student engineers to its best positions till date at both FS Bharat <i>(2nd overall)</i> and FS United Kingdom. 
         Previously worked as the head of the Powertrain and Electronics department.
         " />
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
@@ -98,11 +98,12 @@
         <ResumeItem title="Finance Management App" timeline="August 2017" flare="
         Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
         Developed a finance management app using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend.
-        The app was used by a team of 25 student engineers from Aug 2017 - Jul 2018.
+        The app was used by a team of 25 student engineers from Aug 2017 - Jul 2018
+        ,to manage internal finances of the team.
         " />
         <ResumeItem title="Data acquisition system" timeline="March 2017" flare="
         Tech Stack: Arduino, Processing" content="
-            Implemented a data acquisition system, supporting more than 20 different sensor inputs.
+            Implemented a data acquisition system using Arduino, supporting more than 20 different sensor inputs.
             The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
         " />
         <ResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
@@ -113,7 +114,7 @@
         <ResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
         Solidworks, Research Paper, Thesis" content="
             Developed a variable geometry intake manifold.
-            This system massively improved the overall engine performance of an IC engine, mainly throttle response tn the bottom end of the RPM range.
+            This system massively improved the overall performance of an IC engine, mainly throttle response tn the bottom end of the RPM range.
         " />
         <!-- <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
         Solidworks, Engineering Design, Optimization" content="
@@ -156,7 +157,7 @@
                 </tr>
                 <tr>
                     <td>Frontend technologies</td>
-                    <td>Electron.js, Angular 2+, Vue.js, React.js, SCSS/CSS, Babel, Webpack</td>
+                    <td>Electron.js, Angular 2+, Vue.js, React.js, Babel, Webpack, SCSS/CSS, HTML</td>
                 </tr>
                 <tr>
                     <td>Backend technologies</td>
