@@ -130,7 +130,7 @@
         <Divider title="Competitions and Achievements" />
         <ResumeItem title="Formula Student Bharat" timeline="Jan 2018, Team Defianz Racing" flare="
         Competition, India, Coimbatore, Kari Motor Speedway" content="
-        <strong>Led a team of 25 student engineers</strong> to an overall second position in the Formula Student Bharat competition.
+        <strong>Led a team of 25 student engineers</strong> to an overall <strong>second position</strong> in the Formula Student Bharat competition.
             Responsible for systems integration and team management.
         " />
         <ResumeItem title="Formula Student UK" timeline="July 2017, Team Defianz Racing" flare="
