@@ -8,29 +8,33 @@
             <DropDown maxHeight="350px">
                 <table>
                     <tr>
-                        <td>Programming Languages</td>
-                        <td>JavaScript, TypeScript</td>
-                    </tr>
-                    <tr>
-                        <td>Frontend technologies</td>
-                        <td>Electron.js, Angular 2+, Vue.js, React.js, SCSS/CSS, Babel, Webpack</td>
-                    </tr>
-                    <tr>
-                        <td>Backend technologies</td>
-                        <td>Node.js, Express.js, Cloud Functions, App Engine, heroku</td>
-                    </tr>
-                    <tr>
-                        <td>Databases</td>
-                        <td>Firebase Database, Firebase Firestore</td>
-                    </tr>
-                    <tr>
-                        <td>DevOps</td>
-                        <td>Travis CI and Appveyor CI</td>
-                    </tr>
-                    <tr>
-                        <td>Electronics & MCU's</td>
-                        <td>Arduino, Node MCU, Nextion HMI display, OBD-2 (ELM-327)</td>
-                    </tr>
+                    <td>Programming Languages</td>
+                    <td>JavaScript, TypeScript</td>
+                </tr>
+                <tr>
+                    <td>Frontend technologies</td>
+                    <td>Electron.js, Angular 2+, Vue.js, React.js, Babel, Webpack, SCSS/CSS, HTML</td>
+                </tr>
+                <tr>
+                    <td>Backend technologies</td>
+                    <td>Node.js, Express.js, Cloud Functions, App Engine, heroku</td>
+                </tr>
+                <tr>
+                    <td>Databases</td>
+                    <td>Firebase Database, Firebase Firestore</td>
+                </tr>
+                <tr>
+                    <td>DevOps</td>
+                    <td>Travis CI and Appveyor CI</td>
+                </tr>
+                <tr>
+                    <td>Electronics & MCU's</td>
+                    <td>Arduino based boards, Node MCU, ESP, Nextion HMI display, OBD-2 (ELM-327)</td>
+                </tr>
+                <tr>
+                    <td>Core Engineering</td>
+                    <td>Solidworks, IC Engines, Automobile electronics, Manufacturing processes</td>
+                </tr>
                 </table>
             </DropDown>
         </div>

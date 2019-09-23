@@ -16,7 +16,7 @@
       Furthermore, I have also been a part of several inter-disciplinary student teams at university, particularly the Formula Student initiative at Delhi Technological University.
       ">
       <!-- I believe that creative engineering is indistinguishable from fine artwork. -->
-      <!-- <Skills slot="inside"/> -->
+      <Skills slot="inside"/>
     </Timeline>
 
     <Timeline timeline="2018 - Present" heading="Quark" content="
