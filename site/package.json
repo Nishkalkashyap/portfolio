@@ -16,7 +16,8 @@
     "test": "npm run build",
     "check": "ts-node ./scripts/check-files.ts",
     "gr": "ts-node ./scripts/generate-resume.ts",
-    "ur": "ts-node ./scripts/upload-resume.ts"
+    "ur": "ts-node ./scripts/upload-resume.ts",
+    "release-resume": "npm run gr && npm run ur"
   },
   "keywords": [
     "quark"
