@@ -148,21 +148,21 @@ module.exports = {
                 "typescript.md"
             ],
             "/projects/": [
-                "fms.md",
+                "quark.md",
                 "quark-appstore.md",
-                "dr16.md",
+                "fms.md",
                 "dr17.md",
+                "dr16.md",
                 "daq.md",
                 "steering-wheel.md",
-                "quark.md",
                 "dyno.md",
                 "radiator-design.md",
                 "vgim.md"
             ],
             "/categories/": [
+                "software.md",
                 "mechanical.md",
-                "electronics.md",
-                "software.md"
+                "electronics.md"
             ],
             "/all/": []
         }
