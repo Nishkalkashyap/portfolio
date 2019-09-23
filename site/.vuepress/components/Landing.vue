@@ -171,7 +171,7 @@
         <br/>
         <br/>
         The app was used in production from August 2017- July 2018.
-        " learnMoreLink="/projects/dr17.html#finance-management-app">
+        " learnMoreLink="/projects/fms.html">
             <CustomAgile slot="image" class="section-slot">
                 <img src="~@buildAssets/pictures/fms-1.jpg" class="slide" />
                 <img src="~@buildAssets/pictures/fms-2.jpg" class="slide" />
