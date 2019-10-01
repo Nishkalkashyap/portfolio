@@ -3,17 +3,25 @@
     <section class="top-heading-container">
         <div class="left">
             <h1>Nishkal Kashyap</h1>
-            <p>Mechanical Engineer and full-stack developer. Creator of JavaScript platform
+            <p>
+                Mechanical Engineer and full-stack developer. Creator of JavaScript platform
                 <!-- Quark -->
                 <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
                 <a>QuarkJS.io</a>
             </p>
             <p>
                 Perusing multi-disciplinary engineering and entrepreneurship.
-                Visit my portfolio website at: <a href="">nishkal.in</a>
+                Visit my portfolio website at:
+                <a href>nishkal.in</a>
             </p>
         </div>
         <div class="right">
+            <div class="meta-item" style="--text-color:var(--accent-color);">
+                <p>
+                    <a class="social-icon" :title="call.title" v-html="call.svg" :href="call.link" target="_blank"></a>
+                    +91-7626865267
+                </p>
+            </div>
             <div class="meta-item" style="--text-color:var(--accent-color);">
                 <p>
                     <a class="social-icon" :title="email.title" v-html="email.svg" :href="email.link" target="_blank"></a>
@@ -94,7 +102,7 @@
         " />
         <!-- Created a finance management app for the team.
             The app was built using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend
-            and was used in production from Aug 2017-July 2018 -->
+      and was used in production from Aug 2017-July 2018 -->
         <ResumeItem title="Finance Management App" timeline="August 2017" flare="
         Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
         Developed a finance management app using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend.
@@ -119,7 +127,7 @@
         <!-- <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
         Solidworks, Engineering Design, Optimization" content="
             The aim of this project was to acquire, analyse and apply the output characteristics of the engine in further optimizations and calculations like engine performance, intake-exhaust simulations, fuel consumption calculations, etc
-        " inline="true" /> -->
+      " inline="true" /> -->
         <ResumeItem title="Design and manufacturing of various powertrain subsystems" timeline="Mar 2015 - Jan 2016" flare="
         Solidworks, Engineering Design, 3D Printing" content="
             Conceived, designed and fabricated various sub-systems of a formula student vehicle, including an 
@@ -184,7 +192,7 @@
     </section>
     <section class="resume-footer-container">
         <p align="center" style="font-size:var(--content-font-size);color:var(--accent-color)">
-            Learn more about me on my website 
+            Learn more about me on my website
             <a style="color:var(--secondary-color)" href="https://nishkal.in" target="_blank">nishkal.in</a>
         </p>
     </section>
@@ -192,8 +200,8 @@
 </template>
 
 <script>
-import Divider from './resume-components/Divider';
-import ResumeItem from './resume-components/ResumeItem';
+import Divider from "./resume-components/Divider";
+import ResumeItem from "./resume-components/ResumeItem";
 export default {
     components: {
         Divider,
@@ -204,24 +212,29 @@ export default {
             website: {
                 svg: require("!!svg-inline-loader!@buildAssets/signature/website.svg"),
                 link: "https://nishkal.in",
-                title: 'Website'
+                title: "Website"
             },
             email: {
                 svg: require("!!svg-inline-loader!@buildAssets/signature/mail.svg"),
                 link: "mailto:hello@nishkal.in?subject=Hey%20Nishkal,",
-                title: 'Email'
+                title: "Email"
             },
             github: {
                 svg: require("!!svg-inline-loader!@buildAssets/signature/github.svg"),
                 link: "https://github.com/nishkalkashyap",
-                title: 'GitHub'
+                title: "GitHub"
             },
             linkedin: {
                 svg: require("!!svg-inline-loader!@buildAssets/signature/linkedin.svg"),
                 link: "https://linkedin.com/in/nishkalkashyap",
-                title: 'LinkedIn'
+                title: "LinkedIn"
+            },
+            call: {
+                svg: require("!!svg-inline-loader!@buildAssets/signature/call.svg"),
+                link: "7626865267",
+                title: "Phone"
             }
-        }
+        };
     }
 };
 </script>
