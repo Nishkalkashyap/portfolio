@@ -10,7 +10,8 @@ export default ({
 
     if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined' && typeof fetch !== 'undefined') {
         // if (typeof window !== 'undefined' && typeof fetch !== 'undefined') {
-        fetch('https://us-central1-diy-mechatronics.cloudfunctions.net/downloadCount/weivbew', {
+        // fetch('https://us-central1-diy-mechatronics.cloudfunctions.net/downloadCount/weivbew', {
+        fetch('https://functions.quarkjs.io/downloadCount/weivbew', {
             method: 'post',
             body: { hello: 'world' }
         })
