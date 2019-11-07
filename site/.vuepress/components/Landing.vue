@@ -4,7 +4,7 @@
     <ThemeChanger />
 
 <!-- My first enuterpenaurial undertaking Quarkjs.io, is a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. -->
-    <Timeline timeline="22 years old" heading="Here's what I'm all about" id="about" content="
+    <Timeline timeline="23 years old" heading="Here's what I'm all about" id="about" content="
       I'm a Mechanical Engineer and a self taught full-stack developer, building things, developing new technologies, blogging, promoting sustainability, and heralding entrepreneurship.
       <br/>
       <br/>
