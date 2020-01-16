@@ -37,6 +37,23 @@ b {
     // line-height: calc(2px + var(--content-font-size));
     margin: 0px;
     text-align: justify;
+    position: relative;
+}
+
+.actual-content::before {
+    content: '.';
+    color: transparent;
+    font-size: 0px;
+
+    border: solid 2px var(--text-color--dark);
+    width: 1px;
+    height: 1px;
+    border-radius: 200px;
+    // background-color: var(--text-color--dark);
+
+    position: absolute;
+    top: 4px;
+    left: -10px;
 }
 
 .flares {

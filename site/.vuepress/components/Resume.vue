@@ -56,7 +56,7 @@
                 <SubResumeItem title="Implemented Cloudflare CDN over existing infrastructure" flare="
                 Tech Stack: Angular 4, Cloudflare, AWS, EC2, Lambda Functions" content="
                 Migrated an entire application from EC2 server based hosting to static S3 bucket hosting on top of
-                Cloudflare's content delivery network. This architecture massively improved website performance (ttfb, first contentful paint, DOM load e.t.c)
+                Cloudflare's content delivery network with a lambda function as a proxy in between. This architecture massively improved website performance (ttfb, first contentful paint, DOM load e.t.c)
                 and saved company a fortune.
                 " grow="" />
                 <SubResumeItem title="Created Documentation website" flare="
