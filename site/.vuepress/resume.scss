@@ -15,10 +15,14 @@
     --content-margin: 20px;
     --font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif !important;
 
-    --content-font-size: 12px;
-    --divider-font-size: 20px;
-    --heading-font-size: 15px;
-    --flare-font-size: 9px;
+    // --content-font-size: 12px;
+    // --divider-font-size: 20px;
+    // --heading-font-size: 15px;
+    // --flare-font-size: 9px;
+    --content-font-size: 13px;
+    --divider-font-size: 22px;
+    --heading-font-size: 16px;
+    --flare-font-size: 10px;
 
     ::selection {
         color: #ffffff;
@@ -71,8 +75,7 @@
     .resume-container {
         max-width: 710px;
         // padding: 0px var(--content-margin);
-        // margin: 30px 20px 0px 20px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
 }

@@ -139,7 +139,7 @@
            Participated in the Formula Student India competition held at the Buddha International Circuit as a junior powertrain engineer.
         " grow="true" />
     </section>
-    <section class="skills-container">
+    <section class="skills-container break-page-before">
         <Divider title="Skills" />
         <div class="table">
             <table>
@@ -320,5 +320,10 @@ section.skills-container {
             line-height: var(--content-font-size);
         }
     }
+}
+
+.break-page-before {
+    page-break-before: always;
+    margin-top: 30px;
 }
 </style>
