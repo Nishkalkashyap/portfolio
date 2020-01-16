@@ -4,13 +4,13 @@
         <div class="left">
             <h1>Nishkal Kashyap</h1>
             <p>
-                Mechanical Engineer and full-stack developer. Creator of JavaScript platform
+                Mechanical Engineer turned full-stack developer. Creator of JavaScript platform
                 <!-- Quark -->
                 <!-- .Read more about me on my website <a>https://nishkal.in</a> -->
                 <a>QuarkJS.io</a>
             </p>
             <p>
-                Perusing multi-disciplinary engineering and entrepreneurship.
+                <!-- Perusing multi-disciplinary engineering and entrepreneurship. -->
                 Visit my portfolio website at:
                 <a href>nishkal.in</a>
             </p>
@@ -164,6 +164,10 @@
                     <td>Travis CI and Appveyor CI</td>
                 </tr>
                 <tr>
+                    <td>Cloud Service Providers</td>
+                    <td>Amazon Web Services (AWS), Google Cloud Platform (GCP)</td>
+                </tr>
+                <tr>
                     <td>Electronics & MCU's</td>
                     <td>Arduino based boards, Node MCU, ESP, Nextion HMI display, OBD-2 (ELM-327)</td>
                 </tr>
@@ -236,8 +240,8 @@ export default {
     padding-top: 10px;
 
     .resume-item-container {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
         padding-bottom: 0px;
     }
 }
