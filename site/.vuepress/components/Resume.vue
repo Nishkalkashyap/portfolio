@@ -97,30 +97,30 @@
         Competition, India, Coimbatore, Kari Motor Speedway" content="
         <strong>Led a team of 25 student engineers</strong> to an overall <strong>second position</strong> in the Formula Student Bharat competition.
             Responsible for systems integration and team management.
-        " />
+        " grow="true"/>
         <ResumeItem title="Finance Management App" timeline="August 2017" flare="
         Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
         Developed a finance management app using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend.
         The app was used by a team of 25 student engineers from Aug 2017 - Jul 2018
         ,to manage internal finances of the team.
-        " />
+        " grow="true"/>
         <ResumeItem title="Formula Student UK" timeline="July 2017, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
             Participated in the Formula Student UK competition held at the Silverstone Formula 1 track.
             Responsible for the development of the combustion powertrain and electronics of the vehicle.
         " grow="true">
             <div class="flex-box nested-resume-container">
-                <ResumeItem title="Data acquisition system" timeline="March 2017" flare="
+                <SubResumeItem title="Data acquisition system" timeline="March 2017" flare="
                 Tech Stack: Arduino, Processing" content="
                     Implemented a data acquisition system using Arduino, supporting more than 20 different sensor inputs.
                     The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
                 " grow="" />
-                <ResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
+                <SubResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
                 Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
                     Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
                     Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for a formula student vehicle.
                 " grow="" />
-                <ResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
+                <SubResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
                 Solidworks, Research Paper, Thesis" content="
                     Developed a variable geometry intake manifold.
                     This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
@@ -130,11 +130,11 @@
         <ResumeItem title="Formula Student UK" timeline="July 2016, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
            Participated in the Formula Student UK competition held at the Silverstone Formula 1 track as a powertrain engineer.
-        " />
+        " grow="true"/>
         <ResumeItem title="Formula Student India" timeline="Jan 2016, Team Defianz Racing" flare="
         Competition, India, Buddha International Circuit" content="
            Participated in the Formula Student India competition held at the Buddha International Circuit as a junior powertrain engineer.
-        " />
+        " grow="true"/>
     </section>
     <section class="skills-container">
         <Divider title="Skills" />

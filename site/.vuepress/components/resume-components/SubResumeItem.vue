@@ -11,11 +11,11 @@
 
 <script>
 export default {
-    props: ['title', 'content', 'flare', 'grow'],
+    props: ['title', 'timeline', 'content', 'flare', 'grow'],
     data() {
         return {
-            flares: (this.flare || "").replace(/\,/gi, " • "),
-            actualContent : `<b>${this.title}</b> - ` + this.content
+            flares: ((this.flare || "").concat(this.timeline ? `,${this.timeline}` : '')).replace(/\,/gi, " • "),
+            actualContent: `<b>${this.title}</b> - ` + this.content
         };
     }
 };
