@@ -70,8 +70,9 @@
 
     .resume-container {
         max-width: 710px;
-        padding: 0px var(--content-margin);
-        margin: 30px 20px 0px 20px;
+        // padding: 0px var(--content-margin);
+        // margin: 30px 20px 0px 20px;
+        margin-top: 20px;
     }
 
 }
@@ -82,9 +83,6 @@
 }
 
 .resume-item-container {
-    // margin: 0px 0px 10px var(--content-margin);
-    // min-width: calc(50% - 0px- var(--content-margin));
-    // max-width: calc(50% - 0px- var(--content-margin));
     padding: 0px 0px 10px var(--content-margin);
     min-width: 50%;
     max-width: 50%;

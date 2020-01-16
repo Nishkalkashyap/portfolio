@@ -48,22 +48,28 @@
             </div>
         </div>
     </section>
-    <!-- <section class="summary-container">
-        <Divider title="Summary" />
-        <div>
-            <p>
-                I'm a Mechanical Engineer and a self taught fullstack developer, building things, developing new technologies,
-                blogging, and heralding entrepreneurship.
-            </p>
-        </div>
-    </section> -->
     <section class="experience-container flex-box">
         <Divider title="Experience" />
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
         My first entrepreneurial undertaking <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
         Released in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 developers around the world.
         This project is also a beneficiary of the Google Cloud Startup Program!
-        " grow="true" />
+        " grow="true">
+            <div class="flex-box nested-resume-container">
+                <ResumeItem title="Quark development environment" flare="
+                Tech Stack: Electron.js,Angular 7, Node.js, Webpack" content="
+                Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
+                The IDE boasts of features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
+                Visit <a href=''>quarkjs.io</a>
+                " grow="true" />
+                <ResumeItem title="Quark app store" flare="
+                Tech Stack: React.js, Firebase, Firestore Database, Cloud Functions" content="
+                Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
+                It supports novel features like release versioning, application auto updates, register user ratings e.t.c
+                Visit <a href=''>dash.quarkjs.io</a>
+                " grow="true" />
+            </div>
+        </ResumeItem>
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Participated in 4 Formula Student events held in India and the United Kingdom across 4 years. 
         Led a team of 25 student engineers to its best positions till date at both FS Bharat <i>(2nd overall)</i> and FS United Kingdom. 
@@ -81,33 +87,27 @@
         <ResumeItem title="Delhi Technological University" timeline="Aug 2014 - Jun 2018" content="
            B. Tech, Mechanical Engineering • 70.4%
         " />
-        <!-- All India Senior School Certificate Exam • 94.6% -->
         <ResumeItem title="Shivalik Public School" timeline="Mar 2012 - May 2014" content="
         CBSE • 94.6%
         " />
     </section>
-    <section class="projects-container flex-box">
-        <Divider title="Projects" />
-        <ResumeItem title="Quark development environment" timeline="2018 - Present" flare="
-        Tech Stack: Electron.js,Angular 7, Node.js, Webpack" content="
-        Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
-        The IDE boasts of features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
-        Visit <a href=''>quarkjs.io</a>
+    <section class="competitions-container flex-box">
+        <Divider title="Projects, Competitions and Achievements" />
+        <ResumeItem title="Formula Student Bharat" timeline="Jan 2018, Team Defianz Racing" flare="
+        Competition, India, Coimbatore, Kari Motor Speedway" content="
+        <strong>Led a team of 25 student engineers</strong> to an overall <strong>second position</strong> in the Formula Student Bharat competition.
+            Responsible for systems integration and team management.
         " />
-        <ResumeItem title="Quark app store" timeline="July 2019 - Present" flare="
-        Tech Stack: React.js, Firebase, Firestore Database, Cloud Functions" content="
-            Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
-            It supports novel features like release versioning, application auto updates, register user ratings e.t.c
-            Visit <a href=''>dash.quarkjs.io</a>
-        " />
-        <!-- Created a finance management app for the team.
-            The app was built using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend
-      and was used in production from Aug 2017-July 2018 -->
         <ResumeItem title="Finance Management App" timeline="August 2017" flare="
         Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
         Developed a finance management app using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend.
         The app was used by a team of 25 student engineers from Aug 2017 - Jul 2018
         ,to manage internal finances of the team.
+        " />
+        <ResumeItem title="Formula Student UK" timeline="July 2017, Team Defianz Racing" flare="
+        Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
+            Participated in the Formula Student UK competition held at the Silverstone Formula 1 track.
+            Responsible for the development of the combustion powertrain and electronics of the vehicle.
         " />
         <ResumeItem title="Data acquisition system" timeline="March 2017" flare="
         Tech Stack: Arduino, Processing" content="
@@ -123,28 +123,6 @@
         Solidworks, Research Paper, Thesis" content="
             Developed a variable geometry intake manifold.
             This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
-        " />
-        <!-- <ResumeItem title="Dynamometer" timeline="Oct 2017 - Jan 2018" flare="
-        Solidworks, Engineering Design, Optimization" content="
-            The aim of this project was to acquire, analyse and apply the output characteristics of the engine in further optimizations and calculations like engine performance, intake-exhaust simulations, fuel consumption calculations, etc
-      " inline="true" /> -->
-        <ResumeItem title="Design and manufacturing of various powertrain subsystems" timeline="Mar 2015 - Jan 2016" flare="
-        Solidworks, Engineering Design, 3D Printing" content="
-            Conceived, designed and fabricated various sub-systems of a formula student vehicle, including an 
-            air-intake manifold, exhaust manifold, oil sump and radiator for a 4-cylinder IC Engine.
-        " grow="true" />
-    </section>
-    <section class="competitions-container flex-box">
-        <Divider title="Competitions and Achievements" />
-        <ResumeItem title="Formula Student Bharat" timeline="Jan 2018, Team Defianz Racing" flare="
-        Competition, India, Coimbatore, Kari Motor Speedway" content="
-        <strong>Led a team of 25 student engineers</strong> to an overall <strong>second position</strong> in the Formula Student Bharat competition.
-            Responsible for systems integration and team management.
-        " />
-        <ResumeItem title="Formula Student UK" timeline="July 2017, Team Defianz Racing" flare="
-        Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
-            Participated in the Formula Student UK competition held at the Silverstone Formula 1 track.
-            Responsible for the development of the combustion powertrain and electronics of the vehicle.
         " />
         <ResumeItem title="Formula Student UK" timeline="July 2016, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
@@ -243,6 +221,16 @@ export default {
 .flex-box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nested-resume-container {
+    padding-top: 10px;
+
+    .resume-item-container {
+        padding-left: 10px;
+        border-left: solid 2px var(--text-color--light);
+    }
 }
 
 section.top-heading-container {
