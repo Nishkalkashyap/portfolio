@@ -77,7 +77,7 @@
     .resume-container {
         max-width: 710px;
         // padding: 0px var(--content-margin);
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
 }
@@ -96,7 +96,10 @@
 }
 
 .resume-item-container.flex-grow {
-    // max-width: calc(100% - 0px- var(--content-margin));
     min-width: 100%;
     max-width: 100%;
+}
+
+.nested-resume-container .resume-item-container.flex-grow {
+    padding-bottom: 5px !important;
 }

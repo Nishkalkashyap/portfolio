@@ -58,12 +58,12 @@
                 Migrated an entire application from EC2 server based hosting to static S3 bucket hosting on top of
                 Cloudflare's content delivery network with a lambda function as a proxy in between. This architecture massively improved website performance (ttfb, first contentful paint, DOM load e.t.c)
                 and saved company a fortune.
-                " grow="" />
+                " grow="true" />
                 <SubResumeItem title="Created Documentation website" flare="
                 Tech Stack: Vue.js, S3, Cloudflare, JAM Stack" content="
                 Took initiative and built company's internal documentation website and documented various frontend and backend
                 development processes/ architecture. The website is made using JAM stack with frontend on a static build with Vue.js.
-                " grow="" />
+                " grow="true" />
             </div>
         </ResumeItem>
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
@@ -77,13 +77,13 @@
                 Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
                 The IDE boasts of features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
                 Visit <a href=''>quarkjs.io</a>
-                " grow="" />
+                " grow="true" />
                 <SubResumeItem title="Quark app store" flare="
                 Tech Stack: React.js, Firebase, Firestore DB, Cloud Functions" content="
                 Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
                 It supports novel features like release versioning, application auto updates, register user ratings e.t.c
                 Visit <a href=''>dash.quarkjs.io</a>
-                " grow="" />
+                " grow="true" />
             </div>
         </ResumeItem>
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
@@ -120,12 +120,12 @@
                 Developed a finance management app using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend.
                 The app was used by a team of 25 student engineers from Aug 2017 - Jul 2018
                 ,to manage internal finances of the team.
-                " grow="" />
-                <SubResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
-                Solidworks, Research Paper, Thesis" content="
-                    Developed a variable geometry intake manifold.
-                    This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
-                " grow="" />
+                " grow="true" />
+                <SubResumeItem title="Data acquisition system" timeline="March 2017" flare="
+                Tech Stack: Arduino, Processing" content="
+                    Implemented a data acquisition system using Arduino, supporting more than 20 different sensor inputs.
+                    The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
+                " grow="true" />
             </div>
         </ResumeItem>
         <ResumeItem title="Formula Student UK" timeline="July 2017, Team Defianz Racing" flare="
@@ -134,16 +134,16 @@
             Responsible for the development of the combustion powertrain and electronics of the vehicle.
         " grow="true">
             <div class="flex-box nested-resume-container">
-                <SubResumeItem title="Data acquisition system" timeline="March 2017" flare="
-                Tech Stack: Arduino, Processing" content="
-                    Implemented a data acquisition system using Arduino, supporting more than 20 different sensor inputs.
-                    The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
-                " grow="" />
                 <SubResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
                 Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
                     Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
                     Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for a formula student vehicle.
-                " grow="" />
+                " grow="true" />
+                <SubResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
+                Solidworks, Research Paper, Thesis" content="
+                    Developed a variable geometry intake manifold.
+                    This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
+                " grow="true" />
             </div>
         </ResumeItem>
         <ResumeItem title="Formula Student UK" timeline="July 2016, Team Defianz Racing" flare="
@@ -253,7 +253,7 @@ export default {
 }
 
 .nested-resume-container {
-    padding-top: 10px;
+    padding-top: 2px;
 
     .resume-item-container {
         padding-left: 15px;
@@ -340,7 +340,7 @@ section.skills-container {
 
 @media print {
     .break-page-before {
-        margin-top: 100px;
+        margin-top: 60px;
     }
 }
 </style>
