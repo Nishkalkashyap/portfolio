@@ -50,6 +50,22 @@
     </section>
     <section class="experience-container flex-box">
         <Divider title="Experience" />
+        <ResumeItem title="EdFora Infotech Pvt Ltd" timeline="November 2019 - Present" content="
+        Lead a team of 6 developers and I work majorly as Full stack Developer." grow="true">
+            <div class="flex-box nested-resume-container">
+                <SubResumeItem title="Implemented Cloudflare CDN over existing infrastructure" flare="
+                Tech Stack: Angular 4, Cloudflare, AWS, EC2, Lambda Functions" content="
+                Migrated an entire application from EC2 server based hosting to static S3 bucket hosting on top of
+                Cloudflare's content delivery network. This architecture massively improved website performance (ttfb, first contentful paint, DOM load e.t.c)
+                and saved company a fortune.
+                " grow="" />
+                <SubResumeItem title="Created Documentation website" flare="
+                Tech Stack: Vue.js, S3, Cloudflare, JAM Stack" content="
+                Took initiative and built company's internal documentation website and documented various frontend and backend
+                development processes/ architecture. The website is made using JAM stack with frontend on a static build with Vue.js.
+                " grow="" />
+            </div>
+        </ResumeItem>
         <ResumeItem title="Quark" timeline="July 2018 - Present" content="
         My first entrepreneurial undertaking <a href=''>QuarkJS.io</a>, a full fledged application development and distribution platform for Windows, Mac and Linux based operating systems. 
         Released in August 2019, the project website has been viewed over 125,000 times and the Quark software itself has been downloaded by over 10,000 developers around the world.
@@ -62,7 +78,7 @@
                 The IDE boasts of features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
                 Visit <a href=''>quarkjs.io</a>
                 " grow="" />
-                <SubResumeItem title="Quark app store" timeline="July 2019 - Present" flare="
+                <SubResumeItem title="Quark app store" flare="
                 Tech Stack: React.js, Firebase, Firestore DB, Cloud Functions" content="
                 Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
                 It supports novel features like release versioning, application auto updates, register user ratings e.t.c
@@ -133,13 +149,13 @@
         <ResumeItem title="Formula Student UK" timeline="July 2016, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
            Participated in the Formula Student UK competition held at the Silverstone Formula 1 track as a powertrain engineer.
-        " grow="true" />
+        " grow="true" class="break-page-before" />
         <ResumeItem title="Formula Student India" timeline="Jan 2016, Team Defianz Racing" flare="
         Competition, India, Buddha International Circuit" content="
            Participated in the Formula Student India competition held at the Buddha International Circuit as a junior powertrain engineer.
         " grow="true" />
     </section>
-    <section class="skills-container break-page-before">
+    <section class="skills-container">
         <Divider title="Skills" />
         <div class="table">
             <table>
@@ -165,7 +181,7 @@
                 </tr>
                 <tr>
                     <td>Cloud Service Providers</td>
-                    <td>Amazon Web Services (AWS), Google Cloud Platform (GCP)</td>
+                    <td>Amazon Web Services (AWS), Google Cloud Platform (GCP), Cloudflare</td>
                 </tr>
                 <tr>
                     <td>Electronics & MCU's</td>
@@ -322,8 +338,9 @@ section.skills-container {
     }
 }
 
-.break-page-before {
-    page-break-before: always;
-    margin-top: 30px;
+@media print {
+    .break-page-before {
+        margin-top: 100px;
+    }
 }
 </style>

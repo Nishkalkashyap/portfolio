@@ -28,13 +28,13 @@ b {
     padding: 0px;
     font-family: var(--font-family) !important;
     font-size: var(--heading-font-size) !important;
-    line-height: var(--heading-font-size) !important;
+    // line-height: var(--heading-font-size) !important;
     color: var(--text-color--medium) !important;
 }
 
 .actual-content {
     font-size: var(--content-font-size);
-    line-height: calc(2px + var(--content-font-size));
+    // line-height: calc(2px + var(--content-font-size));
     margin: 0px;
     text-align: justify;
 }
