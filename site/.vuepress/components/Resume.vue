@@ -61,26 +61,26 @@
                 Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
                 The IDE boasts of features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
                 Visit <a href=''>quarkjs.io</a>
-                " grow="true" />
+                " grow="" />
                 <SubResumeItem title="Quark app store" flare="
                 Tech Stack: React.js, Firebase, Firestore Database, Cloud Functions" content="
                 Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
                 It supports novel features like release versioning, application auto updates, register user ratings e.t.c
                 Visit <a href=''>dash.quarkjs.io</a>
-                " grow="true" />
+                " grow="" />
             </div>
         </ResumeItem>
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
         Participated in 4 Formula Student events held in India and the United Kingdom across 4 years. 
         Led a team of 25 student engineers to its best positions till date at both FS Bharat <i>(2nd overall)</i> and FS United Kingdom. 
         Previously worked as the head of the Powertrain and Electronics department.
-        " />
+        " grow="true" />
         <ResumeItem title="Universal Industries" timeline="Dec 2015" content="
         Worked as an intern with the design department of Universal Industries, which is a renowned
         manufacturer of a wide range of mechanical power transmission products.
         Developed CAD models for pulleys and sprockets on SolidWorks.
         Studied the Quality Control processes implemented by the company.
-        " />
+        " grow="true" />
     </section>
     <section class="education-container flex-box">
         <Divider title="Education" />
@@ -235,7 +235,7 @@ export default {
     .resume-item-container {
         padding-left: 10px;
         padding-right: 10px;
-        border-left: solid 2px var(--text-color--light);
+        padding-bottom: 0px;
     }
 }
 

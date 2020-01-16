@@ -35,6 +35,7 @@ b {
     font-size: var(--content-font-size);
     line-height: calc(2px + var(--content-font-size));
     margin: 0px;
+    text-align: justify;
 }
 
 .flares {
