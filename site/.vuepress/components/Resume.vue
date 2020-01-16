@@ -56,13 +56,13 @@
         This project is also a beneficiary of the Google Cloud Startup Program!
         " grow="true">
             <div class="flex-box nested-resume-container">
-                <ResumeItem title="Quark development environment" flare="
+                <SubResumeItem title="Quark development environment" flare="
                 Tech Stack: Electron.js,Angular 7, Node.js, Webpack" content="
                 Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
                 The IDE boasts of features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
                 Visit <a href=''>quarkjs.io</a>
                 " grow="true" />
-                <ResumeItem title="Quark app store" flare="
+                <SubResumeItem title="Quark app store" flare="
                 Tech Stack: React.js, Firebase, Firestore Database, Cloud Functions" content="
                 Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
                 It supports novel features like release versioning, application auto updates, register user ratings e.t.c
@@ -108,22 +108,25 @@
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
             Participated in the Formula Student UK competition held at the Silverstone Formula 1 track.
             Responsible for the development of the combustion powertrain and electronics of the vehicle.
-        " />
-        <ResumeItem title="Data acquisition system" timeline="March 2017" flare="
-        Tech Stack: Arduino, Processing" content="
-            Implemented a data acquisition system using Arduino, supporting more than 20 different sensor inputs.
-            The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
-        " />
-        <ResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
-        Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
-            Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
-            Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for a formula student vehicle.
-        " />
-        <ResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
-        Solidworks, Research Paper, Thesis" content="
-            Developed a variable geometry intake manifold.
-            This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
-        " />
+        " grow="true">
+            <div class="flex-box nested-resume-container">
+                <ResumeItem title="Data acquisition system" timeline="March 2017" flare="
+                Tech Stack: Arduino, Processing" content="
+                    Implemented a data acquisition system using Arduino, supporting more than 20 different sensor inputs.
+                    The data is sent in real time via a radio transmitter mounted on the car and received on the client side via a receiver connected to a laptop.
+                " grow="" />
+                <ResumeItem title="Electronic steering wheel" timeline="February 2017" flare="
+                Arduino, Nextion HMI display, Carbon fiber, Pneumatics" content="
+                    Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
+                    Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for a formula student vehicle.
+                " grow="" />
+                <ResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
+                Solidworks, Research Paper, Thesis" content="
+                    Developed a variable geometry intake manifold.
+                    This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
+                " grow="" />
+            </div>
+        </ResumeItem>
         <ResumeItem title="Formula Student UK" timeline="July 2016, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
            Participated in the Formula Student UK competition held at the Silverstone Formula 1 track as a powertrain engineer.
@@ -180,10 +183,12 @@
 <script>
 import Divider from "./resume-components/Divider";
 import ResumeItem from "./resume-components/ResumeItem";
+import SubResumeItem from "./resume-components/SubResumeItem";
 export default {
     components: {
         Divider,
-        ResumeItem
+        ResumeItem,
+        SubResumeItem
     },
     data() {
         return {
@@ -229,6 +234,7 @@ export default {
 
     .resume-item-container {
         padding-left: 10px;
+        padding-right: 10px;
         border-left: solid 2px var(--text-color--light);
     }
 }
