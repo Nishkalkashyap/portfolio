@@ -51,7 +51,7 @@
     <section class="experience-container flex-box">
         <Divider title="Experience" />
         <ResumeItem title="EdFora Infotech Pvt Ltd" timeline="November 2019 - Present" content="
-        Lead a team of 6 developers and I work majorly as Full stack Developer." grow="true">
+        Currently leading a team of 6 developers and I work majorly as Full stack developer." grow="true">
             <div class="flex-box nested-resume-container">
                 <SubResumeItem title="Implemented Cloudflare CDN over existing infrastructure" flare="
                 Tech Stack: Angular 4, Cloudflare, AWS, EC2, Lambda Functions" content="
