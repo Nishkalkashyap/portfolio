@@ -56,14 +56,14 @@
         This project is also a beneficiary of the Google Cloud Startup Program!
         " grow="true">
             <div class="flex-box nested-resume-container">
-                <SubResumeItem title="Quark development environment" flare="
+                <SubResumeItem title="Quark development environment" timeline="2018 - Present" flare="
                 Tech Stack: Electron.js,Angular 7, Node.js, Webpack" content="
                 Developed a cross-platform, integrated development environment powered by the same code editor as of <strong>Microsoft's Visual Studio Code (VSCode)</strong>.
                 The IDE boasts of features like integrated terminal, inbuilt package manager and more that 150 different configuration settings.
                 Visit <a href=''>quarkjs.io</a>
                 " grow="" />
-                <SubResumeItem title="Quark app store" flare="
-                Tech Stack: React.js, Firebase, Firestore Database, Cloud Functions" content="
+                <SubResumeItem title="Quark app store" timeline="July 2019 - Present" flare="
+                Tech Stack: React.js, Firebase, Firestore DB, Cloud Functions" content="
                 Currently under active development, the appstore is a full-fledged application distribution platform for Quark apps.
                 It supports novel features like release versioning, application auto updates, register user ratings e.t.c
                 Visit <a href=''>dash.quarkjs.io</a>
@@ -97,13 +97,21 @@
         Competition, India, Coimbatore, Kari Motor Speedway" content="
         <strong>Led a team of 25 student engineers</strong> to an overall <strong>second position</strong> in the Formula Student Bharat competition.
             Responsible for systems integration and team management.
-        " grow="true"/>
-        <ResumeItem title="Finance Management App" timeline="August 2017" flare="
-        Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
-        Developed a finance management app using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend.
-        The app was used by a team of 25 student engineers from Aug 2017 - Jul 2018
-        ,to manage internal finances of the team.
-        " grow="true"/>
+        " grow="true">
+            <div class="flex-box nested-resume-container">
+                <SubResumeItem title="Finance Management App" timeline="August 2017" flare="
+                Tech Stack: Firebase Firestore, Ionic 3, Angular 4" content="
+                Developed a finance management app using Ionic 3, Angular 4 at the frontend and Firebase Firestore at the backend.
+                The app was used by a team of 25 student engineers from Aug 2017 - Jul 2018
+                ,to manage internal finances of the team.
+                " grow="" />
+                <SubResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
+                Solidworks, Research Paper, Thesis" content="
+                    Developed a variable geometry intake manifold.
+                    This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
+                " grow="" />
+            </div>
+        </ResumeItem>
         <ResumeItem title="Formula Student UK" timeline="July 2017, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
             Participated in the Formula Student UK competition held at the Silverstone Formula 1 track.
@@ -120,21 +128,16 @@
                     Developed a carbon fiber reinforced, touch screen enabled electronic steering wheel.
                     Built with Arduino and Nextion HMI display, the steering wheel served as the central command center for a formula student vehicle.
                 " grow="" />
-                <SubResumeItem title="Variable geometry intake manifold" timeline="Aug 2016 - May 2018" flare="
-                Solidworks, Research Paper, Thesis" content="
-                    Developed a variable geometry intake manifold.
-                    This system massively improved the overall performance of an IC engine, mainly throttle response at the bottom end of the RPM range.
-                " grow="" />
             </div>
         </ResumeItem>
         <ResumeItem title="Formula Student UK" timeline="July 2016, Team Defianz Racing" flare="
         Competition, United Kingdom, Silverstone Formula 1 Circuit" content="
            Participated in the Formula Student UK competition held at the Silverstone Formula 1 track as a powertrain engineer.
-        " grow="true"/>
+        " grow="true" />
         <ResumeItem title="Formula Student India" timeline="Jan 2016, Team Defianz Racing" flare="
         Competition, India, Buddha International Circuit" content="
            Participated in the Formula Student India competition held at the Buddha International Circuit as a junior powertrain engineer.
-        " grow="true"/>
+        " grow="true" />
     </section>
     <section class="skills-container">
         <Divider title="Skills" />

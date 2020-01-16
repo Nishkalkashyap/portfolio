@@ -1,7 +1,7 @@
 <template>
 <div class="resume-item-container" :class="(grow && 'flex-grow')">
     <div class="flares" v-if="flares">
-        <span>{{flares}}</span>
+        <span v-html="flares"></span>
     </div>
     <div class="cont" v-if="actualContent">
         <p class="actual-content" v-html="actualContent"></p>
@@ -14,6 +14,7 @@ export default {
     props: ['title', 'timeline', 'content', 'flare', 'grow'],
     data() {
         return {
+            // flares: ((this.flare || "").concat(this.timeline ? `,<span style="color:var(--accent-color)">${this.timeline}</span>` : '')).replace(/\,/gi, " • "),
             flares: ((this.flare || "").concat(this.timeline ? `,${this.timeline}` : '')).replace(/\,/gi, " • "),
             actualContent: `<b>${this.title}</b> - ` + this.content
         };
