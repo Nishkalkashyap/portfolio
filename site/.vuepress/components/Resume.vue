@@ -87,6 +87,7 @@
             </div>
         </ResumeItem>
         <ResumeItem title="Team Defianz Racing" timeline="February 2015 - July 2018" content="
+        Team Defianz racing is a Formula Student initiative at Delhi Technological University.
         Participated in 4 Formula Student events held in India and the United Kingdom across 4 years. 
         Led a team of 25 student engineers to its best positions till date at both FS Bharat <i>(2nd overall)</i> and FS United Kingdom. 
         Previously worked as the head of the Powertrain and Electronics department.
