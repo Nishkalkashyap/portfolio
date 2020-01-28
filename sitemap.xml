@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://quarkjs.io/</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/all/</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/categories/electronics.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/categories/mechanical.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/categories/software.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/projects/</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/projects/daq.html</loc><lastmod>2019-09-12T10:33:37.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/dr16.html</loc><lastmod>2019-09-12T10:33:37.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/dr17.html</loc><lastmod>2019-09-23T06:11:24.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/dyno.html</loc><lastmod>2019-09-12T10:33:37.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/fms.html</loc><lastmod>2019-09-23T06:11:24.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/quark-appstore.html</loc><lastmod>2019-09-12T10:33:37.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/quark.html</loc><lastmod>2019-09-12T10:33:37.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/radiator-design.html</loc><lastmod>2019-09-12T10:33:37.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/steering-wheel.html</loc><lastmod>2019-09-12T10:33:37.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/projects/vgim.html</loc><lastmod>2019-09-12T10:33:37.000Z</lastmod></url>
+<url><loc>https://quarkjs.io/resume/</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/api.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/arduino.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/faq.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/guide.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/javascript.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/nodejs.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/references.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/structures.html</loc><changefreq>daily</changefreq></url>
+<url><loc>https://quarkjs.io/tags/typescript.html</loc><changefreq>daily</changefreq></url>
+</urlset>
